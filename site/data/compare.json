@@ -23,6 +23,10 @@
   {
    "id": "timeanddate",
    "name": "timeanddate"
+  },
+  {
+   "id": "yrno",
+   "name": "yr.no (your import)"
   }
  ],
  "days": [
@@ -32,9 +36,14 @@
    "place": "Shimla",
    "median": [
     17,
-    4
+    5
    ],
    "values": {
+    "accuweather": [
+     27,
+     12,
+     "Very warm with spells of sunshine"
+    ],
     "metno": [
      17.3,
      4.1,
@@ -49,6 +58,21 @@
      16.6,
      5.0,
      "Clear"
+    ],
+    "timeanddate": [
+     16,
+     6,
+     "Sunny"
+    ],
+    "twn": [
+     19,
+     6,
+     "Sunny"
+    ],
+    "yrno": [
+     18,
+     5,
+     "clear sky"
     ]
    }
   },
@@ -58,9 +82,14 @@
    "place": "Kalpa",
    "median": [
     13,
-    -3
+    -1
    ],
    "values": {
+    "accuweather": [
+     15,
+     -3,
+     "Long periods of sunshine"
+    ],
     "metno": [
      12.5,
      -2.9,
@@ -75,6 +104,21 @@
      12.0,
      2.1,
      "Clear"
+    ],
+    "timeanddate": [
+     13,
+     9,
+     "Sunny"
+    ],
+    "twn": [
+     11,
+     -1,
+     "Sunny"
+    ],
+    "yrno": [
+     18,
+     1,
+     "clear sky"
     ]
    }
   },
@@ -84,9 +128,14 @@
    "place": "Kalpa",
    "median": [
     13,
-    1
+    -1
    ],
    "values": {
+    "accuweather": [
+     14,
+     -4,
+     "Long periods of sunshine"
+    ],
     "om_ecmwf": [
      13.1,
      -1.4,
@@ -96,6 +145,16 @@
      12.4,
      2.9,
      "Clear"
+    ],
+    "timeanddate": [
+     14,
+     9,
+     "Sunny"
+    ],
+    "twn": [
+     12,
+     -1,
+     "Sunny"
     ]
    }
   },
@@ -104,10 +163,15 @@
    "date": "2026-11-24",
    "place": "Tabo",
    "median": [
-    7,
+    8,
     -7
    ],
    "values": {
+    "accuweather": [
+     8,
+     -17,
+     "Sunny spells"
+    ],
     "om_ecmwf": [
      7.2,
      -7.5,
@@ -118,18 +182,13 @@
      -1.0,
      "Clear"
     ],
-    "accuweather": [
-     4,
-     -21,
-     "Plenty of sunshine"
-    ],
     "timeanddate": [
-     17,
-     4,
+     14,
+     9,
      "Sunny"
     ],
     "twn": [
-     3,
+     2,
      -8,
      "Sunny"
     ]
@@ -144,6 +203,11 @@
     -6
    ],
    "values": {
+    "accuweather": [
+     6,
+     -20,
+     "Sunny spells"
+    ],
     "om_ecmwf": [
      7.4,
      -6.5,
@@ -154,14 +218,9 @@
      -2.7,
      "Clear"
     ],
-    "accuweather": [
-     3,
-     -20,
-     "Plenty of sunshine"
-    ],
     "timeanddate": [
-     16,
-     3,
+     11,
+     -2,
      "Sunny"
     ],
     "twn": [
@@ -180,6 +239,11 @@
     -6
    ],
    "values": {
+    "accuweather": [
+     -3,
+     -22,
+     "Sunny periods"
+    ],
     "om_ecmwf": [
      7.2,
      -6.1,
@@ -190,14 +254,9 @@
      -2.9,
      "Clear"
     ],
-    "accuweather": [
-     -6,
-     -23,
-     "Colder, times of sun, clouds"
-    ],
     "timeanddate": [
-     15,
-     3,
+     12,
+     -3,
      "Sunny"
     ],
     "twn": [
@@ -212,10 +271,15 @@
    "date": "2026-11-27",
    "place": "Sarahan",
    "median": [
-    16,
+    15,
     5
    ],
    "values": {
+    "accuweather": [
+     14,
+     0,
+     "Long sunny spells"
+    ],
     "om_ecmwf": [
      17.8,
      5.2,
@@ -225,6 +289,16 @@
      14.8,
      5.6,
      "Clear"
+    ],
+    "timeanddate": [
+     14,
+     9,
+     "Sunny"
+    ],
+    "twn": [
+     18,
+     5,
+     "Mix of sun and clouds"
     ]
    }
   },
@@ -233,14 +307,19 @@
    "date": "2026-11-28",
    "place": "Home",
    "median": [
-    29,
-    17
+    27,
+    16
    ],
    "values": {
     "om_gfs": [
      28.5,
      17.2,
      "Clear"
+    ],
+    "timeanddate": [
+     26,
+     14,
+     "Sunny"
     ]
    }
   }

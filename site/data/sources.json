@@ -1,10 +1,10 @@
 [
-{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-13T16:40:37Z", "status": "ok", "detail": null},
-{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-13T16:40:37Z", "status": "ok", "detail": null},
-{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-13T16:40:37Z", "status": "ok", "detail": null},
-{"name": "AccuWeather", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Its old Spiti page was Dhar Spiti Sarchu, far off the route; search each town instead. Last import: Spiti only (older format)."},
-{"name": "IMD", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Official, 7 days only, and only some towns have a page. Last import: Spiti only (older format)."},
-{"name": "The Weather Network", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Up to 14 days. Last import: Spiti only (older format)."},
-{"name": "timeanddate", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Its old Spiti page was a district point with highs far too warm; search each town instead. Last import: Spiti only (older format)."},
-{"name": "yr.no", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "About 10 days. Last import: Spiti only (older format)."}
+{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-13T17:08:31Z", "status": "ok", "detail": null},
+{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-13T17:08:31Z", "status": "ok", "detail": null},
+{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-13T17:08:31Z", "status": "ok", "detail": null},
+{"name": "AccuWeather", "how": "import", "last_read": "2026-11-13T16:54:09Z", "status": "ok", "detail": "Its old Spiti page was Dhar Spiti Sarchu, far off the route; search each town instead. Last import covered 8 of 9 places."},
+{"name": "IMD", "how": "import", "last_read": "2026-11-13T16:54:09Z", "status": "ok", "detail": "Official, 7 days only, and only some towns have a page. Last import covered 7 of 9 places."},
+{"name": "The Weather Network", "how": "import", "last_read": "2026-11-13T16:54:09Z", "status": "ok", "detail": "Up to 14 days. Last import covered 8 of 9 places."},
+{"name": "timeanddate", "how": "import", "last_read": "2026-11-13T16:54:09Z", "status": "ok", "detail": "Its old Spiti page was a district point with highs far too warm; search each town instead. Last import covered 8 of 9 places."},
+{"name": "yr.no", "how": "import", "last_read": "2026-11-13T16:54:09Z", "status": "ok", "detail": "About 10 days. Last import covered 9 of 9 places."}
 ]
