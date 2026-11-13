@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-13T13:33:25Z",
+ "built_at": "2026-11-13T13:57:00Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,33 +7,33 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": false,
-   "fetched_at": "2026-11-13T13:08:55Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; shimla: <urlopen error _ssl.c:994: The handshake operation timed out>; narkanda: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-13T13:57:00Z",
+   "error": null
   },
   "om_gfs": {
-   "ok": false,
-   "fetched_at": "2026-11-13T13:08:55Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; shimla: <urlopen error _ssl.c:994: The handshake operation timed out>; narkanda: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-13T13:57:00Z",
+   "error": null
   },
   "om_icon": {
-   "ok": false,
-   "fetched_at": "2026-11-13T13:08:55Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; shimla: <urlopen error _ssl.c:994: The handshake operation timed out>; narkanda: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-13T13:57:00Z",
+   "error": null
   },
   "om_hourly": {
-   "ok": false,
-   "fetched_at": "2026-11-13T13:08:55Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; shimla: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-13T13:57:00Z",
+   "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-13T13:33:25Z",
+   "fetched_at": "2026-11-13T13:57:00Z",
    "error": null
   },
   "imd": {
    "ok": true,
-   "fetched_at": "2026-11-13T13:33:25Z",
+   "fetched_at": "2026-11-13T13:57:00Z",
    "error": null
   }
  },
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Fri, 13 Nov 2026 13:09:28 GMT",
-  "shimla": "Fri, 13 Nov 2026 13:09:30 GMT",
-  "narkanda": "Fri, 13 Nov 2026 13:09:31 GMT",
+  "home": "Fri, 13 Nov 2026 13:57:01 GMT",
+  "shimla": "Fri, 13 Nov 2026 13:57:02 GMT",
+  "narkanda": "Fri, 13 Nov 2026 13:57:03 GMT",
   "kalpa": "Fri, 13 Nov 2026 13:38:38 GMT",
-  "nako": "Fri, 13 Nov 2026 13:09:33 GMT",
+  "nako": "Fri, 13 Nov 2026 13:57:05 GMT",
   "tabo": "Fri, 13 Nov 2026 13:38:40 GMT",
-  "kaza": "Fri, 13 Nov 2026 13:10:07 GMT",
-  "komic": "Fri, 13 Nov 2026 13:10:08 GMT",
+  "kaza": "Fri, 13 Nov 2026 13:57:41 GMT",
+  "komic": "Fri, 13 Nov 2026 13:57:42 GMT",
   "sarahan": "Fri, 13 Nov 2026 13:38:42 GMT"
  }
 }
