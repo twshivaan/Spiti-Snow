@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Spiti road trip · 21–28 Nov</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="page">
+
+<header class="head">
+  <div class="head-text">
+    <h1 id="title">Spiti road trip · 21–28 Nov</h1>
+    <p id="status" class="muted">Loading…</p>
+    <p id="offline" class="warn" hidden></p>
+  </div>
+  <div class="actions">
+    <button type="button" class="btn primary" data-import="sources">Import my 5 sources</button>
+    <button type="button" class="btn" data-import="notes">Add Claude notes</button>
+  </div>
+</header>
+
+<section class="card band" aria-label="Summary">
+  <p id="summary" class="lead"></p>
+  <div id="facts" class="facts"></div>
+</section>
+
+<section class="card" aria-labelledby="h-days">
+  <h2 id="h-days">Day by day</h2>
+  <div class="scroll"><div id="days" class="grid days"></div></div>
+  <p class="note">Shaded columns are your days in Spiti.</p>
+</section>
+
+<section class="card" id="hourly" aria-labelledby="h-hourly">
+  <div class="split">
+    <div class="stack">
+      <h2 id="h-hourly">Hour by hour</h2>
+      <p class="muted small">Pick any date and any place on the route. "View hours" in the grid above opens that day at its night stop.</p>
+    </div>
+    <div class="selects">
+      <label>Date <select id="hour-date"></select></label>
+      <label>Place <select id="hour-place"></select></label>
+    </div>
+  </div>
+  <div id="hour-chips" class="chips"></div>
+  <div class="scroll"><div id="hours" class="grid hours"></div></div>
+  <p id="hour-note" class="note"></p>
+</section>
+
+<div class="pair">
+  <section class="card" aria-labelledby="h-runup">
+    <div class="split">
+      <h2 id="h-runup">Snow in the run-up</h2>
+      <label class="inline">Place <select id="runup-place"></select></label>
+    </div>
+    <p class="muted small">How many sources show snow each day, and the road-ice rating that follows. High lasts 3 days after snow.</p>
+    <div id="runup" class="tiles"></div>
+  </section>
+  <section class="card" aria-labelledby="h-reports">
+    <h2 id="h-reports">Snow and road reports</h2>
+    <div id="reports" class="reports"></div>
+  </section>
+</div>
+
+<section class="card" aria-labelledby="h-sources">
+  <h2 id="h-sources">Where the numbers come from</h2>
+  <div id="sources" class="chipgrid"></div>
+  <details>
+    <summary>Compare every source, day by day</summary>
+    <div class="scroll"><table id="compare"></table></div>
+    <p class="note">Each cell is high / low in °C at that night's stop. The headline uses the median because some sources sit at the wrong altitude.</p>
+  </details>
+</section>
+
+</main>
+
+<dialog id="import" aria-labelledby="imp-title">
+  <form method="dialog" class="imp">
+    <div class="stack">
+      <h2 id="imp-title" class="imp-title"></h2>
+      <p id="imp-sub" class="muted small"></p>
+    </div>
+    <div class="step"><span class="n">1</span><div class="step-body">
+      <div>Copy the collection prompt.</div>
+      <div class="row"><button type="button" class="btn" id="imp-copy">Copy prompt</button><span id="imp-copied" class="muted small" role="status"></span></div>
+    </div></div>
+    <div class="step"><span class="n">2</span><div class="step-body"><div id="imp-run"></div></div></div>
+    <div class="step"><span class="n">3</span><div class="step-body">
+      <label for="imp-text">Paste the result here.</label>
+      <textarea id="imp-text" rows="7" spellcheck="false"></textarea>
+    </div></div>
+    <div class="step"><span class="n">4</span><div class="step-body">
+      <div>The page checks it before anything is saved.</div>
+      <div id="imp-result" class="result" role="status">Nothing pasted yet.</div>
+    </div></div>
+    <div class="row imp-foot">
+      <button type="button" class="btn primary" id="imp-save" disabled>Save to my GitHub</button>
+      <button type="submit" class="btn plain">Cancel</button>
+      <span id="imp-help" class="muted tiny">Saving opens GitHub with the file filled in. You press Commit, and the dashboard picks it up on its next rebuild.</span>
+    </div>
+  </form>
+</dialog>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

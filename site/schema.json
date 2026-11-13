@@ -1,0 +1,49 @@
+{
+ "limits": {"date_min": "2026-11-01", "date_max": "2026-12-05"},
+ "schemas": {
+  "spiti-sources/1": {
+   "folder": "data/manual/sources",
+   "time_key": "read_at",
+   "list": "rows",
+   "fields": {
+    "read_at": {"type": "datetime", "required": true},
+    "reader": {"type": "string", "nullable": true},
+    "failed": {"type": "array", "enum": ["AccuWeather", "IMD", "The Weather Network", "timeanddate", "yr.no"]},
+    "rows": {"type": "array", "required": true}
+   },
+   "item": {
+    "source": {"type": "string", "required": true, "enum": ["AccuWeather", "IMD", "The Weather Network", "timeanddate", "yr.no"]},
+    "date": {"type": "date", "required": true},
+    "tmax": {"type": "number", "nullable": true, "min": -50, "max": 45},
+    "tmin": {"type": "number", "nullable": true, "min": -50, "max": 45},
+    "sky": {"type": "string", "nullable": true, "max_len": 80},
+    "precip_pct": {"type": "number", "nullable": true, "min": 0, "max": 100},
+    "precip_mm": {"type": "number", "nullable": true, "min": 0, "max": 500},
+    "snow_cm_min": {"type": "number", "nullable": true, "min": 0, "max": 500},
+    "snow_cm_max": {"type": "number", "nullable": true, "min": 0, "max": 500}
+   },
+   "lte": [["tmin", "tmax"], ["snow_cm_min", "snow_cm_max"]]
+  },
+  "spiti-notes/1": {
+   "folder": "data/manual/notes",
+   "time_key": "written_at",
+   "list": "items",
+   "fields": {
+    "written_at": {"type": "datetime", "required": true},
+    "items": {"type": "array", "required": true}
+   },
+   "item": {
+    "kind": {"type": "string", "required": true, "enum": ["observed", "forecast", "dry_forecast", "road", "outlook"]},
+    "date": {"type": "date", "required": true},
+    "date_to": {"type": "date", "nullable": true},
+    "area": {"type": "string", "nullable": true, "max_len": 120},
+    "places": {"type": "array", "enum": ["home", "shimla", "narkanda", "kalpa", "nako", "tabo", "kaza", "komic", "sarahan"]},
+    "summary": {"type": "string", "required": true, "max_len": 240},
+    "source": {"type": "string", "nullable": true, "max_len": 80},
+    "url": {"type": "url", "nullable": true},
+    "published": {"type": "string", "nullable": true, "max_len": 20}
+   },
+   "lte": [["date", "date_to"]]
+  }
+ }
+}

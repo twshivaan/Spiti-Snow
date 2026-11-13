@@ -1,0 +1,309 @@
+{
+ "title": "Spiti road trip · 21–28 Nov",
+ "trip_start": "2026-11-21",
+ "trip_end": "2026-11-28",
+ "places": [
+  {
+   "id": "home",
+   "name": "Home",
+   "alt_m": null,
+   "area": "plains"
+  },
+  {
+   "id": "shimla",
+   "name": "Shimla",
+   "alt_m": 2205,
+   "area": "kinnaur_road"
+  },
+  {
+   "id": "narkanda",
+   "name": "Narkanda",
+   "alt_m": 2700,
+   "area": "kinnaur_road"
+  },
+  {
+   "id": "kalpa",
+   "name": "Kalpa",
+   "alt_m": 2960,
+   "area": "kinnaur"
+  },
+  {
+   "id": "nako",
+   "name": "Nako",
+   "alt_m": 3660,
+   "area": "spiti"
+  },
+  {
+   "id": "tabo",
+   "name": "Tabo",
+   "alt_m": 3280,
+   "area": "spiti"
+  },
+  {
+   "id": "kaza",
+   "name": "Kaza",
+   "alt_m": 3650,
+   "area": "spiti"
+  },
+  {
+   "id": "komic",
+   "name": "Komic",
+   "alt_m": 4587,
+   "area": "spiti"
+  },
+  {
+   "id": "sarahan",
+   "name": "Sarahan",
+   "alt_m": 2165,
+   "area": "kinnaur_road"
+  }
+ ],
+ "days": [
+  {
+   "day": 0,
+   "date": "2026-11-21",
+   "route": "Home → Shimla (night drive)",
+   "plan": "Night drive on the highway, reach Shimla at daybreak",
+   "leg": [
+    "home",
+    "shimla"
+   ],
+   "spiti": false,
+   "stay": {
+    "id": "shimla",
+    "name": "Shimla",
+    "alt_m": 2205
+   },
+   "has_data": true,
+   "tmax": 17,
+   "tmin": 4,
+   "sky": "Clear",
+   "n_feeds": 3,
+   "based_on": "3 sources, 1° to 17°",
+   "range_lo": 1,
+   "range_hi": 17,
+   "snow_places": [],
+   "ice": "Low",
+   "ice_reason": "nights above freezing (Home)",
+   "days_since_snow": null
+  },
+  {
+   "day": 1,
+   "date": "2026-11-22",
+   "route": "Shimla → Kalpa",
+   "plan": "Sutlej valley, Kinner Kailash views, arrive by noon and acclimatise",
+   "leg": [
+    "shimla",
+    "narkanda",
+    "kalpa"
+   ],
+   "spiti": false,
+   "stay": {
+    "id": "kalpa",
+    "name": "Kalpa",
+    "alt_m": 2960
+   },
+   "has_data": true,
+   "tmax": 13,
+   "tmin": -3,
+   "sky": "Clear",
+   "n_feeds": 3,
+   "based_on": "3 sources, −3° to 14°",
+   "range_lo": -3,
+   "range_hi": 14,
+   "snow_places": [],
+   "ice": "Moderate",
+   "ice_reason": "nights below freezing (Kalpa)",
+   "days_since_snow": 7
+  },
+  {
+   "day": 2,
+   "date": "2026-11-23",
+   "route": "Kalpa, rest day",
+   "plan": "Rest, sightseeing, permit stop at Reckong Peo",
+   "leg": [
+    "kalpa"
+   ],
+   "spiti": false,
+   "stay": {
+    "id": "kalpa",
+    "name": "Kalpa",
+    "alt_m": 2960
+   },
+   "has_data": true,
+   "tmax": 13,
+   "tmin": 1,
+   "sky": "Clear",
+   "n_feeds": 2,
+   "based_on": "2 sources, −1° to 13°",
+   "range_lo": -1,
+   "range_hi": 13,
+   "snow_places": [],
+   "ice": "Low",
+   "ice_reason": "nights above freezing (Kalpa)",
+   "days_since_snow": 8
+  },
+  {
+   "day": 3,
+   "date": "2026-11-24",
+   "route": "Kalpa → Nako → Tabo",
+   "plan": "Frozen Nako Lake, Tabo Monastery",
+   "leg": [
+    "kalpa",
+    "nako",
+    "tabo"
+   ],
+   "spiti": true,
+   "stay": {
+    "id": "tabo",
+    "name": "Tabo",
+    "alt_m": 3280
+   },
+   "has_data": true,
+   "tmax": 7,
+   "tmin": -7,
+   "sky": "Clear",
+   "n_feeds": 5,
+   "based_on": "5 sources, −21° to 17°",
+   "range_lo": -21,
+   "range_hi": 17,
+   "snow_places": [],
+   "ice": "Moderate",
+   "ice_reason": "nights below freezing (Kalpa)",
+   "days_since_snow": 9
+  },
+  {
+   "day": 4,
+   "date": "2026-11-25",
+   "route": "Tabo → Kaza",
+   "plan": "2-hour drive, check in by noon",
+   "leg": [
+    "tabo",
+    "kaza"
+   ],
+   "spiti": true,
+   "stay": {
+    "id": "kaza",
+    "name": "Kaza",
+    "alt_m": 3650
+   },
+   "has_data": true,
+   "tmax": 6,
+   "tmin": -6,
+   "sky": "Clear",
+   "n_feeds": 5,
+   "based_on": "5 sources, −20° to 16°",
+   "range_lo": -20,
+   "range_hi": 16,
+   "snow_places": [],
+   "ice": "Moderate",
+   "ice_reason": "nights below freezing (Tabo)",
+   "days_since_snow": 10
+  },
+  {
+   "day": 5,
+   "date": "2026-11-26",
+   "route": "Around Kaza",
+   "plan": "Key Monastery, Kibber, Chicham bridge, Hikkim, Komic",
+   "leg": [
+    "kaza",
+    "komic"
+   ],
+   "spiti": true,
+   "stay": {
+    "id": "kaza",
+    "name": "Kaza",
+    "alt_m": 3650
+   },
+   "has_data": true,
+   "tmax": 6,
+   "tmin": -6,
+   "sky": "Mainly clear",
+   "n_feeds": 5,
+   "based_on": "5 sources, −23° to 15°",
+   "range_lo": -23,
+   "range_hi": 15,
+   "snow_places": [],
+   "ice": "Moderate",
+   "ice_reason": "nights below freezing (Kaza)",
+   "days_since_snow": 11
+  },
+  {
+   "day": 6,
+   "date": "2026-11-27",
+   "route": "Kaza → Sarahan",
+   "plan": "Long drive back down",
+   "leg": [
+    "kaza",
+    "tabo",
+    "nako",
+    "sarahan"
+   ],
+   "spiti": false,
+   "stay": {
+    "id": "sarahan",
+    "name": "Sarahan",
+    "alt_m": 2165
+   },
+   "has_data": true,
+   "tmax": 16,
+   "tmin": 5,
+   "sky": "Overcast",
+   "n_feeds": 2,
+   "based_on": "2 sources, 5° to 18°",
+   "range_lo": 5,
+   "range_hi": 18,
+   "snow_places": [],
+   "ice": "Moderate",
+   "ice_reason": "nights below freezing (Kaza)",
+   "days_since_snow": 12
+  },
+  {
+   "day": 7,
+   "date": "2026-11-28",
+   "route": "Sarahan → Home",
+   "plan": "Drive home",
+   "leg": [
+    "sarahan",
+    "narkanda",
+    "shimla",
+    "home"
+   ],
+   "spiti": false,
+   "stay": {
+    "id": "home",
+    "name": "Home",
+    "alt_m": null
+   },
+   "has_data": true,
+   "tmax": 29,
+   "tmin": 17,
+   "sky": "Clear",
+   "n_feeds": 1,
+   "based_on": "1 source, 17° to 29°",
+   "range_lo": 17,
+   "range_hi": 29,
+   "snow_places": [],
+   "ice": "Low",
+   "ice_reason": "nights above freezing (Sarahan)",
+   "days_since_snow": null
+  }
+ ],
+ "summary": {
+  "parts": [
+   "Dry on every trip date so far.",
+   "The last snow is forecast for 15 Nov, 9 days before you reach Nako and Spiti.",
+   "Nights freeze from Kalpa onward, so expect black ice in the shade each morning."
+  ],
+  "snow_dates": [],
+  "freeze_from": "Kalpa"
+ },
+ "facts": {
+  "last_snow": "2026-11-15",
+  "coldest": {
+   "tmin": -7,
+   "place": "Tabo",
+   "date": "2026-11-24"
+  }
+ }
+}

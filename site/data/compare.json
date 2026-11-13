@@ -1,0 +1,222 @@
+{
+ "feeds": [
+  {
+   "id": "om_ecmwf",
+   "name": "Open-Meteo ECMWF"
+  },
+  {
+   "id": "om_gfs",
+   "name": "Open-Meteo GFS"
+  },
+  {
+   "id": "metno",
+   "name": "MET Norway"
+  },
+  {
+   "id": "accuweather",
+   "name": "AccuWeather"
+  },
+  {
+   "id": "twn",
+   "name": "The Weather Network"
+  },
+  {
+   "id": "timeanddate",
+   "name": "timeanddate"
+  }
+ ],
+ "days": [
+  {
+   "day": 0,
+   "date": "2026-11-21",
+   "place": "Shimla",
+   "median": [
+    17,
+    4
+   ],
+   "values": {
+    "metno": [
+     17.3,
+     4.1
+    ],
+    "om_ecmwf": [
+     17.3,
+     0.5
+    ],
+    "om_gfs": [
+     16.6,
+     5.0
+    ]
+   }
+  },
+  {
+   "day": 1,
+   "date": "2026-11-22",
+   "place": "Kalpa",
+   "median": [
+    13,
+    -3
+   ],
+   "values": {
+    "metno": [
+     12.5,
+     -2.9
+    ],
+    "om_ecmwf": [
+     13.9,
+     -3.3
+    ],
+    "om_gfs": [
+     12.0,
+     2.1
+    ]
+   }
+  },
+  {
+   "day": 2,
+   "date": "2026-11-23",
+   "place": "Kalpa",
+   "median": [
+    13,
+    1
+   ],
+   "values": {
+    "om_ecmwf": [
+     13.1,
+     -1.4
+    ],
+    "om_gfs": [
+     12.4,
+     2.9
+    ]
+   }
+  },
+  {
+   "day": 3,
+   "date": "2026-11-24",
+   "place": "Tabo",
+   "median": [
+    7,
+    -7
+   ],
+   "values": {
+    "om_ecmwf": [
+     7.2,
+     -7.5
+    ],
+    "om_gfs": [
+     7.8,
+     -1.0
+    ],
+    "accuweather": [
+     4,
+     -21
+    ],
+    "timeanddate": [
+     17,
+     4
+    ],
+    "twn": [
+     3,
+     -8
+    ]
+   }
+  },
+  {
+   "day": 4,
+   "date": "2026-11-25",
+   "place": "Kaza",
+   "median": [
+    6,
+    -6
+   ],
+   "values": {
+    "om_ecmwf": [
+     7.4,
+     -6.5
+    ],
+    "om_gfs": [
+     5.5,
+     -2.7
+    ],
+    "accuweather": [
+     3,
+     -20
+    ],
+    "timeanddate": [
+     16,
+     3
+    ],
+    "twn": [
+     3,
+     -7
+    ]
+   }
+  },
+  {
+   "day": 5,
+   "date": "2026-11-26",
+   "place": "Kaza",
+   "median": [
+    6,
+    -6
+   ],
+   "values": {
+    "om_ecmwf": [
+     7.2,
+     -6.1
+    ],
+    "om_gfs": [
+     6.0,
+     -2.9
+    ],
+    "accuweather": [
+     -6,
+     -23
+    ],
+    "timeanddate": [
+     15,
+     3
+    ],
+    "twn": [
+     3,
+     -7
+    ]
+   }
+  },
+  {
+   "day": 6,
+   "date": "2026-11-27",
+   "place": "Sarahan",
+   "median": [
+    16,
+    5
+   ],
+   "values": {
+    "om_ecmwf": [
+     17.8,
+     5.2
+    ],
+    "om_gfs": [
+     14.8,
+     5.6
+    ]
+   }
+  },
+  {
+   "day": 7,
+   "date": "2026-11-28",
+   "place": "Home",
+   "median": [
+    29,
+    17
+   ],
+   "values": {
+    "om_gfs": [
+     28.5,
+     17.2
+    ]
+   }
+  }
+ ]
+}

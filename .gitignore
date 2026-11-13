@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# copied from prompts/ by scripts/build.py on every build
+site/prompts/

@@ -1,0 +1,7 @@
+[
+ {"name": "AccuWeather", "url": "https://www.accuweather.com/en/in/dhar-spiti-sarchu/3017155/daily-weather-forecast/3017155", "point": "Dhar Spiti Sarchu, about 4,300 m", "note": "Near Sarchu on the Manali–Leh road, not on the route; runs much colder than Kaza"},
+ {"name": "IMD", "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815", "point": "Spiti valley", "note": "Official; 7 days only"},
+ {"name": "The Weather Network", "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/spiti/14-days", "point": "Spiti", "note": "Closest to Kaza town"},
+ {"name": "timeanddate", "url": "https://www.timeanddate.com/weather/@1265292/ext", "point": "Lāhul and Spiti district point", "note": "Highs look far too warm for late November"},
+ {"name": "yr.no", "url": "https://www.yr.no/en/forecast/daily-table/2-1255660/India/Himachal%20Pradesh/Spiti", "point": "Spiti, 4,330 m", "note": "About 700 m above Kaza; read as Komic-height weather"}
+]

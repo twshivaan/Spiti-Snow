@@ -1,0 +1,94 @@
+{
+ "built_at": "2026-11-13T12:38:59Z",
+ "repo": {
+  "owner": "twshivaan",
+  "repo": "Spiti-Snow",
+  "branch": "main"
+ },
+ "feeds": {
+  "om_ecmwf": {
+   "ok": true,
+   "fetched_at": "2026-11-13T12:38:59Z",
+   "error": null
+  },
+  "om_gfs": {
+   "ok": true,
+   "fetched_at": "2026-11-13T12:38:59Z",
+   "error": null
+  },
+  "om_icon": {
+   "ok": true,
+   "fetched_at": "2026-11-13T12:38:59Z",
+   "error": null
+  },
+  "om_hourly": {
+   "ok": true,
+   "fetched_at": "2026-11-13T12:38:59Z",
+   "error": null
+  },
+  "metno": {
+   "ok": true,
+   "fetched_at": "2026-11-13T12:38:59Z",
+   "error": null
+  },
+  "imd": {
+   "ok": true,
+   "fetched_at": "2026-11-13T12:38:59Z",
+   "error": null
+  }
+ },
+ "manual_read_at": "2026-11-13T09:30:00Z",
+ "notes_written_at": "2026-11-13T11:30:00Z",
+ "first_date": "2026-11-06",
+ "last_date": "2026-11-28",
+ "invalid_files": [],
+ "elevations": {
+  "home": {
+   "grid": 229.0,
+   "used": 229.0
+  },
+  "shimla": {
+   "grid": 2122.0,
+   "used": 2122.0
+  },
+  "narkanda": {
+   "grid": 2682.0,
+   "used": 2682.0
+  },
+  "kalpa": {
+   "grid": 2376.0,
+   "used": 2960
+  },
+  "nako": {
+   "grid": 3166.0,
+   "used": 3660
+  },
+  "tabo": {
+   "grid": 3284.0,
+   "used": 3284.0
+  },
+  "kaza": {
+   "grid": 3674.0,
+   "used": 3674.0
+  },
+  "komic": {
+   "grid": 4452.0,
+   "used": 4452.0
+  },
+  "sarahan": {
+   "grid": 2145.0,
+   "used": 2145.0
+  }
+ },
+ "metno_last_modified": {
+  "home": "Fri, 13 Nov 2026 12:39:01 GMT",
+  "shimla": "Fri, 13 Nov 2026 12:39:03 GMT",
+  "narkanda": "Fri, 13 Nov 2026 12:39:05 GMT",
+  "kalpa": "Fri, 13 Nov 2026 12:39:08 GMT",
+  "nako": "Fri, 13 Nov 2026 12:39:11 GMT",
+  "tabo": "Fri, 13 Nov 2026 12:39:13 GMT",
+  "kaza": "Fri, 13 Nov 2026 12:29:42 GMT",
+  "komic": "Fri, 13 Nov 2026 12:39:17 GMT",
+  "sarahan": "Fri, 13 Nov 2026 12:39:19 GMT"
+ }
+}
