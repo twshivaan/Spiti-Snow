@@ -311,6 +311,14 @@ function validate(doc, schema, wanted) {
 }
 
 function extractJSON(text) {
+  // chat apps often restyle a reply: curly quotes, a typographic minus, non-breaking spaces.
+  // Try the paste as it is first, then with that typography undone.
+  const plain = text.replace(/[“”„‟″]/g, '"').replace(/[‘’′]/g, "'")
+    .replace(/−/g, "-").replace(/[   ]/g, " ");
+  return scanJSON(text) || (plain !== text ? scanJSON(plain) : null);
+}
+
+function scanJSON(text) {
   // first complete {...} in the paste, ignoring code fences and stray prose around it
   for (let start = text.indexOf("{"); start >= 0; start = text.indexOf("{", start + 1)) {
     let depth = 0, inString = false, escaped = false;
