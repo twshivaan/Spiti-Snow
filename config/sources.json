@@ -1,7 +1,20 @@
 [
- {"name": "AccuWeather", "url": "https://www.accuweather.com/en/in/dhar-spiti-sarchu/3017155/daily-weather-forecast/3017155", "point": "Dhar Spiti Sarchu, about 4,300 m", "note": "Near Sarchu on the Manali–Leh road, not on the route; runs much colder than Kaza"},
- {"name": "IMD", "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815", "point": "Spiti valley", "note": "Official; 7 days only"},
- {"name": "The Weather Network", "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/spiti/14-days", "point": "Spiti", "note": "Closest to Kaza town"},
- {"name": "timeanddate", "url": "https://www.timeanddate.com/weather/@1265292/ext", "point": "Lāhul and Spiti district point", "note": "Highs look far too warm for late November"},
- {"name": "yr.no", "url": "https://www.yr.no/en/forecast/daily-table/2-1255660/India/Himachal%20Pradesh/Spiti", "point": "Spiti, 4,330 m", "note": "About 700 m above Kaza; read as Komic-height weather"}
+ {"name": "AccuWeather", "site": "https://www.accuweather.com", "view": "the Daily tab",
+  "note": "Its old Spiti page was Dhar Spiti Sarchu, far off the route; search each town instead",
+  "pages": {}},
+ {"name": "IMD", "site": "https://city.imd.gov.in/citywx/", "view": "the 7-day table",
+  "note": "Official, 7 days only, and only some towns have a page",
+  "pages": {"nako": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815",
+            "tabo": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815",
+            "kaza": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815",
+            "komic": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815"}},
+ {"name": "The Weather Network", "site": "https://www.theweathernetwork.com", "view": "the 14 Days view",
+  "note": "Up to 14 days",
+  "pages": {"kaza": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/spiti/14-days"}},
+ {"name": "timeanddate", "site": "https://www.timeanddate.com/weather/", "view": "the 14 day forecast",
+  "note": "Its old Spiti page was a district point with highs far too warm; search each town instead",
+  "pages": {}},
+ {"name": "yr.no", "site": "https://www.yr.no/en", "view": "the daily table",
+  "note": "About 10 days",
+  "pages": {"komic": "https://www.yr.no/en/forecast/daily-table/2-1255660/India/Himachal%20Pradesh/Spiti"}}
 ]

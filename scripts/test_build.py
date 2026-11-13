@@ -57,6 +57,49 @@ class MedianAndRange(unittest.TestCase):
         rows = [r("kalpa", "2026-11-23", "om_ecmwf", 10, 1), r("spiti_area", "2026-11-23", "accuweather", 3, -20)]
         self.assertEqual(day_of(build.compute(TRIP, rows, [], TODAY), 2)["n_feeds"], 1)
 
+    def test_imported_town_rows_apply_to_any_place(self):
+        rows = [r("kalpa", "2026-11-23", "om_ecmwf", 10, 1), r("kalpa", "2026-11-23", "accuweather", 8, -2),
+                r("sarahan", "2026-11-27", "timeanddate", 14, 4)]
+        out = build.compute(TRIP, rows, [], TODAY)
+        self.assertEqual(day_of(out, 2)["n_feeds"], 2)
+        self.assertEqual(day_of(out, 6)["n_feeds"], 1)
+        self.assertIn("accuweather", out["compare"]["days"][2]["values"])
+
+    def test_town_row_replaces_area_row_from_the_same_source(self):
+        rows = [r("kaza", "2026-11-25", "accuweather", 2, -14), r("spiti_area", "2026-11-25", "accuweather", 3, -20),
+                r("spiti_area", "2026-11-25", "twn", 3, -7),
+                r("kaza", "2026-11-25", "imd_manual", 4, -9), r("spiti_area", "2026-11-25", "imd", 4, -9)]
+        d = day_of(build.compute(TRIP, rows, [], TODAY), 4)
+        self.assertEqual((d["n_feeds"], d["range_lo"]), (3, -14))
+
+
+class ImportPrompt(unittest.TestCase):
+    def test_town_rows_keep_their_place(self):
+        doc = {"read_at": "2026-11-13T09:30:00Z", "rows": [
+            {"source": "AccuWeather", "place": "shimla", "date": "2026-11-21", "tmax": 15, "tmin": 5},
+            {"source": "IMD", "date": "2026-11-21", "tmax": 1, "tmin": -9}]}
+        self.assertEqual([x["place"] for x in build.manual_rows([doc])], ["shimla", "spiti_area"])
+
+    def test_prompt_lists_every_place_and_reuses_found_pages(self):
+        cfg = build.load_json(ROOT / "config" / "sources.json")
+        doc = {"read_at": "2026-11-13T09:30:00Z", "rows": [], "pages": [
+            {"source": "AccuWeather", "place": "kalpa", "url": "https://www.accuweather.com/x/kalpa"},
+            {"source": "AccuWeather", "place": "nowhere", "url": "https://bad"},
+            {"source": "yr.no", "place": "kaza", "url": "javascript:alert(1)"}]}
+        text = build.sources_prompt((ROOT / "prompts" / "collect-sources.md").read_text(encoding="utf-8"),
+                                    TRIP, cfg, [doc])
+        self.assertNotIn("{{", text)
+        self.assertIn("28 Nov 2026", text)
+        for p in TRIP["places"]:
+            self.assertIn(f"- {p['id']}: ", text)
+        self.assertIn("kalpa: https://www.accuweather.com/x/kalpa", text)
+        self.assertNotIn("nowhere", text)
+        self.assertNotIn("javascript:", text)
+
+    def test_schema_place_ids_match_the_trip(self):
+        enum = SCHEMA["schemas"]["spiti-sources/1"]["item"]["place"]["enum"]
+        self.assertEqual(enum, [p["id"] for p in TRIP["places"]])
+
 
 class SnowSignal(unittest.TestCase):
     def test_rule1_town_feeds(self):

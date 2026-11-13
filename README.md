@@ -13,7 +13,7 @@ A weather dashboard for one road trip: Delhi NCR to Spiti valley and back, 21–
 
 ## Using it
 
-- **Import your five sources.** On the page, press "Import my 5 sources", copy the prompt, run it in Claude in Chrome, paste the reply back, and press "Save to my GitHub". GitHub opens with the file filled in; press **Commit changes**. The page updates a few minutes later.
+- **Import your five sources.** On the page, press "Import my 5 sources", copy the prompt, run it in Claude in Chrome, paste the reply back, and press "Save to my GitHub". GitHub opens with the file filled in; press **Commit changes**. The page updates a few minutes later. The prompt asks every site for every place in `config/trip.json`, from today to the last trip day; each row is used for its own town. Pages it finds are remembered and written into the next prompt (seed pages live in `config/sources.json`).
 - **Add Claude notes.** Same steps with "Add Claude notes", in any Claude chat that can search the web.
 - **Change the itinerary.** Edit `config/trip.json` (places, dates, each day's `leg` and `stay`) and commit.
 - **Stop it after the trip.** Actions → Update data → "…" → **Disable workflow**.
@@ -23,7 +23,7 @@ A weather dashboard for one road trip: Delhi NCR to Spiti valley and back, 21–
 - GitHub may start scheduled runs several minutes late, and pauses schedules in repositories with no activity for 60 days.
 - Past days are never deleted, so snow that fell before the trip stays on the record.
 - The page works offline after one visit and says when it is showing saved data.
-- Feeds: Open-Meteo (ECMWF, GFS, ICON), MET Norway, and the IMD Spiti page. AccuWeather, The Weather Network, timeanddate and yr.no arrive only through your import.
+- Feeds: Open-Meteo (ECMWF, GFS, ICON), MET Norway, and the IMD Spiti page. AccuWeather, The Weather Network, timeanddate and yr.no arrive only through your import. Older imports without a `place` on each row still count, for the Spiti towns only.
 
 ## For developers
 

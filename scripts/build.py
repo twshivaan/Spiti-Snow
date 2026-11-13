@@ -31,6 +31,10 @@ FEED_NAMES = {"om_ecmwf": "Open-Meteo ECMWF", "om_gfs": "Open-Meteo GFS", "om_ic
               "metno": "MET Norway", "imd": "IMD Spiti (automatic)", "accuweather": "AccuWeather",
               "imd_manual": "IMD (your import)", "twn": "The Weather Network",
               "timeanddate": "timeanddate", "yrno": "yr.no (your import)"}
+# feeds that describe snow in words (or a page's own snow figure) rather than a model's snowfall amount
+WORDED = frozenset(MANUAL.values()) | {"imd"}
+# the automatic IMD Spiti feed and an imported IMD row for a town read the same page
+SAME_AS = {"imd": "imd_manual"}
 VALUE_KEYS = ("tmax", "tmin", "snow_cm", "precip_mm", "precip_pct", "wind_max", "sky")
 ICE_RANK = {"Unknown": 0, "Low": 1, "Moderate": 2, "High": 3}
 WMO = {0: "Clear", 1: "Mainly clear", 2: "Partly cloudy", 3: "Overcast", 45: "Fog", 48: "Fog",
@@ -205,13 +209,40 @@ def load_manual(manual_dir, schema, invalid):
 
 
 def manual_rows(docs):
+    """Rows tagged with a place belong to that town; older untagged rows are Spiti-wide."""
     rows = []
     for doc in sorted(docs, key=lambda d: d["read_at"]):
         for r in doc["rows"]:
-            rows.append(row(AREA, r["date"], MANUAL[r["source"]], r.get("tmax"), r.get("tmin"),
+            rows.append(row(r.get("place") or AREA, r["date"], MANUAL[r["source"]], r.get("tmax"), r.get("tmin"),
                             r.get("snow_cm_max"), r.get("precip_mm"), r.get("precip_pct"), None,
                             r.get("sky"), doc["read_at"]))
     return rows
+
+
+def known_pages(cfg, docs, place_ids):
+    """Page per (source, place): the config's seeds, overridden by what the newest imports used."""
+    pages = {(c["name"], pid): url for c in cfg for pid, url in (c.get("pages") or {}).items()}
+    for doc in sorted(docs, key=lambda d: d["read_at"]):
+        for p in doc.get("pages") or []:
+            if isinstance(p, dict) and p.get("source") in MANUAL and p.get("place") in place_ids \
+                    and re.match(r"https?://\S+$", str(p.get("url") or "")):
+                pages[(p["source"], p["place"])] = p["url"]
+    return pages
+
+
+def sources_prompt(template, trip, cfg, docs):
+    """Fill the import prompt with the trip's places, last date and the pages found so far."""
+    places = trip["places"]
+    pages = known_pages(cfg, docs, {p["id"] for p in places})
+    end = pdate(trip["days"][-1]["date"])
+    place_lines = [f"- {p['id']}: {p.get('search') or p['name']}, {p['lat']:.3f}° N {p['lon']:.3f}° E, {p['alt_m']} m"
+                   for p in places]
+    site_lines = []
+    for c in cfg:
+        site_lines.append(f"- {c['name']} ({c['site']}): read {c['view']}. {c['note']}.")
+        site_lines += [f"    {p['id']}: {pages[(c['name'], p['id'])]}" for p in places if (c["name"], p["id"]) in pages]
+    return (template.replace("{{END}}", f"{end.day} {end:%b %Y}")
+            .replace("{{PLACES}}", "\n".join(place_lines)).replace("{{SITES}}", "\n".join(site_lines)))
 
 
 def merge_notes(docs):
@@ -496,7 +527,12 @@ def compute(trip, rows, notes, today):
     dates = [shift(first, i) for i in range((pdate(end) - pdate(first)).days + 1)]
 
     def applicable(pid, d):
-        return by.get((pid, d), []) + (by.get((AREA, d), []) if places[pid]["area"] == "spiti" else [])
+        """The town's own rows; Spiti places also get Spiti-wide rows from feeds the town has no row from."""
+        town = by.get((pid, d), [])
+        if places[pid]["area"] != "spiti":
+            return town
+        have = {SAME_AS.get(r["feed"], r["feed"]) for r in town}
+        return town + [r for r in by.get((AREA, d), []) if SAME_AS.get(r["feed"], r["feed"]) not in have]
 
     def headline(pid, d):
         rs = [r for r in applicable(pid, d) if manual_ok or r["feed"] not in MANUAL.values()]
@@ -516,16 +552,15 @@ def compute(trip, rows, notes, today):
     for pid, p in places.items():
         last = None
         for d in dates:
-            town = by.get((pid, d), [])
-            area = by.get((AREA, d), []) if p["area"] == "spiti" else []
-            amounts = [r["snow_cm"] for r in town if r.get("snow_cm") is not None]
-            town_snow = [a for a in amounts if a >= 0.2]
-            area_snow = [r for r in area if shows_snow(r)]
+            rs = applicable(pid, d)
+            amounts = [r["snow_cm"] for r in rs if r["feed"] not in WORDED and r.get("snow_cm") is not None]
+            model_snow = [a for a in amounts if a >= 0.2]
+            worded_snow = [r for r in rs if r["feed"] in WORDED and shows_snow(r)]
             reported = any(n["date"] <= d <= n["date_to"] and
                            (pid in n["places"] if n["places"] else p["area"] in ("spiti", "kinnaur"))
                            for n in snow_notes)
-            signal = bool(any(a >= 1.0 for a in amounts) or len(town_snow) >= 2
-                          or len(area_snow) >= 2 or reported)
+            signal = bool(any(a >= 1.0 for a in amounts) or len(model_snow) >= 2
+                          or len(worded_snow) >= 2 or reported)
             if signal:
                 last = d
             since = (pdate(d) - pdate(last)).days if last else None
@@ -539,9 +574,9 @@ def compute(trip, rows, notes, today):
                 ice, why = "Moderate", "nights below freezing"
             else:
                 ice, why = "Low", "nights above freezing"
-            cm = max(amounts + [r["snow_cm"] for r in area if r.get("snow_cm") is not None], default=None)
+            cm = max((r["snow_cm"] for r in rs if r.get("snow_cm") is not None), default=None)
             snow[(pid, d)] = {"place": pid, "date": d, "snow_signal": signal,
-                              "snow_feeds": len(town_snow) + len(area_snow), "n_feeds": len(town) + len(area),
+                              "snow_feeds": len(model_snow) + len(worded_snow), "n_feeds": len(rs),
                               "snow_cm": cm, "reported": reported, "ice": ice, "ice_reason": why,
                               "days_since_snow": since}
 
@@ -613,19 +648,24 @@ def compute(trip, rows, notes, today):
                         "days": compare}}
 
 
-def sources_list(status, docs, cfg):
+def sources_list(status, docs, cfg, n_places):
     out = [{"name": name, "how": "automatic", "last_read": status[fid]["fetched_at"],
             "status": "ok" if status[fid]["ok"] else "error", "detail": status[fid]["error"]}
            for name, fid in (("Open-Meteo, 3 models", "om_ecmwf"), ("MET Norway (yr.no)", "metno"),
                              ("IMD Spiti", "imd"))]
     latest = max(docs, key=lambda d: d["read_at"], default=None)
     for c in cfg:
-        last = max((d["read_at"] for d in docs if any(r["source"] == c["name"] for r in d["rows"])),
-                   default=None)
+        doc = max((d for d in docs if any(r["source"] == c["name"] for r in d["rows"])),
+                  key=lambda d: d["read_at"], default=None)
         failed = bool(latest and c["name"] in (latest.get("failed") or []))
-        out.append({"name": c["name"], "how": "import", "last_read": last,
-                    "status": "failed in last import" if failed else "ok" if last else "not imported yet",
-                    "detail": f"{c['point']}. {c['note']}"})
+        detail = f"{c['note']}."
+        if doc:
+            got = {r.get("place") for r in doc["rows"] if r["source"] == c["name"]}
+            detail += (" Last import: Spiti only (older format)." if got == {None}
+                       else f" Last import covered {len(got - {None})} of {n_places} places.")
+        out.append({"name": c["name"], "how": "import", "last_read": doc["read_at"] if doc else None,
+                    "status": "failed in last import" if failed else "ok" if doc else "not imported yet",
+                    "detail": detail})
     return out
 
 
@@ -671,10 +711,11 @@ def main(argv=None):
     rows = merge(stored, f["rows"] + manual_rows(src_docs), today)
     reports = merge_notes(note_docs)
     c = compute(trip, rows, reports, today)
+    src_cfg = load_json(ROOT / "config" / "sources.json", []) or []
 
     changed = [n for n, obj in (("daily", rows), ("outlook", c["outlook"]), ("snow", c["snow"]),
                                 ("reports", reports), ("compare", c["compare"]),
-                                ("sources", sources_list(f["status"], src_docs, load_json(ROOT / "config" / "sources.json", []))))
+                                ("sources", sources_list(f["status"], src_docs, src_cfg, len(trip["places"]))))
                if write_json(out / f"{n}.json", obj)]
     for pid, doc in f["hourly"].items():
         path = out / "hourly" / f"{pid}.json"
@@ -695,10 +736,15 @@ def main(argv=None):
         "invalid_files": invalid, "elevations": f["elevations"],
         "metno_last_modified": f["metno_last_modified"]})
 
-    # the page fetches the prompts from the site; the service worker cache is versioned per deploy
+    # the page fetches the prompts from the site; the service worker cache is versioned per deploy.
+    # The import prompt is filled in with the trip's places and the pages found by earlier imports.
     (out.parent / "prompts").mkdir(parents=True, exist_ok=True)
     for p in (ROOT / "prompts").glob("*.md"):
-        shutil.copyfile(p, out.parent / "prompts" / p.name)
+        if p.name == "collect-sources.md":
+            text = sources_prompt(p.read_text(encoding="utf-8"), trip, src_cfg, src_docs)
+            (out.parent / "prompts" / p.name).write_text(text, encoding="utf-8", newline="\n")
+        else:
+            shutil.copyfile(p, out.parent / "prompts" / p.name)
     sw = out.parent / "sw.js"
     if os.environ.get("GITHUB_ACTIONS") and sw.exists():
         text = sw.read_text(encoding="utf-8")

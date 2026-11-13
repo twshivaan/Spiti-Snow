@@ -4,15 +4,15 @@
  "manual_in_median": true,
  "spiti_days": [3, 4, 5],
  "places": [
-  {"id": "home", "name": "Home", "lat": 28.46, "lon": 77.03, "alt_m": 220, "area": "plains"},
-  {"id": "shimla", "name": "Shimla", "lat": 31.1044, "lon": 77.1666, "alt_m": 2205, "area": "kinnaur_road"},
-  {"id": "narkanda", "name": "Narkanda", "lat": 31.257, "lon": 77.46, "alt_m": 2700, "area": "kinnaur_road"},
-  {"id": "kalpa", "name": "Kalpa", "lat": 31.5331, "lon": 78.2688, "alt_m": 2960, "area": "kinnaur"},
-  {"id": "nako", "name": "Nako", "lat": 31.8888, "lon": 78.6183, "alt_m": 3660, "area": "spiti"},
-  {"id": "tabo", "name": "Tabo", "lat": 32.0899, "lon": 78.3721, "alt_m": 3280, "area": "spiti"},
-  {"id": "kaza", "name": "Kaza", "lat": 32.2276, "lon": 78.071, "alt_m": 3650, "area": "spiti"},
-  {"id": "komic", "name": "Komic", "lat": 32.233, "lon": 78.109, "alt_m": 4587, "area": "spiti"},
-  {"id": "sarahan", "name": "Sarahan", "lat": 31.5099, "lon": 77.794, "alt_m": 2165, "area": "kinnaur_road"}
+  {"id": "home", "name": "Home", "search": "Gurugram, Haryana", "lat": 28.46, "lon": 77.03, "alt_m": 220, "area": "plains"},
+  {"id": "shimla", "name": "Shimla", "search": "Shimla, Himachal Pradesh", "lat": 31.1044, "lon": 77.1666, "alt_m": 2205, "area": "kinnaur_road"},
+  {"id": "narkanda", "name": "Narkanda", "search": "Narkanda, Himachal Pradesh", "lat": 31.257, "lon": 77.46, "alt_m": 2700, "area": "kinnaur_road"},
+  {"id": "kalpa", "name": "Kalpa", "search": "Kalpa, Himachal Pradesh", "lat": 31.5331, "lon": 78.2688, "alt_m": 2960, "area": "kinnaur"},
+  {"id": "nako", "name": "Nako", "search": "Nako, Himachal Pradesh", "lat": 31.8888, "lon": 78.6183, "alt_m": 3660, "area": "spiti"},
+  {"id": "tabo", "name": "Tabo", "search": "Tabo, Himachal Pradesh", "lat": 32.0899, "lon": 78.3721, "alt_m": 3280, "area": "spiti"},
+  {"id": "kaza", "name": "Kaza", "search": "Kaza, Himachal Pradesh", "lat": 32.2276, "lon": 78.071, "alt_m": 3650, "area": "spiti"},
+  {"id": "komic", "name": "Komic", "search": "Komic, Himachal Pradesh", "lat": 32.233, "lon": 78.109, "alt_m": 4587, "area": "spiti"},
+  {"id": "sarahan", "name": "Sarahan", "search": "Sarahan, Shimla district, Himachal Pradesh", "lat": 31.5099, "lon": 77.794, "alt_m": 2165, "area": "kinnaur_road"}
  ],
  "days": [
   {"day": 0, "date": "2026-11-21", "route": "Home → Shimla (night drive)", "leg": ["home", "shimla"], "stay": "shimla", "plan": "Night drive on the highway, reach Shimla at daybreak"},

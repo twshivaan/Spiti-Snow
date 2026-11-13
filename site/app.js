@@ -271,7 +271,10 @@ function renderReports() {
 function renderSources() {
   fill($("#sources"), ...state.data.sources.map((s) => {
     const box = el("div", "source", null, { title: s.detail });
-    let sub = s.how === "automatic" ? "Automatic, every 3 hours" : s.last_read ? `Your import, ${dayMonth(s.last_read)}` : "Your import, not imported yet";
+    const when = s.last_read ? `${dayMonth(s.last_read)}, ${clock(s.last_read)} IST` : null;
+    let sub = s.how === "automatic"
+      ? `Automatic, every 3 hours${when ? ` · last read ${when}` : ""}`
+      : when ? `Your import, ${when}` : "Your import, not imported yet";
     if (s.status !== "ok" && s.last_read) sub += ` · ${s.status === "error" ? "last fetch failed" : s.status}`;
     box.append(el("b", null, s.name), el("div", s.status === "ok" || !s.last_read ? "tiny muted" : "tiny warn", sub));
     return box;
@@ -296,7 +299,7 @@ function renderSources() {
 const MODES = {
   sources: { schema: "spiti-sources/1", prompt: "prompts/collect-sources.md", title: "Import my 5 sources",
     sub: "AccuWeather, IMD, The Weather Network, timeanddate and yr.no, read by Claude in your own browser.",
-    run: "Run it in Claude in Chrome. It opens your five pages and returns one block of structured data." },
+    run: "Run it in Claude in Chrome. It opens all five sites for every place on the route (around 45 pages, so it takes a while) and returns one block of structured data." },
   notes: { schema: "spiti-notes/1", prompt: "prompts/claude-notes.md", title: "Add Claude notes",
     sub: "Recent snowfall and road news for the route, searched and summarised by Claude.",
     run: "Run it in any Claude chat that can search the web. It returns one block of structured data." },
@@ -375,21 +378,25 @@ function describe(doc) {
     const dates = doc.items.flatMap((n) => [n.date, n.date_to || n.date]).sort();
     return { head: doc.items.length ? `Looks right: ${plural(doc.items.length, "note")}, ${dateRange(dates[0], dates[dates.length - 1])}` : "Looks right, but there are no new notes to save.", notes };
   }
-  const bySource = new Map();
+  const bySource = new Map(), places = new Set(doc.rows.map((r) => r.place || "spiti"));
   for (const r of doc.rows) bySource.set(r.source, [...(bySource.get(r.source) || []), r]);
   for (const name of doc.failed || []) notes.push(`${name} did not load.`);
+  if (doc.rows.some((r) => !r.place)) notes.push("Some rows name no place, so they count for Spiti only.");
+  const missing = (doc.missing || []).length;
+  if (missing) notes.push(`${plural(missing, "place")} had no page on one of the sites.`);
   for (const [name, rows] of bySource) {
     const last = rows.map((r) => r.date).sort().pop();
     if (last < tripStart) notes.push(`${name} stops at ${dayMonth(last)}.`);
+    // compare like with like: the same place on the same day across sources
     const far = rows.some((r) => {
-      const mid = median(doc.rows.filter((x) => x.date === r.date).map((x) => x.tmax));
+      const mid = median(doc.rows.filter((x) => x.date === r.date && x.place === r.place).map((x) => x.tmax));
       return r.tmax != null && mid != null && Math.abs(r.tmax - mid) > 10;
     });
-    if (far) notes.push(`${name} highs are more than 10° from the day's median.`);
+    if (far) notes.push(`${name} highs are more than 10° from the other sources for the same place and day.`);
   }
   const dates = doc.rows.map((r) => r.date).sort();
   const span = dates.length ? `, ${dateRange(dates[0], dates[dates.length - 1])}` : "";
-  return { head: `Looks right: ${plural(bySource.size, "source")}, ${plural(doc.rows.length, "row")}${span}`, notes };
+  return { head: `Looks right: ${plural(bySource.size, "source")}, ${plural(places.size, "place")}, ${plural(doc.rows.length, "row")}${span}`, notes };
 }
 
 function checkPaste() {
