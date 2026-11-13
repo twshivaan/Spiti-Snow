@@ -37,15 +37,18 @@
    "values": {
     "metno": [
      17.3,
-     4.1
+     4.1,
+     "Clear"
     ],
     "om_ecmwf": [
      17.3,
-     0.5
+     0.5,
+     "Clear"
     ],
     "om_gfs": [
      16.6,
-     5.0
+     5.0,
+     "Clear"
     ]
    }
   },
@@ -60,15 +63,18 @@
    "values": {
     "metno": [
      12.5,
-     -2.9
+     -2.9,
+     "Clear"
     ],
     "om_ecmwf": [
      13.9,
-     -3.3
+     -3.3,
+     "Clear"
     ],
     "om_gfs": [
      12.0,
-     2.1
+     2.1,
+     "Clear"
     ]
    }
   },
@@ -83,11 +89,13 @@
    "values": {
     "om_ecmwf": [
      13.1,
-     -1.4
+     -1.4,
+     "Clear"
     ],
     "om_gfs": [
      12.4,
-     2.9
+     2.9,
+     "Clear"
     ]
    }
   },
@@ -102,23 +110,28 @@
    "values": {
     "om_ecmwf": [
      7.2,
-     -7.5
+     -7.5,
+     "Clear"
     ],
     "om_gfs": [
      7.8,
-     -1.0
+     -1.0,
+     "Clear"
     ],
     "accuweather": [
      4,
-     -21
+     -21,
+     "Plenty of sunshine"
     ],
     "timeanddate": [
      17,
-     4
+     4,
+     "Sunny"
     ],
     "twn": [
      3,
-     -8
+     -8,
+     "Sunny"
     ]
    }
   },
@@ -133,23 +146,28 @@
    "values": {
     "om_ecmwf": [
      7.4,
-     -6.5
+     -6.5,
+     "Clear"
     ],
     "om_gfs": [
      5.5,
-     -2.7
+     -2.7,
+     "Clear"
     ],
     "accuweather": [
      3,
-     -20
+     -20,
+     "Plenty of sunshine"
     ],
     "timeanddate": [
      16,
-     3
+     3,
+     "Sunny"
     ],
     "twn": [
      3,
-     -7
+     -7,
+     "Sunny"
     ]
    }
   },
@@ -164,23 +182,28 @@
    "values": {
     "om_ecmwf": [
      7.2,
-     -6.1
+     -6.1,
+     "Mainly clear"
     ],
     "om_gfs": [
      6.0,
-     -2.9
+     -2.9,
+     "Clear"
     ],
     "accuweather": [
      -6,
-     -23
+     -23,
+     "Colder, times of sun, clouds"
     ],
     "timeanddate": [
      15,
-     3
+     3,
+     "Sunny"
     ],
     "twn": [
      3,
-     -7
+     -7,
+     "Sunny"
     ]
    }
   },
@@ -195,11 +218,13 @@
    "values": {
     "om_ecmwf": [
      17.8,
-     5.2
+     5.2,
+     "Overcast"
     ],
     "om_gfs": [
      14.8,
-     5.6
+     5.6,
+     "Clear"
     ]
    }
   },
@@ -214,7 +239,8 @@
    "values": {
     "om_gfs": [
      28.5,
-     17.2
+     17.2,
+     "Clear"
     ]
    }
   }

@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-13T14:03:39Z",
+ "built_at": "2026-11-13T14:10:38Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,33 +7,33 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-13T14:03:39Z",
-   "error": null
+   "error": "sarahan: <urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "om_gfs": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-13T14:03:39Z",
-   "error": null
+   "error": "sarahan: <urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "om_icon": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-13T14:03:39Z",
-   "error": null
+   "error": "sarahan: <urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "om_hourly": {
    "ok": true,
-   "fetched_at": "2026-11-13T14:03:39Z",
+   "fetched_at": "2026-11-13T14:10:38Z",
    "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-13T14:03:39Z",
+   "fetched_at": "2026-11-13T14:10:38Z",
    "error": null
   },
   "imd": {
    "ok": true,
-   "fetched_at": "2026-11-13T14:03:39Z",
+   "fetched_at": "2026-11-13T14:10:38Z",
    "error": null
   }
  },
@@ -84,11 +84,11 @@
   "home": "Fri, 13 Nov 2026 13:57:01 GMT",
   "shimla": "Fri, 13 Nov 2026 13:57:02 GMT",
   "narkanda": "Fri, 13 Nov 2026 13:57:03 GMT",
-  "kalpa": "Fri, 13 Nov 2026 13:38:38 GMT",
+  "kalpa": "Fri, 13 Nov 2026 14:09:46 GMT",
   "nako": "Fri, 13 Nov 2026 13:57:05 GMT",
-  "tabo": "Fri, 13 Nov 2026 13:38:40 GMT",
+  "tabo": "Fri, 13 Nov 2026 14:09:52 GMT",
   "kaza": "Fri, 13 Nov 2026 13:57:41 GMT",
   "komic": "Fri, 13 Nov 2026 13:57:42 GMT",
-  "sarahan": "Fri, 13 Nov 2026 13:38:42 GMT"
+  "sarahan": "Fri, 13 Nov 2026 14:08:53 GMT"
  }
 }

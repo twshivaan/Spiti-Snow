@@ -289,6 +289,28 @@
    "days_since_snow": null
   }
  ],
+ "hourly_sources": [
+  {
+   "id": "best",
+   "name": "Open-Meteo best match"
+  },
+  {
+   "id": "om_ecmwf",
+   "name": "Open-Meteo ECMWF"
+  },
+  {
+   "id": "om_gfs",
+   "name": "Open-Meteo GFS"
+  },
+  {
+   "id": "om_icon",
+   "name": "Open-Meteo ICON"
+  },
+  {
+   "id": "metno",
+   "name": "MET Norway"
+  }
+ ],
  "summary": {
   "parts": [
    "Dry on every trip date so far.",
