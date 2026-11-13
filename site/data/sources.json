@@ -1,10 +1,10 @@
 [
-{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-13T14:03:39Z", "status": "error", "detail": "sarahan: <urlopen error _ssl.c:994: The handshake operation timed out>"},
-{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-13T14:10:38Z", "status": "ok", "detail": null},
-{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-13T14:10:38Z", "status": "ok", "detail": null},
-{"name": "AccuWeather", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Dhar Spiti Sarchu, about 4,300 m. Near Sarchu on the Manali–Leh road, not on the route; runs much colder than Kaza"},
-{"name": "IMD", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Spiti valley. Official; 7 days only"},
-{"name": "The Weather Network", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Spiti. Closest to Kaza town"},
-{"name": "timeanddate", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Lāhul and Spiti district point. Highs look far too warm for late November"},
-{"name": "yr.no", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Spiti, 4,330 m. About 700 m above Kaza; read as Komic-height weather"}
+{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-13T16:40:37Z", "status": "ok", "detail": null},
+{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-13T16:40:37Z", "status": "ok", "detail": null},
+{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-13T16:40:37Z", "status": "ok", "detail": null},
+{"name": "AccuWeather", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Its old Spiti page was Dhar Spiti Sarchu, far off the route; search each town instead. Last import: Spiti only (older format)."},
+{"name": "IMD", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Official, 7 days only, and only some towns have a page. Last import: Spiti only (older format)."},
+{"name": "The Weather Network", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Up to 14 days. Last import: Spiti only (older format)."},
+{"name": "timeanddate", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Its old Spiti page was a district point with highs far too warm; search each town instead. Last import: Spiti only (older format)."},
+{"name": "yr.no", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "About 10 days. Last import: Spiti only (older format)."}
 ]

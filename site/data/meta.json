@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-13T14:10:38Z",
+ "built_at": "2026-11-13T16:40:37Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,33 +7,33 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": false,
-   "fetched_at": "2026-11-13T14:03:39Z",
-   "error": "sarahan: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-13T16:40:37Z",
+   "error": null
   },
   "om_gfs": {
-   "ok": false,
-   "fetched_at": "2026-11-13T14:03:39Z",
-   "error": "sarahan: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-13T16:40:37Z",
+   "error": null
   },
   "om_icon": {
-   "ok": false,
-   "fetched_at": "2026-11-13T14:03:39Z",
-   "error": "sarahan: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-13T16:40:37Z",
+   "error": null
   },
   "om_hourly": {
    "ok": true,
-   "fetched_at": "2026-11-13T14:10:38Z",
+   "fetched_at": "2026-11-13T16:40:37Z",
    "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-13T14:10:38Z",
+   "fetched_at": "2026-11-13T16:40:37Z",
    "error": null
   },
   "imd": {
    "ok": true,
-   "fetched_at": "2026-11-13T14:10:38Z",
+   "fetched_at": "2026-11-13T16:40:37Z",
    "error": null
   }
  },
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Fri, 13 Nov 2026 13:57:01 GMT",
-  "shimla": "Fri, 13 Nov 2026 13:57:02 GMT",
-  "narkanda": "Fri, 13 Nov 2026 13:57:03 GMT",
-  "kalpa": "Fri, 13 Nov 2026 14:09:46 GMT",
-  "nako": "Fri, 13 Nov 2026 13:57:05 GMT",
-  "tabo": "Fri, 13 Nov 2026 14:09:52 GMT",
-  "kaza": "Fri, 13 Nov 2026 13:57:41 GMT",
-  "komic": "Fri, 13 Nov 2026 13:57:42 GMT",
-  "sarahan": "Fri, 13 Nov 2026 14:08:53 GMT"
+  "home": "Fri, 13 Nov 2026 16:40:39 GMT",
+  "shimla": "Fri, 13 Nov 2026 16:40:40 GMT",
+  "narkanda": "Fri, 13 Nov 2026 16:40:41 GMT",
+  "kalpa": "Fri, 13 Nov 2026 16:40:42 GMT",
+  "nako": "Fri, 13 Nov 2026 16:40:44 GMT",
+  "tabo": "Fri, 13 Nov 2026 16:40:47 GMT",
+  "kaza": "Fri, 13 Nov 2026 16:40:48 GMT",
+  "komic": "Fri, 13 Nov 2026 16:40:49 GMT",
+  "sarahan": "Fri, 13 Nov 2026 16:40:50 GMT"
  }
 }
