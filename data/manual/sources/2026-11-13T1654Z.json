@@ -1,0 +1,4736 @@
+{
+ "schema": "spiti-sources/1",
+ "read_at": "2026-11-13T16:54:09Z",
+ "reader": "claude-in-chrome",
+ "failed": [],
+ "missing": [
+  {
+   "source": "AccuWeather",
+   "place": "komic"
+  },
+  {
+   "source": "IMD",
+   "place": "narkanda"
+  },
+  {
+   "source": "IMD",
+   "place": "sarahan"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "komic"
+  },
+  {
+   "source": "timeanddate",
+   "place": "komic"
+  }
+ ],
+ "pages": [
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "url": "https://www.accuweather.com/en/in/gurgaon/188408/daily-weather-forecast/188408"
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "url": "https://www.accuweather.com/en/in/shimla/188519/daily-weather-forecast/188519"
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "url": "https://www.accuweather.com/en/in/narkanda/1-198243_1_al/daily-weather-forecast/1-198243_1_al"
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "url": "https://www.accuweather.com/en/in/kalpa/198287/daily-weather-forecast/198287"
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "url": "https://www.accuweather.com/en/in/nako/193196/daily-weather-forecast/193196"
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "url": "https://www.accuweather.com/en/in/tabo/198334/daily-weather-forecast/198334"
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "url": "https://www.accuweather.com/en/in/kaza-khas/3018709/daily-weather-forecast/3018709"
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "url": "https://www.accuweather.com/en/in/sarahan/1-198353_1_al/daily-weather-forecast/1-198353_1_al"
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42178"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42083"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42066"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "url": "https://www.theweathernetwork.com/en/city/in/haryana/gurgaon/14-days"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/shimla/14-days"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/narkanda/14-days"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/kalpa/14-days"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/nako/14-days"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/tabo/14-days"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/spiti/14-days"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "url": "https://www.theweathernetwork.com/en/city/in/himachal-pradesh/sarahan/14-days"
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "url": "https://www.timeanddate.com/weather/@1270642/ext"
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "url": "https://www.timeanddate.com/weather/india/shimla/ext"
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "url": "https://www.timeanddate.com/weather/@1261786/ext"
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "url": "https://www.timeanddate.com/weather/@1268330/ext"
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "url": "https://www.timeanddate.com/weather/@1262098/ext"
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "url": "https://www.timeanddate.com/weather/@1255274/ext"
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "url": "https://www.timeanddate.com/weather/@12076709/ext"
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "url": "https://www.timeanddate.com/weather/india/sarahan/ext"
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1270642/India/Haryana/Gurgaon/Gurugram"
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1256237/India/Himachal%20Pradesh/Shimla%20district/Shimla"
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1261786/India/Himachal%20Pradesh/Shimla%20district/N%C4%81rkanda"
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1268330/India/Himachal%20Pradesh/Kinnaur%20district/Kalpa"
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1262098/India/Himachal%20Pradesh/Kinnaur%20district/Nako"
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1255274/India/Himachal%20Pradesh/Lahaul%20and%20Spiti%20District/Tabo"
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-12076709/India/Himachal%20Pradesh/Lahaul%20and%20Spiti%20District/Kaza"
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1255660/India/Himachal%20Pradesh/Spiti"
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "url": "https://www.yr.no/en/forecast/daily-table/2-1257277/India/Himachal%20Pradesh/Shimla%20district/Sar%C4%81han"
+  }
+ ],
+ "rows": [
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-13",
+   "tmax": 30,
+   "tmin": 18,
+   "sky": "Hazy",
+   "precip_pct": 1
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-14",
+   "tmax": 30,
+   "tmin": 19,
+   "sky": "Hazy sunshine",
+   "precip_pct": 1
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-15",
+   "tmax": 26,
+   "tmin": 15,
+   "sky": "Partly sunny",
+   "precip_pct": 6
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-16",
+   "tmax": 27,
+   "tmin": 13,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-17",
+   "tmax": 25,
+   "tmin": 13,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-18",
+   "tmax": 27,
+   "tmin": 12,
+   "sky": "Hazy sun",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-19",
+   "tmax": 25,
+   "tmin": 13,
+   "sky": "Hazy sun",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-20",
+   "tmax": 30,
+   "tmin": 11,
+   "sky": "Hazy sun",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-21",
+   "tmax": 29,
+   "tmin": 11,
+   "sky": "Mostly sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-22",
+   "tmax": 29,
+   "tmin": 11,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-23",
+   "tmax": 26,
+   "tmin": 13,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-24",
+   "tmax": 25,
+   "tmin": 12,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-25",
+   "tmax": 24,
+   "tmin": 13,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-26",
+   "tmax": 27,
+   "tmin": 13,
+   "sky": "Spells of sunshine",
+   "precip_pct": 5
+  },
+  {
+   "source": "AccuWeather",
+   "place": "home",
+   "date": "2026-11-27",
+   "tmax": 27,
+   "tmin": 14,
+   "sky": "Spells of sunshine",
+   "precip_pct": 20
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-13",
+   "tmax": 20,
+   "tmin": 8,
+   "sky": "Clear",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-14",
+   "tmax": 21,
+   "tmin": 8,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-15",
+   "tmax": 18,
+   "tmin": 5,
+   "sky": "Sunny periods",
+   "precip_pct": 25
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-16",
+   "tmax": 19,
+   "tmin": 5,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-17",
+   "tmax": 19,
+   "tmin": 6,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-18",
+   "tmax": 20,
+   "tmin": 6,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-19",
+   "tmax": 23,
+   "tmin": 10,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-20",
+   "tmax": 27,
+   "tmin": 13,
+   "sky": "Hazy sunshine and very warm",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-21",
+   "tmax": 27,
+   "tmin": 12,
+   "sky": "Very warm with spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-22",
+   "tmax": 26,
+   "tmin": 12,
+   "sky": "Very warm, long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-23",
+   "tmax": 26,
+   "tmin": 12,
+   "sky": "Warm with long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-24",
+   "tmax": 26,
+   "tmin": 12,
+   "sky": "Remaining warm with sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-25",
+   "tmax": 25,
+   "tmin": 11,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-26",
+   "tmax": 19,
+   "tmin": 8,
+   "sky": "Sunny spells",
+   "precip_pct": 5
+  },
+  {
+   "source": "AccuWeather",
+   "place": "shimla",
+   "date": "2026-11-27",
+   "tmax": 20,
+   "tmin": 7,
+   "sky": "Long sunny spells",
+   "precip_pct": 20
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-13",
+   "tmax": 17,
+   "tmin": 4,
+   "sky": "Clear",
+   "precip_pct": 2
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-14",
+   "tmax": 17,
+   "tmin": 3,
+   "sky": "Sunny spells",
+   "precip_pct": 1
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-15",
+   "tmax": 15,
+   "tmin": 1,
+   "sky": "Sunny breaks, a couple of showers",
+   "precip_pct": 90
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-16",
+   "tmax": 15,
+   "tmin": 1,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 2,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-18",
+   "tmax": 18,
+   "tmin": 2,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-19",
+   "tmax": 19,
+   "tmin": 5,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-20",
+   "tmax": 24,
+   "tmin": 8,
+   "sky": "Hazy sunshine and warm",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-21",
+   "tmax": 23,
+   "tmin": 7,
+   "sky": "Warm with spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-22",
+   "tmax": 22,
+   "tmin": 7,
+   "sky": "Warm with spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-23",
+   "tmax": 22,
+   "tmin": 7,
+   "sky": "Warm with long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-24",
+   "tmax": 22,
+   "tmin": 7,
+   "sky": "Remaining warm with sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-25",
+   "tmax": 22,
+   "tmin": 6,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-26",
+   "tmax": 14,
+   "tmin": 3,
+   "sky": "Bright spells",
+   "precip_pct": 5
+  },
+  {
+   "source": "AccuWeather",
+   "place": "narkanda",
+   "date": "2026-11-27",
+   "tmax": 14,
+   "tmin": 2,
+   "sky": "Long sunny spells",
+   "precip_pct": 5
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-13",
+   "tmax": 8,
+   "tmin": -3,
+   "sky": "Partly cloudy",
+   "precip_pct": 25
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-14",
+   "tmax": 10,
+   "tmin": -5,
+   "sky": "Partly sunny, afternoon shower in spots",
+   "precip_pct": 55
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-15",
+   "tmax": 6,
+   "tmin": -7,
+   "sky": "Morning snow and rain, then showers",
+   "precip_pct": 91,
+   "snow_cm_min": 0,
+   "snow_cm_max": 1
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-16",
+   "tmax": 7,
+   "tmin": -5,
+   "sky": "Chilly with sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-17",
+   "tmax": 9,
+   "tmin": -4,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-18",
+   "tmax": 10,
+   "tmin": -6,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-19",
+   "tmax": 11,
+   "tmin": -4,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-20",
+   "tmax": 16,
+   "tmin": -3,
+   "sky": "Bright spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-21",
+   "tmax": 15,
+   "tmin": -4,
+   "sky": "Spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-22",
+   "tmax": 15,
+   "tmin": -3,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-23",
+   "tmax": 14,
+   "tmin": -4,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-24",
+   "tmax": 14,
+   "tmin": -4,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-25",
+   "tmax": 13,
+   "tmin": -5,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-26",
+   "tmax": 6,
+   "tmin": -7,
+   "sky": "Sunny periods",
+   "precip_pct": 20
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kalpa",
+   "date": "2026-11-27",
+   "tmax": 5,
+   "tmin": -8,
+   "sky": "Long sunny spells",
+   "precip_pct": 5
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-13",
+   "tmax": 1,
+   "tmin": -10,
+   "sky": "Partly cloudy, flurry this evening",
+   "precip_pct": 47
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-14",
+   "tmax": 1,
+   "tmin": -14,
+   "sky": "Hazy sun",
+   "precip_pct": 1
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-15",
+   "tmax": -2,
+   "tmin": -15,
+   "sky": "Occasional snow and flurries, chilly",
+   "precip_pct": 76,
+   "snow_cm_min": 3,
+   "snow_cm_max": 6
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-16",
+   "tmax": -2,
+   "tmin": -16,
+   "sky": "Sunny spells, but chilly",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-17",
+   "tmax": 0,
+   "tmin": -15,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-18",
+   "tmax": 1,
+   "tmin": -17,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-19",
+   "tmax": 3,
+   "tmin": -17,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-20",
+   "tmax": 8,
+   "tmin": -18,
+   "sky": "Bright spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-21",
+   "tmax": 7,
+   "tmin": -18,
+   "sky": "Spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-22",
+   "tmax": 7,
+   "tmin": -18,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-23",
+   "tmax": 7,
+   "tmin": -18,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-24",
+   "tmax": 7,
+   "tmin": -18,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-25",
+   "tmax": 6,
+   "tmin": -19,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-26",
+   "tmax": -3,
+   "tmin": -21,
+   "sky": "Sunny periods",
+   "precip_pct": 20
+  },
+  {
+   "source": "AccuWeather",
+   "place": "nako",
+   "date": "2026-11-27",
+   "tmax": -4,
+   "tmin": -22,
+   "sky": "Long sunny spells",
+   "precip_pct": 5
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-13",
+   "tmax": 3,
+   "tmin": -12,
+   "sky": "Partly cloudy",
+   "precip_pct": 15
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-14",
+   "tmax": 3,
+   "tmin": -14,
+   "sky": "Hazy sun",
+   "precip_pct": 1
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-15",
+   "tmax": 0,
+   "tmin": -14,
+   "sky": "A little snow, then sunny breaks",
+   "precip_pct": 55
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-16",
+   "tmax": 1,
+   "tmin": -15,
+   "sky": "Sunny spells, but chilly",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-17",
+   "tmax": 3,
+   "tmin": -15,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-18",
+   "tmax": 4,
+   "tmin": -21,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-19",
+   "tmax": 4,
+   "tmin": -16,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-20",
+   "tmax": 10,
+   "tmin": -17,
+   "sky": "Bright spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-21",
+   "tmax": 9,
+   "tmin": -17,
+   "sky": "Spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-22",
+   "tmax": 8,
+   "tmin": -17,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-23",
+   "tmax": 8,
+   "tmin": -17,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-24",
+   "tmax": 8,
+   "tmin": -17,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-25",
+   "tmax": 7,
+   "tmin": -17,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-26",
+   "tmax": -1,
+   "tmin": -19,
+   "sky": "Sunny periods",
+   "precip_pct": 25
+  },
+  {
+   "source": "AccuWeather",
+   "place": "tabo",
+   "date": "2026-11-27",
+   "tmax": -2,
+   "tmin": -20,
+   "sky": "Long sunny spells",
+   "precip_pct": 10
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-13",
+   "tmax": 2,
+   "tmin": -13,
+   "sky": "Partly cloudy with a flurry late",
+   "precip_pct": 42
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-14",
+   "tmax": 0,
+   "tmin": -14,
+   "sky": "Hazy sun",
+   "precip_pct": 2
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-15",
+   "tmax": -4,
+   "tmin": -16,
+   "sky": "A little snow, then sunny breaks",
+   "precip_pct": 55
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-16",
+   "tmax": -2,
+   "tmin": -17,
+   "sky": "Chilly with hazy sun",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-17",
+   "tmax": 0,
+   "tmin": -16,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-18",
+   "tmax": 0,
+   "tmin": -18,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-19",
+   "tmax": 3,
+   "tmin": -19,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-20",
+   "tmax": 8,
+   "tmin": -20,
+   "sky": "Hazy sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-21",
+   "tmax": 7,
+   "tmin": -20,
+   "sky": "Spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-22",
+   "tmax": 7,
+   "tmin": -20,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-23",
+   "tmax": 6,
+   "tmin": -20,
+   "sky": "Long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-24",
+   "tmax": 7,
+   "tmin": -20,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-25",
+   "tmax": 6,
+   "tmin": -20,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-26",
+   "tmax": -3,
+   "tmin": -22,
+   "sky": "Sunny periods",
+   "precip_pct": 25
+  },
+  {
+   "source": "AccuWeather",
+   "place": "kaza",
+   "date": "2026-11-27",
+   "tmax": -3,
+   "tmin": -23,
+   "sky": "Sunny periods",
+   "precip_pct": 20
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-13",
+   "tmax": 16,
+   "tmin": 4,
+   "sky": "Mainly clear",
+   "precip_pct": 2
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-14",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Sunny spells",
+   "precip_pct": 1
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-15",
+   "tmax": 15,
+   "tmin": 1,
+   "sky": "A few morning showers, sunny breaks",
+   "precip_pct": 66
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-16",
+   "tmax": 16,
+   "tmin": 2,
+   "sky": "Sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 2,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-18",
+   "tmax": 18,
+   "tmin": 3,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-19",
+   "tmax": 20,
+   "tmin": 4,
+   "sky": "Long sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-20",
+   "tmax": 24,
+   "tmin": 6,
+   "sky": "Warm with bright spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-21",
+   "tmax": 23,
+   "tmin": 5,
+   "sky": "Warm with spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-22",
+   "tmax": 23,
+   "tmin": 6,
+   "sky": "Warm with spells of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-23",
+   "tmax": 23,
+   "tmin": 5,
+   "sky": "Warm with long periods of sunshine",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-24",
+   "tmax": 23,
+   "tmin": 5,
+   "sky": "Warm with sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-25",
+   "tmax": 22,
+   "tmin": 4,
+   "sky": "Remaining warm with sunny spells",
+   "precip_pct": 0
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-26",
+   "tmax": 15,
+   "tmin": 1,
+   "sky": "Mostly sunny",
+   "precip_pct": 10
+  },
+  {
+   "source": "AccuWeather",
+   "place": "sarahan",
+   "date": "2026-11-27",
+   "tmax": 14,
+   "tmin": 0,
+   "sky": "Long sunny spells",
+   "precip_pct": 5
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "date": "2026-11-13",
+   "tmax": 30,
+   "tmin": 15,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "date": "2026-11-14",
+   "tmax": 29,
+   "tmin": 17,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "date": "2026-11-15",
+   "tmax": 28,
+   "tmin": 16,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "date": "2026-11-16",
+   "tmax": 28,
+   "tmin": 14,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "date": "2026-11-17",
+   "tmax": 28,
+   "tmin": 13,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "date": "2026-11-18",
+   "tmax": 28,
+   "tmin": 12,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "home",
+   "date": "2026-11-19",
+   "tmax": 28,
+   "tmin": 11,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "date": "2026-11-13",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Generally cloudy sky with light rain"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "date": "2026-11-14",
+   "tmax": 19,
+   "tmin": 10,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "date": "2026-11-15",
+   "tmax": 16,
+   "tmin": 10,
+   "sky": "Generally cloudy sky with light rain"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "date": "2026-11-16",
+   "tmax": 19,
+   "tmin": 9,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "date": "2026-11-17",
+   "tmax": 20,
+   "tmin": 10,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "date": "2026-11-18",
+   "tmax": 20,
+   "tmin": 10,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "shimla",
+   "date": "2026-11-19",
+   "tmax": 20,
+   "tmin": 10,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "date": "2026-11-13",
+   "tmax": 10,
+   "tmin": 5,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "date": "2026-11-14",
+   "tmax": 12,
+   "tmin": 1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "date": "2026-11-15",
+   "tmax": 12,
+   "tmin": 1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "date": "2026-11-16",
+   "tmax": 13,
+   "tmin": 0,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "date": "2026-11-17",
+   "tmax": 14,
+   "tmin": 0,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "date": "2026-11-18",
+   "tmax": 15,
+   "tmin": 1,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kalpa",
+   "date": "2026-11-19",
+   "tmax": 15,
+   "tmin": 1,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "date": "2026-11-13",
+   "tmax": 11,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "date": "2026-11-14",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "date": "2026-11-15",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "date": "2026-11-16",
+   "tmax": 13,
+   "tmin": -1,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "date": "2026-11-17",
+   "tmax": 13,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "date": "2026-11-18",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "nako",
+   "date": "2026-11-19",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "date": "2026-11-13",
+   "tmax": 11,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "date": "2026-11-14",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "date": "2026-11-15",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "date": "2026-11-16",
+   "tmax": 13,
+   "tmin": -1,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "date": "2026-11-17",
+   "tmax": 13,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "date": "2026-11-18",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "tabo",
+   "date": "2026-11-19",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "date": "2026-11-13",
+   "tmax": 11,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "date": "2026-11-14",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "date": "2026-11-15",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "date": "2026-11-16",
+   "tmax": 13,
+   "tmin": -1,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "date": "2026-11-17",
+   "tmax": 13,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "date": "2026-11-18",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "kaza",
+   "date": "2026-11-19",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "date": "2026-11-13",
+   "tmax": 11,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "date": "2026-11-14",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Partly cloudy sky"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "date": "2026-11-15",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Rain or snow"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "date": "2026-11-16",
+   "tmax": 13,
+   "tmin": -1,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "date": "2026-11-17",
+   "tmax": 13,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "date": "2026-11-18",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "IMD",
+   "place": "komic",
+   "date": "2026-11-19",
+   "tmax": 14,
+   "tmin": -2,
+   "sky": "Mainly clear sky"
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-14",
+   "tmax": 30,
+   "tmin": 21,
+   "sky": "Mainly sunny",
+   "precip_pct": 10
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-15",
+   "tmax": 26,
+   "tmin": 17,
+   "sky": "Partly sunny in the morning",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-16",
+   "tmax": 27,
+   "tmin": 15,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-17",
+   "tmax": 26,
+   "tmin": 15,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-18",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-19",
+   "tmax": 24,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-20",
+   "tmax": 24,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-21",
+   "tmax": 24,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-22",
+   "tmax": 24,
+   "tmin": 13,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-23",
+   "tmax": 23,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-24",
+   "tmax": 23,
+   "tmin": 13,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-25",
+   "tmax": 24,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-26",
+   "tmax": 24,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "home",
+   "date": "2026-11-27",
+   "tmax": 23,
+   "tmin": 14,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-14",
+   "tmax": 19,
+   "tmin": 6,
+   "sky": "Mainly sunny",
+   "precip_pct": 10
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-15",
+   "tmax": 17,
+   "tmin": 4,
+   "sky": "Scattered showers early morning",
+   "precip_pct": 40
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-16",
+   "tmax": 17,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-17",
+   "tmax": 18,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-18",
+   "tmax": 19,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-19",
+   "tmax": 19,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-20",
+   "tmax": 19,
+   "tmin": 7,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-21",
+   "tmax": 19,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-22",
+   "tmax": 19,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-23",
+   "tmax": 18,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-24",
+   "tmax": 18,
+   "tmin": 7,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-25",
+   "tmax": 18,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-26",
+   "tmax": 18,
+   "tmin": 7,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "shimla",
+   "date": "2026-11-27",
+   "tmax": 18,
+   "tmin": 6,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-14",
+   "tmax": 13,
+   "tmin": 2,
+   "sky": "Mainly sunny, few cloudy periods",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-15",
+   "tmax": 10,
+   "tmin": 0,
+   "sky": "Scattered showers tapering off",
+   "precip_pct": 40,
+   "precip_mm": 1
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-16",
+   "tmax": 12,
+   "tmin": 1,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-17",
+   "tmax": 14,
+   "tmin": 2,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-18",
+   "tmax": 15,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-19",
+   "tmax": 15,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-20",
+   "tmax": 15,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-21",
+   "tmax": 15,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-22",
+   "tmax": 15,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-23",
+   "tmax": 15,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-24",
+   "tmax": 16,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-25",
+   "tmax": 15,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-26",
+   "tmax": 15,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "narkanda",
+   "date": "2026-11-27",
+   "tmax": 14,
+   "tmin": 2,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-14",
+   "tmax": 9,
+   "tmin": -3,
+   "sky": "Sunny morning, then increasing clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-15",
+   "tmax": 4,
+   "tmin": -8,
+   "sky": "Cloudy, sunny breaks, rain-snow mix",
+   "precip_pct": 90,
+   "precip_mm": 5,
+   "snow_cm_min": 0,
+   "snow_cm_max": 1
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-16",
+   "tmax": 6,
+   "tmin": -6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-17",
+   "tmax": 9,
+   "tmin": -4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-18",
+   "tmax": 10,
+   "tmin": -4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-19",
+   "tmax": 10,
+   "tmin": -2,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-20",
+   "tmax": 11,
+   "tmin": -1,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-21",
+   "tmax": 11,
+   "tmin": -1,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-22",
+   "tmax": 11,
+   "tmin": -1,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-23",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-24",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-25",
+   "tmax": 12,
+   "tmin": 0,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-26",
+   "tmax": 12,
+   "tmin": 0,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kalpa",
+   "date": "2026-11-27",
+   "tmax": 11,
+   "tmin": 1,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 30
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-14",
+   "tmax": 4,
+   "tmin": -5,
+   "sky": "Sunny, few afternoon clouds",
+   "precip_pct": 10
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-15",
+   "tmax": -1,
+   "tmin": -10,
+   "sky": "Sun and clouds, scattered flurries",
+   "precip_pct": 90,
+   "snow_cm_min": 1,
+   "snow_cm_max": 3
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-16",
+   "tmax": 0,
+   "tmin": -9,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-17",
+   "tmax": 2,
+   "tmin": -7,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-18",
+   "tmax": 3,
+   "tmin": -6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-19",
+   "tmax": 4,
+   "tmin": -5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-20",
+   "tmax": 5,
+   "tmin": -4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-21",
+   "tmax": 5,
+   "tmin": -4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-22",
+   "tmax": 6,
+   "tmin": -3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-23",
+   "tmax": 5,
+   "tmin": -4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-24",
+   "tmax": 6,
+   "tmin": -3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-25",
+   "tmax": 6,
+   "tmin": -4,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-26",
+   "tmax": 6,
+   "tmin": -3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "nako",
+   "date": "2026-11-27",
+   "tmax": 5,
+   "tmin": -3,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-14",
+   "tmax": 0,
+   "tmin": -11,
+   "sky": "Sunny, few afternoon clouds",
+   "precip_pct": 10
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-15",
+   "tmax": -4,
+   "tmin": -15,
+   "sky": "Scattered flurries in the morning",
+   "precip_pct": 90,
+   "snow_cm_min": 1,
+   "snow_cm_max": 3
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-16",
+   "tmax": -4,
+   "tmin": -13,
+   "sky": "Sunny",
+   "precip_pct": 10
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-17",
+   "tmax": -1,
+   "tmin": -12,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-18",
+   "tmax": 0,
+   "tmin": -10,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-19",
+   "tmax": 1,
+   "tmin": -10,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-20",
+   "tmax": 2,
+   "tmin": -9,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-21",
+   "tmax": 2,
+   "tmin": -8,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-22",
+   "tmax": 2,
+   "tmin": -8,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-23",
+   "tmax": 2,
+   "tmin": -9,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-24",
+   "tmax": 2,
+   "tmin": -8,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-25",
+   "tmax": 3,
+   "tmin": -7,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-26",
+   "tmax": 2,
+   "tmin": -7,
+   "sky": "Sunny",
+   "precip_pct": 10
+  },
+  {
+   "source": "The Weather Network",
+   "place": "tabo",
+   "date": "2026-11-27",
+   "tmax": 2,
+   "tmin": -7,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-14",
+   "tmax": 1,
+   "tmin": -9,
+   "sky": "Mainly sunny, few cloudy periods",
+   "precip_pct": 10
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-15",
+   "tmax": -3,
+   "tmin": -15,
+   "sky": "Morning flurries, then partly sunny",
+   "precip_pct": 90,
+   "snow_cm_min": 1,
+   "snow_cm_max": 3
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-16",
+   "tmax": -3,
+   "tmin": -13,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-17",
+   "tmax": -1,
+   "tmin": -12,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-18",
+   "tmax": 1,
+   "tmin": -11,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-19",
+   "tmax": 1,
+   "tmin": -10,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-20",
+   "tmax": 2,
+   "tmin": -9,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-21",
+   "tmax": 3,
+   "tmin": -9,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-22",
+   "tmax": 3,
+   "tmin": -8,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-23",
+   "tmax": 3,
+   "tmin": -9,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-24",
+   "tmax": 3,
+   "tmin": -8,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-25",
+   "tmax": 3,
+   "tmin": -7,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-26",
+   "tmax": 3,
+   "tmin": -7,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "kaza",
+   "date": "2026-11-27",
+   "tmax": 3,
+   "tmin": -8,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-14",
+   "tmax": 16,
+   "tmin": 3,
+   "sky": "Sunny, few afternoon clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-15",
+   "tmax": 11,
+   "tmin": 0,
+   "sky": "Mainly cloudy, then scattered showers",
+   "precip_pct": 90
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-16",
+   "tmax": 14,
+   "tmin": 1,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 2,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-18",
+   "tmax": 18,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-19",
+   "tmax": 18,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-20",
+   "tmax": 19,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-21",
+   "tmax": 19,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-22",
+   "tmax": 19,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-23",
+   "tmax": 19,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-24",
+   "tmax": 20,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-25",
+   "tmax": 20,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-26",
+   "tmax": 19,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0
+  },
+  {
+   "source": "The Weather Network",
+   "place": "sarahan",
+   "date": "2026-11-27",
+   "tmax": 18,
+   "tmin": 5,
+   "sky": "Mix of sun and clouds",
+   "precip_pct": 20
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-14",
+   "tmax": 30,
+   "tmin": 18,
+   "sky": "Scattered clouds",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-15",
+   "tmax": 26,
+   "tmin": 17,
+   "sky": "Cloudy",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-16",
+   "tmax": 26,
+   "tmin": 15,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-17",
+   "tmax": 26,
+   "tmin": 13,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-18",
+   "tmax": 26,
+   "tmin": 12,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-19",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-20",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-21",
+   "tmax": 26,
+   "tmin": 15,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-22",
+   "tmax": 26,
+   "tmin": 15,
+   "sky": "Sunny",
+   "precip_pct": 1,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-23",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 1,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-24",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 1,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-25",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 1,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-26",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-27",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 1,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "home",
+   "date": "2026-11-28",
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Sunny",
+   "precip_pct": 1,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-14",
+   "tmax": 13,
+   "tmin": 6,
+   "sky": "Broken clouds",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-15",
+   "tmax": 10,
+   "tmin": 3,
+   "sky": "Showers late, overcast",
+   "precip_pct": 22,
+   "precip_mm": 2.3
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-16",
+   "tmax": 10,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-17",
+   "tmax": 11,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-18",
+   "tmax": 12,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-19",
+   "tmax": 14,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-20",
+   "tmax": 13,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-21",
+   "tmax": 16,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-22",
+   "tmax": 16,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-23",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-24",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-25",
+   "tmax": 16,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-26",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-27",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "shimla",
+   "date": "2026-11-28",
+   "tmax": 16,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-14",
+   "tmax": 13,
+   "tmin": 6,
+   "sky": "Broken clouds",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-15",
+   "tmax": 10,
+   "tmin": 3,
+   "sky": "Showers late, overcast",
+   "precip_pct": 22,
+   "precip_mm": 2.3
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-16",
+   "tmax": 10,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-17",
+   "tmax": 11,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-18",
+   "tmax": 12,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-19",
+   "tmax": 14,
+   "tmin": 5,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-20",
+   "tmax": 13,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-21",
+   "tmax": 16,
+   "tmin": 6,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-22",
+   "tmax": 16,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-23",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-24",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-25",
+   "tmax": 16,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-26",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-27",
+   "tmax": 17,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "narkanda",
+   "date": "2026-11-28",
+   "tmax": 16,
+   "tmin": 11,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-14",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Broken clouds",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-15",
+   "tmax": 14,
+   "tmin": 4,
+   "sky": "Light showers, overcast",
+   "precip_pct": 50,
+   "precip_mm": 3
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-16",
+   "tmax": 16,
+   "tmin": 0,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 1,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-18",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-19",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-20",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-21",
+   "tmax": 13,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-22",
+   "tmax": 13,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-23",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-24",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-25",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-26",
+   "tmax": 15,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-27",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kalpa",
+   "date": "2026-11-28",
+   "tmax": 14,
+   "tmin": 8,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-14",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Broken clouds",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-15",
+   "tmax": 14,
+   "tmin": 4,
+   "sky": "Light showers, overcast",
+   "precip_pct": 50,
+   "precip_mm": 3
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-16",
+   "tmax": 16,
+   "tmin": 0,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 1,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-18",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-19",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-20",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-21",
+   "tmax": 13,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-22",
+   "tmax": 13,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-23",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-24",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-25",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-26",
+   "tmax": 15,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-27",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "nako",
+   "date": "2026-11-28",
+   "tmax": 14,
+   "tmin": 8,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-14",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Broken clouds",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-15",
+   "tmax": 14,
+   "tmin": 4,
+   "sky": "Light showers, overcast",
+   "precip_pct": 50,
+   "precip_mm": 3
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-16",
+   "tmax": 16,
+   "tmin": 0,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 1,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-18",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-19",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-20",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-21",
+   "tmax": 13,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-22",
+   "tmax": 13,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-23",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-24",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-25",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-26",
+   "tmax": 15,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-27",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "tabo",
+   "date": "2026-11-28",
+   "tmax": 14,
+   "tmin": 8,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-14",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Broken clouds",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-15",
+   "tmax": 14,
+   "tmin": 4,
+   "sky": "Light showers, overcast",
+   "precip_pct": 50,
+   "precip_mm": 3
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-16",
+   "tmax": 16,
+   "tmin": 0,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 1,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-18",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-19",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-20",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-21",
+   "tmax": 13,
+   "tmin": 4,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-22",
+   "tmax": 13,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-23",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-24",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-25",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-26",
+   "tmax": 15,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-27",
+   "tmax": 14,
+   "tmin": 9,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "sarahan",
+   "date": "2026-11-28",
+   "tmax": 14,
+   "tmin": 8,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-14",
+   "tmax": 11,
+   "tmin": -2,
+   "sky": "Sprinkles, increasing cloudiness",
+   "precip_pct": 49,
+   "precip_mm": 1.3
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-15",
+   "tmax": 8,
+   "tmin": 0,
+   "sky": "Light mixture of precip, overcast",
+   "precip_pct": 86,
+   "precip_mm": 23.1
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-16",
+   "tmax": 9,
+   "tmin": -5,
+   "sky": "Sunny",
+   "precip_pct": 47,
+   "precip_mm": 13.2
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-17",
+   "tmax": 11,
+   "tmin": -3,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-18",
+   "tmax": 12,
+   "tmin": -2,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-19",
+   "tmax": 16,
+   "tmin": -2,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-20",
+   "tmax": 17,
+   "tmin": 0,
+   "sky": "Sunny",
+   "precip_pct": 0,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-21",
+   "tmax": 15,
+   "tmin": -2,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-22",
+   "tmax": 12,
+   "tmin": -2,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-23",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "Sunny",
+   "precip_pct": 2,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-24",
+   "tmax": 12,
+   "tmin": -2,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-25",
+   "tmax": 11,
+   "tmin": -2,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-26",
+   "tmax": 12,
+   "tmin": -3,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-27",
+   "tmax": 12,
+   "tmin": -3,
+   "sky": "Sunny",
+   "precip_pct": 3,
+   "precip_mm": 0
+  },
+  {
+   "source": "timeanddate",
+   "place": "kaza",
+   "date": "2026-11-28",
+   "tmax": 11,
+   "tmin": -3,
+   "sky": "Sunny",
+   "precip_pct": 4,
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-13",
+   "tmax": 22,
+   "tmin": 21,
+   "sky": "partly cloudy",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-14",
+   "tmax": 30,
+   "tmin": 18,
+   "sky": "fair",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-15",
+   "tmax": 25,
+   "tmin": 18,
+   "sky": "fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-16",
+   "tmax": 27,
+   "tmin": 15,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-17",
+   "tmax": 25,
+   "tmin": 12,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-18",
+   "tmax": 25,
+   "tmin": 13,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-19",
+   "tmax": 24,
+   "tmin": 12,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-20",
+   "tmax": 24,
+   "tmin": 11,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-21",
+   "tmax": 24,
+   "tmin": 11,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "home",
+   "date": "2026-11-22",
+   "tmax": 24,
+   "tmin": 11,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-13",
+   "tmax": 8,
+   "tmin": 7,
+   "sky": "partly cloudy",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-14",
+   "tmax": 17,
+   "tmin": 6,
+   "sky": "fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-15",
+   "tmax": 14,
+   "tmin": 4,
+   "sky": "rain showers, then clear sky",
+   "precip_mm": 4.1
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-16",
+   "tmax": 15,
+   "tmin": 2,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-17",
+   "tmax": 16,
+   "tmin": 3,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-18",
+   "tmax": 17,
+   "tmin": 4,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-19",
+   "tmax": 18,
+   "tmin": 5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-20",
+   "tmax": 18,
+   "tmin": 5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-21",
+   "tmax": 18,
+   "tmin": 5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "shimla",
+   "date": "2026-11-22",
+   "tmax": 18,
+   "tmin": 4,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-13",
+   "tmax": 4,
+   "tmin": 3,
+   "sky": "fair",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-14",
+   "tmax": 14,
+   "tmin": 2,
+   "sky": "fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-15",
+   "tmax": 10,
+   "tmin": 1,
+   "sky": "light rain showers, then clear sky",
+   "precip_mm": 1.2
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-16",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-17",
+   "tmax": 14,
+   "tmin": 0,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-18",
+   "tmax": 15,
+   "tmin": 1,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-19",
+   "tmax": 16,
+   "tmin": 2,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-20",
+   "tmax": 16,
+   "tmin": 3,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-21",
+   "tmax": 16,
+   "tmin": 3,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "narkanda",
+   "date": "2026-11-22",
+   "tmax": 16,
+   "tmin": 2,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-13",
+   "tmax": 5,
+   "tmin": 2,
+   "sky": "fog",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-14",
+   "tmax": 14,
+   "tmin": -3,
+   "sky": "clear sky, partly cloudy",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-15",
+   "tmax": 6,
+   "tmin": -8,
+   "sky": "light sleet showers, rain, fog",
+   "precip_mm": 12
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-16",
+   "tmax": 11,
+   "tmin": -8,
+   "sky": "fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-17",
+   "tmax": 13,
+   "tmin": -4,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-18",
+   "tmax": 14,
+   "tmin": -3,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-19",
+   "tmax": 16,
+   "tmin": -2,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-20",
+   "tmax": 17,
+   "tmin": 0,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-21",
+   "tmax": 17,
+   "tmin": 0,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kalpa",
+   "date": "2026-11-22",
+   "tmax": 18,
+   "tmin": 1,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-13",
+   "tmax": -1,
+   "tmin": -2,
+   "sky": "fair",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-14",
+   "tmax": 8,
+   "tmin": -1,
+   "sky": "clear sky, fair",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-15",
+   "tmax": 2,
+   "tmin": -7,
+   "sky": "snow, light snow showers",
+   "precip_mm": 4.7
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-16",
+   "tmax": 4,
+   "tmin": -9,
+   "sky": "fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-17",
+   "tmax": 5,
+   "tmin": -7,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-18",
+   "tmax": 7,
+   "tmin": -5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-19",
+   "tmax": 9,
+   "tmin": -5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-20",
+   "tmax": 9,
+   "tmin": -4,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-21",
+   "tmax": 9,
+   "tmin": -3,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "nako",
+   "date": "2026-11-22",
+   "tmax": 10,
+   "tmin": -3,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-13",
+   "tmax": -3,
+   "tmin": -4,
+   "sky": "fog",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-14",
+   "tmax": 6,
+   "tmin": -7,
+   "sky": "fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-15",
+   "tmax": 1,
+   "tmin": -10,
+   "sky": "light snow, light snow showers",
+   "precip_mm": 2.1
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-16",
+   "tmax": 1,
+   "tmin": -12,
+   "sky": "fog, fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-17",
+   "tmax": 5,
+   "tmin": -8,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-18",
+   "tmax": 6,
+   "tmin": -7,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-19",
+   "tmax": 8,
+   "tmin": -6,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-20",
+   "tmax": 9,
+   "tmin": -5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-21",
+   "tmax": 9,
+   "tmin": -5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "tabo",
+   "date": "2026-11-22",
+   "tmax": 9,
+   "tmin": -4,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-13",
+   "tmax": -6,
+   "tmin": -8,
+   "sky": "fog",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-14",
+   "tmax": 4,
+   "tmin": -10,
+   "sky": "fog, fair",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-15",
+   "tmax": -1,
+   "tmin": -17,
+   "sky": "light snow, light snow showers",
+   "precip_mm": 3.7
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-16",
+   "tmax": -3,
+   "tmin": -18,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-17",
+   "tmax": 0,
+   "tmin": -13,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-18",
+   "tmax": 2,
+   "tmin": -13,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-19",
+   "tmax": 3,
+   "tmin": -12,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-20",
+   "tmax": 4,
+   "tmin": -11,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-21",
+   "tmax": 5,
+   "tmin": -11,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "kaza",
+   "date": "2026-11-22",
+   "tmax": 5,
+   "tmin": -9,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-13",
+   "tmax": -11,
+   "tmin": -13,
+   "sky": "fog",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-14",
+   "tmax": -3,
+   "tmin": -17,
+   "sky": "fog, fair",
+   "precip_mm": 0.1
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-15",
+   "tmax": -7,
+   "tmin": -24,
+   "sky": "snow, light snow showers, fog",
+   "precip_mm": 4.6
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-16",
+   "tmax": -7,
+   "tmin": -23,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-17",
+   "tmax": -5,
+   "tmin": -20,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-18",
+   "tmax": -4,
+   "tmin": -18,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-19",
+   "tmax": -2,
+   "tmin": -15,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-20",
+   "tmax": -1,
+   "tmin": -15,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-21",
+   "tmax": 0,
+   "tmin": -14,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "komic",
+   "date": "2026-11-22",
+   "tmax": 0,
+   "tmin": -13,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-13",
+   "tmax": 5,
+   "tmin": 4,
+   "sky": "partly cloudy",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-14",
+   "tmax": 17,
+   "tmin": 2,
+   "sky": "fair, clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-15",
+   "tmax": 12,
+   "tmin": -1,
+   "sky": "light rain showers, rain, fair",
+   "precip_mm": 3.7
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-16",
+   "tmax": 15,
+   "tmin": -1,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-17",
+   "tmax": 17,
+   "tmin": 2,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-18",
+   "tmax": 18,
+   "tmin": 2,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-19",
+   "tmax": 19,
+   "tmin": 3,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-20",
+   "tmax": 20,
+   "tmin": 4,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-21",
+   "tmax": 20,
+   "tmin": 5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  },
+  {
+   "source": "yr.no",
+   "place": "sarahan",
+   "date": "2026-11-22",
+   "tmax": 20,
+   "tmin": 5,
+   "sky": "clear sky",
+   "precip_mm": 0
+  }
+ ]
+}
