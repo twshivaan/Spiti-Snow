@@ -207,6 +207,22 @@ class OfflineBuild(unittest.TestCase):
         for n in names:
             self.assertTrue((self.out / f"{n}.json").exists(), n)
 
+    def test_hourly_files_carry_every_source(self):
+        tabo, kaza = self.load("hourly/tabo.json"), self.load("hourly/kaza.json")
+        self.assertEqual(set(tabo["sources"]), {"om_ecmwf", "om_gfs", "om_icon", "metno"})
+        self.assertNotIn("metno", kaza["sources"])  # its fixture was removed above
+        for src in tabo["sources"].values():
+            self.assertEqual(len(src["time"]), len(src["temperature_2m"]))
+            self.assertIsNotNone(src["temperature_2m"][-1])  # cut off where the forecast ends
+        self.assertLess(len(tabo["sources"]["om_icon"]["time"]), len(tabo["time"]))
+        ids = [s["id"] for s in self.load("outlook.json")["hourly_sources"]]
+        self.assertEqual(ids, ["best", "om_ecmwf", "om_gfs", "om_icon", "metno"])
+
+    def test_compare_has_sky_for_single_source_view(self):
+        day = self.load("compare.json")["days"][4]
+        self.assertEqual(len(day["values"]["om_ecmwf"]), 3)
+        self.assertIsInstance(day["values"]["om_ecmwf"][2], str)
+
     def test_failed_feeds_are_recorded_not_fatal(self):
         feeds = self.load("meta.json")["feeds"]
         self.assertFalse(feeds["imd"]["ok"])

@@ -47,6 +47,11 @@ OM_DAILY = ("&past_days=7&models=" + ",".join(OM_MODELS.values()) +
 HOURLY_VARS = ["temperature_2m", "apparent_temperature", "precipitation", "snowfall", "snow_depth",
                "weather_code", "wind_speed_10m", "wind_gusts_10m", "cloud_cover", "freezing_level_height"]
 OM_HOURLY = "&past_days=1&hourly=" + ",".join(HOURLY_VARS)
+MODEL_VARS = ["temperature_2m", "apparent_temperature", "precipitation", "snowfall", "wind_speed_10m",
+              "wind_gusts_10m", "cloud_cover", "freezing_level_height"]
+OM_HOURLY_MODELS = ("&past_days=1&models=" + ",".join(OM_MODELS.values()) + "&hourly=" + ",".join(MODEL_VARS))
+HOURLY_SOURCES = [{"id": "best", "name": "Open-Meteo best match"},
+                  *({"id": f, "name": FEED_NAMES[f]} for f in (*OM_MODELS, "metno"))]
 METNO_URL = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat={lat}&lon={lon}&altitude={alt}"
 IMD_URL = "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=88815"
 
@@ -319,6 +324,37 @@ def metno_rows(pid, js, now_iso):
             for day, b in sorted(days.items()) if len(b["t"]) >= 3]
 
 
+def om_model_hours(js):
+    """Per-model hourly series, each cut off where that model's forecast ends."""
+    h, out = js["hourly"], {}
+    for fid, model in OM_MODELS.items():
+        temps = h.get(f"temperature_2m_{model}") or []
+        n = max((i + 1 for i, v in enumerate(temps) if v is not None), default=0)
+        if n:
+            out[fid] = {"time": h["time"][:n]}
+            for k in MODEL_VARS:
+                vals = (h.get(f"{k}_{model}") or [])[:n]
+                if any(v is not None for v in vals):
+                    out[fid][k] = vals
+    return out
+
+
+def metno_hours(js):
+    """MET Norway time steps in IST: hourly at first, then every 6 hours."""
+    out = {k: [] for k in ("time", "temperature_2m", "precipitation", "wind_speed_10m", "cloud_cover")}
+    for ts in js["properties"]["timeseries"]:
+        t = datetime.fromisoformat(ts["time"].replace("Z", "+00:00")).astimezone(IST)
+        data = ts["data"]
+        det = data["instant"]["details"]
+        nxt = data.get("next_1_hours") or data.get("next_6_hours") or {}
+        out["time"].append(t.strftime("%Y-%m-%dT%H:%M"))
+        out["temperature_2m"].append(det.get("air_temperature"))
+        out["wind_speed_10m"].append(det.get("wind_speed"))
+        out["cloud_cover"].append(det.get("cloud_area_fraction"))
+        out["precipitation"].append((nxt.get("details") or {}).get("precipitation_amount"))
+    return out
+
+
 class _TableRows(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -367,7 +403,7 @@ def imd_rows(html, now_iso):
 
 def fetch_feeds(net, trip, prev, now_iso):
     """Fetch every feed for every place. One failure never stops the others."""
-    rows, hourly, errs = [], {}, defaultdict(list)
+    rows, hourly, extra, errs = [], {}, defaultdict(dict), defaultdict(list)
     elev = dict(prev.get("elevations") or {})
     lms = dict(prev.get("metno_last_modified") or {})
     for p in trip["places"]:
@@ -385,11 +421,17 @@ def fetch_feeds(net, trip, prev, now_iso):
         except Exception as e:
             errs["om_hourly"].append(f"{pid}: {e}")
         try:
-            hdr = {"If-Modified-Since": lms[pid]} if lms.get(pid) and not net.record else {}
+            extra[pid].update(om_model_hours(
+                om_get(net, f"om_hourly_models_{pid}.json", base + OM_HOURLY_MODELS, p, elev)))
+        except Exception as e:
+            errs["om_hourly"].append(f"{pid} models: {e}")
+        try:
+            hdr ={"If-Modified-Since": lms[pid]} if lms.get(pid) and not net.record else {}
             url = METNO_URL.format(lat=round(p["lat"], 4), lon=round(p["lon"], 4), alt=p["alt_m"])
             text, lm = net.get(f"metno_{pid}.json", url, hdr)
             if text is not None:
                 rows += metno_rows(pid, json.loads(text), now_iso)
+                extra[pid]["metno"] = metno_hours(json.loads(text))
                 if lm:
                     lms[pid] = lm
         except Exception as e:
@@ -409,7 +451,8 @@ def fetch_feeds(net, trip, prev, now_iso):
                 "error": "; ".join(e)[:300] if e else None}
     status = {fid: state(fid, "om_daily") for fid in OM_MODELS}
     status.update({k: state(k, k) for k in ("om_hourly", "metno", "imd")})
-    return {"rows": rows, "hourly": hourly, "status": status, "elevations": elev, "metno_last_modified": lms}
+    return {"rows": rows, "hourly": hourly, "hourly_sources": extra, "status": status, "elevations": elev,
+            "metno_last_modified": lms}
 
 
 # ---------- merge and compute ----------
@@ -522,7 +565,7 @@ def compute(trip, rows, notes, today):
                                    default=None)})
         compare.append({"day": dy["day"], "date": d, "place": stay["name"],
                         "median": [h["tmax"], h["tmin"]] if h else None,
-                        "values": {r["feed"]: [r["tmax"], r["tmin"]] for r in applicable(stay["id"], d)}})
+                        "values": {r["feed"]: [r["tmax"], r["tmin"], r["sky"]] for r in applicable(stay["id"], d)}})
 
     # summary sentence parts and the three headline facts
     covered = [x for x in out_days if x["has_data"]]
@@ -557,7 +600,7 @@ def compute(trip, rows, notes, today):
         "title": trip.get("title"), "trip_start": start, "trip_end": end,
         "places": [{"id": p["id"], "name": p["name"], "alt_m": None if p["id"] == "home" else p["alt_m"],
                     "area": p["area"]} for p in trip["places"]],
-        "days": out_days,
+        "days": out_days, "hourly_sources": HOURLY_SOURCES,
         "summary": {"parts": parts, "snow_dates": snow_dates, "freeze_from": freeze},
         "facts": {"last_snow": last_snow,
                   "coldest": {"tmin": cold["tmin"], "place": cold["stay"]["name"], "date": cold["date"]}
@@ -617,6 +660,11 @@ def main(argv=None):
 
     prev = load_json(out / "meta.json", {}) or {}
     stored = load_json(out / "daily.json", []) or []
+    # where an hourly file has no MET Norway series yet, ask for a full reply rather than "not modified"
+    for p in trip["places"]:
+        old = load_json(out / "hourly" / f"{p['id']}.json", {}) or {}
+        if "metno" not in (old.get("sources") or {}):
+            (prev.get("metno_last_modified") or {}).pop(p["id"], None)
     invalid = []
     src_docs, note_docs = load_manual(a.manual, schema, invalid)
     f = fetch_feeds(net, trip, prev, now_iso)
@@ -630,8 +678,11 @@ def main(argv=None):
                if write_json(out / f"{n}.json", obj)]
     for pid, doc in f["hourly"].items():
         path = out / "hourly" / f"{pid}.json"
+        old = load_json(path, {}) or {}
         if not doc["sun"]:
-            doc["sun"] = (load_json(path, {}) or {}).get("sun", {})
+            doc["sun"] = old.get("sun", {})
+        # a source that could not be fetched this time (or answered "not modified") keeps its last series
+        doc["sources"] = {**(old.get("sources") or {}), **f["hourly_sources"].get(pid, {})}
         if write_json(path, doc, compact=True):
             changed.append(f"hourly/{pid}")
     write_json(out / "meta.json", {

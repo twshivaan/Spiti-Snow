@@ -31,9 +31,12 @@
 </section>
 
 <section class="card" aria-labelledby="h-days">
-  <h2 id="h-days">Day by day</h2>
+  <div class="split">
+    <h2 id="h-days">Day by day</h2>
+    <label class="inline">Source <select id="day-source"></select></label>
+  </div>
   <div class="scroll"><div id="days" class="grid days"></div></div>
-  <p class="note">Shaded columns are your days in Spiti.</p>
+  <p id="days-note" class="note">Shaded columns are your days in Spiti.</p>
 </section>
 
 <section class="card" id="hourly" aria-labelledby="h-hourly">
@@ -45,6 +48,7 @@
     <div class="selects">
       <label>Date <select id="hour-date"></select></label>
       <label>Place <select id="hour-place"></select></label>
+      <label>Source <select id="hour-source"></select></label>
     </div>
   </div>
   <div id="hour-chips" class="chips"></div>

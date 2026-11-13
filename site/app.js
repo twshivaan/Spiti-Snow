@@ -97,18 +97,34 @@ function sinceText(n) {
 }
 
 function renderDays() {
-  const days = state.data.outlook.days;
+  const { outlook, compare } = state.data;
+  const sel = $("#day-source");
+  if (!sel.options.length) {
+    sel.append(el("option", null, "All sources (median)", { value: "" }));
+    for (const f of compare.feeds) sel.append(el("option", null, f.name, { value: f.id }));
+  }
+  // with one source picked, the temperature and sky rows show that source alone at each night's stop
+  const feed = compare.feeds.find((f) => f.id === sel.value);
+  const days = outlook.days.map((d) => {
+    if (!feed) return d;
+    const v = (compare.days.find((c) => c.date === d.date) || { values: {} }).values[feed.id];
+    return { ...d, has_data: Boolean(v), tmax: v && v[0], tmin: v && v[1], sky: v && v[2],
+      based_on: v ? feed.name : "Not covered by this source", snow_places: [] };
+  });
+  const hourly = feed && outlook.hourly_sources.some((s) => s.id === feed.id) ? `/${feed.id}` : "";
+  $("#days-note").textContent = "Shaded columns are your days in Spiti."
+    + (feed ? ` Showing ${feed.name} only; road ice and last snow still use every source.` : "");
   const rows = [
     ["Day", (d) => [el("div", "strong", `Day ${d.day}`), el("div", "sub", weekDay(d.date))]],
     ["Route", (d) => [el("span", "route", d.route, { title: d.plan })]],
     ["Sleep at", (d) => [d.stay.name, el("div", "sub", d.stay.alt_m ? `~${metres(d.stay.alt_m)}` : "")]],
     ["High / low", (d) => [el("span", "big", d.has_data ? deg(d.tmax) : "—"), el("span", "big-sub", ` / ${d.has_data ? deg(d.tmin) : "—"}`)]],
-    ["Sky", (d) => [!d.has_data ? "Not in range yet"
+    ["Sky", (d) => [!d.has_data ? (feed ? "—" : "Not in range yet")
       : (d.sky || "—") + (d.snow_places.length ? `; snow signal: ${d.snow_places.join(", ")}` : "")]],
     ["Road ice", (d) => [pill(d.ice, d.ice_reason)]],
     ["Last snow", (d) => [sinceText(d.days_since_snow)]],
-    ["Hour by hour", (d) => [el("a", "view-hours", "View hours", { href: `#hourly/${d.date}/${d.stay.id}` })]],
-    ["Based on", (d) => [el("span", "sub", d.has_data ? d.based_on : "No forecast yet")]],
+    ["Hour by hour", (d) => [el("a", "view-hours", "View hours", { href: `#hourly/${d.date}/${d.stay.id}${hourly}` })]],
+    ["Based on", (d) => [el("span", "sub", d.has_data ? d.based_on : feed ? d.based_on : "No forecast yet")]],
   ];
   const grid = fill($("#days"));
   for (const [label, cell] of rows) {
@@ -131,8 +147,10 @@ function loadHourly(pid) {
 }
 
 function hashChoice() {
-  const m = location.hash.match(/^#hourly\/(\d{4}-\d\d-\d\d)\/([a-z_]+)$/);
-  return m && state.data.outlook.places.some((p) => p.id === m[2]) ? { date: m[1], place: m[2] } : null;
+  const m = location.hash.match(/^#hourly\/(\d{4}-\d\d-\d\d)\/([a-z_]+)(?:\/([a-z_]+))?$/);
+  const { places, hourly_sources: sources } = state.data.outlook;
+  if (!m || !places.some((p) => p.id === m[2])) return null;
+  return { date: m[1], place: m[2], source: sources.some((s) => s.id === m[3]) ? m[3] : "best" };
 }
 
 async function renderHourly() {
@@ -144,9 +162,18 @@ async function renderHourly() {
   const dateSel = $("#hour-date"), placeSel = $("#hour-place"), grid = fill($("#hours")), chips = fill($("#hour-chips"));
   if (!placeSel.options.length) for (const p of outlook.places) placeSel.append(el("option", null, p.name, { value: p.id }));
   placeSel.value = place;
-  let h = null;
-  try { h = await loadHourly(place); } catch (e) { /* message below */ }
-  const dates = h ? [...new Set(h.time.map((t) => t.slice(0, 10)))] : [];
+  const sourceSel = $("#hour-source");
+  if (!sourceSel.options.length) for (const s of outlook.hourly_sources) sourceSel.append(el("option", null, s.name, { value: s.id }));
+  sourceSel.value = choice ? choice.source : "best";
+  const source = outlook.hourly_sources.find((s) => s.id === sourceSel.value);
+  let file = null;
+  try { file = await loadHourly(place); } catch (e) { /* message below */ }
+  const dates = file ? [...new Set(file.time.map((t) => t.slice(0, 10)))] : [];
+  // "best" is the file's own series; any other source sits under file.sources with its own time steps
+  const series = file && (source.id === "best" ? file : (file.sources || {})[source.id]);
+  const blank = { time: [], temperature_2m: [], apparent_temperature: [], precipitation: [], snowfall: [],
+    wind_speed_10m: [], wind_gusts_10m: [], cloud_cover: [], freezing_level_height: [] };
+  const h = { ...blank, ...(series || {}), sun: file ? file.sun : {}, name: file && file.name, elevation: file && file.elevation };
   const date = choice ? choice.date : dates.includes(today) ? today : outlook.days[0].date;
   const label = (d) => {
     const trip = outlook.days.find((x) => x.date === d);
@@ -154,10 +181,13 @@ async function renderHourly() {
   };
   fill(dateSel, ...(dates.includes(date) ? dates : [date, ...dates]).map((d) => el("option", null, label(d), { value: d })));
   dateSel.value = date;
-  const idx = h ? h.time.map((t, i) => (t.startsWith(date) ? i : -1)).filter((i) => i >= 0) : [];
+  const idx = h.time.map((t, i) => (t.startsWith(date) ? i : -1)).filter((i) => i >= 0);
   const note = $("#hour-note");
+  grid.style.setProperty("--cols", idx.length || 24);
   if (!idx.length) {
-    note.textContent = h ? "Hourly data is not available for this date yet." : "Hourly data could not be loaded.";
+    note.textContent = !file ? "Hourly data could not be loaded."
+      : source.id === "best" ? "Hourly data is not available for this date yet."
+        : `${source.name} has no hourly data for this date. Its forecast may not reach that far; try Open-Meteo best match.`;
   } else {
     const sun = h.sun[date] || {};
     const mins = (t) => (t ? Number(t.slice(0, 2)) * 60 + Number(t.slice(3)) : null);
@@ -165,7 +195,8 @@ async function renderHourly() {
     const below = idx.filter((i) => h.temperature_2m[i] != null && h.temperature_2m[i] < 0).length;
     const levels = idx.map((i) => h.freezing_level_height[i]).filter((v) => v != null);
     const chipText = [sun.sunrise && `Sunrise ${sun.sunrise}`, sun.sunset && `Sunset ${sun.sunset}`,
-      below === idx.length ? "Below freezing in every hour" : `${plural(below, "hour")} below freezing`,
+      below === idx.length ? "Below freezing in every hour shown" : idx.length === 24 ? `${plural(below, "hour")} below freezing`
+        : `${below} of ${plural(idx.length, "reading")} below freezing`,
       levels.length && `Lowest freezing level ${metres(Math.min(...levels))}`];
     chips.append(...chipText.filter(Boolean).map((t) => el("span", null, t)));
     const wet = (i) => (h.snowfall[i] > 0 ? [`${num(h.snowfall[i], 1)} cm`] : h.precipitation[i] > 0 ? [`${num(h.precipitation[i], 1)} mm`] : ["–"]);
@@ -174,7 +205,8 @@ async function renderHourly() {
       ["Temperature", "", (i) => [el("span", "temp", deg(h.temperature_2m[i]))]],
       ["Feels like", "", (i) => [deg(h.apparent_temperature[i])]],
       ["Snow / rain", "", wet],
-      ["Wind", "", (i) => [`${num(h.wind_speed_10m[i])} m/s`, el("div", "sub", `gust ${num(h.wind_gusts_10m[i])}`)]],
+      ["Wind", "", (i) => [h.wind_speed_10m[i] == null ? "—" : `${num(h.wind_speed_10m[i])} m/s`,
+        ...(h.wind_gusts_10m[i] == null ? [] : [el("div", "sub", `gust ${num(h.wind_gusts_10m[i])}`)])]],
       ["Cloud", "", (i) => [h.cloud_cover[i] == null ? "—" : `${Math.round(h.cloud_cover[i])}%`]],
     ];
     for (const [name, cls, cell] of rows) {
@@ -186,7 +218,9 @@ async function renderHourly() {
         grid.append(c);
       }
     }
-    note.textContent = `Open-Meteo best-match model for ${h.name}${h.elevation ? `, at ${metres(h.elevation)}` : ""}. Tinted hours are daylight. Times are IST.`;
+    const about = source.id === "metno" ? "MET Norway gives hourly steps for about two days, then one every 6 hours (rain is then the 6-hour total); it has no feels-like, gust or snow figures. "
+      : source.id === "best" ? "" : "A dash means this model does not publish that value. ";
+    note.textContent = `${source.id === "best" ? "Open-Meteo best-match model" : source.name} for ${h.name}${h.elevation && source.id !== "metno" ? `, at ${metres(h.elevation)}` : ""}. ${about}Tinted hours are daylight. Times are IST.`;
   }
   if (state.scrollNext) $("#hourly").scrollIntoView({ behavior: "smooth", block: "start" });
   state.scrollNext = false;
@@ -447,6 +481,7 @@ async function start() {
     const loaded = await Promise.all([...names.map((n) => getJSON(`data/${n}.json`)), getJSON("schema.json")]);
     names.forEach((n, i) => { state.data[n] = loaded[i]; });
     state.data.schema = loaded[names.length];
+    state.data.outlook.hourly_sources ||= [{ id: "best", name: "Open-Meteo best match" }];
   } catch (e) {
     $("#status").textContent = "Could not load the data. Check your connection and reload.";
     return;
@@ -461,9 +496,12 @@ async function start() {
 
   addEventListener("hashchange", renderHourly);
   $("#days").addEventListener("click", (e) => { if (e.target.closest("a.view-hours")) state.scrollNext = true; });
-  const pick = () => { location.hash = `#hourly/${$("#hour-date").value}/${$("#hour-place").value}`; };
-  $("#hour-date").addEventListener("change", pick);
-  $("#hour-place").addEventListener("change", pick);
+  const pick = () => {
+    const source = $("#hour-source").value;
+    location.hash = `#hourly/${$("#hour-date").value}/${$("#hour-place").value}${source === "best" ? "" : `/${source}`}`;
+  };
+  for (const id of ["#hour-date", "#hour-place", "#hour-source"]) $(id).addEventListener("change", pick);
+  $("#day-source").addEventListener("change", renderDays);
   $("#runup-place").addEventListener("change", renderRunup);
   for (const b of document.querySelectorAll("[data-import]")) b.addEventListener("click", () => openImport(b.dataset.import));
   $("#imp-text").addEventListener("input", checkPaste);

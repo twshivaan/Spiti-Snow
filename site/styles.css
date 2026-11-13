@@ -49,7 +49,7 @@ p { margin: 0; }
 
 .grid { display: grid; }
 .grid.days { min-width: 1180px; grid-template-columns: 110px repeat(8, minmax(0, 1fr)); }
-.grid.hours { grid-template-columns: 110px repeat(24, minmax(68px, 1fr)); }
+.grid.hours { grid-template-columns: 110px repeat(var(--cols, 24), minmax(68px, 1fr)); }
 .lab { padding: 12px 10px 12px 0; border-top: 1px solid var(--hair); font-size: 12px; font-weight: 600; color: var(--muted); }
 .cell { padding: 12px 10px; border-top: 1px solid var(--hair); font-size: 13px; line-height: 1.4; min-width: 0; }
 .cell.spiti { background: var(--spiti); }
