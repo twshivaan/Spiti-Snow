@@ -1,6 +1,6 @@
 [
 {"place": "home", "date": "2026-11-14", "snow_signal": false, "snow_feeds": 0, "n_feeds": 4, "snow_cm": 0.0, "reported": false, "ice": "Low", "ice_reason": "nights above freezing", "days_since_snow": null},
-{"place": "kalpa", "date": "2026-11-14", "snow_signal": true, "snow_feeds": 0, "n_feeds": 4, "snow_cm": 0.14, "reported": true, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
+{"place": "kalpa", "date": "2026-11-14", "snow_signal": true, "snow_feeds": 0, "n_feeds": 4, "snow_cm": 0.0, "reported": true, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
 {"place": "kaza", "date": "2026-11-14", "snow_signal": true, "snow_feeds": 2, "n_feeds": 10, "snow_cm": 0.21, "reported": true, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
 {"place": "komic", "date": "2026-11-14", "snow_signal": true, "snow_feeds": 2, "n_feeds": 10, "snow_cm": 0.21, "reported": true, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
 {"place": "nako", "date": "2026-11-14", "snow_signal": true, "snow_feeds": 1, "n_feeds": 10, "snow_cm": 0.0, "reported": true, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
@@ -9,7 +9,7 @@
 {"place": "shimla", "date": "2026-11-14", "snow_signal": false, "snow_feeds": 0, "n_feeds": 4, "snow_cm": 0.0, "reported": false, "ice": "Low", "ice_reason": "nights above freezing", "days_since_snow": null},
 {"place": "tabo", "date": "2026-11-14", "snow_signal": true, "snow_feeds": 1, "n_feeds": 10, "snow_cm": 0.0, "reported": true, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
 {"place": "home", "date": "2026-11-15", "snow_signal": false, "snow_feeds": 0, "n_feeds": 4, "snow_cm": 0.0, "reported": false, "ice": "Low", "ice_reason": "nights above freezing", "days_since_snow": null},
-{"place": "kalpa", "date": "2026-11-15", "snow_signal": true, "snow_feeds": 1, "n_feeds": 4, "snow_cm": 1.75, "reported": false, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
+{"place": "kalpa", "date": "2026-11-15", "snow_signal": true, "snow_feeds": 1, "n_feeds": 4, "snow_cm": 1.4, "reported": false, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
 {"place": "kaza", "date": "2026-11-15", "snow_signal": true, "snow_feeds": 8, "n_feeds": 10, "snow_cm": 3, "reported": false, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
 {"place": "komic", "date": "2026-11-15", "snow_signal": true, "snow_feeds": 8, "n_feeds": 10, "snow_cm": 3, "reported": false, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},
 {"place": "nako", "date": "2026-11-15", "snow_signal": true, "snow_feeds": 7, "n_feeds": 10, "snow_cm": 3, "reported": false, "ice": "High", "ice_reason": "snow that day", "days_since_snow": 0},

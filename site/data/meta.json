@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-13T12:38:59Z",
+ "built_at": "2026-11-13T13:08:55Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -8,32 +8,32 @@
  "feeds": {
   "om_ecmwf": {
    "ok": true,
-   "fetched_at": "2026-11-13T12:38:59Z",
+   "fetched_at": "2026-11-13T13:08:55Z",
    "error": null
   },
   "om_gfs": {
    "ok": true,
-   "fetched_at": "2026-11-13T12:38:59Z",
+   "fetched_at": "2026-11-13T13:08:55Z",
    "error": null
   },
   "om_icon": {
    "ok": true,
-   "fetched_at": "2026-11-13T12:38:59Z",
+   "fetched_at": "2026-11-13T13:08:55Z",
    "error": null
   },
   "om_hourly": {
    "ok": true,
-   "fetched_at": "2026-11-13T12:38:59Z",
+   "fetched_at": "2026-11-13T13:08:55Z",
    "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-13T12:38:59Z",
+   "fetched_at": "2026-11-13T13:08:55Z",
    "error": null
   },
   "imd": {
    "ok": true,
-   "fetched_at": "2026-11-13T12:38:59Z",
+   "fetched_at": "2026-11-13T13:08:55Z",
    "error": null
   }
  },
@@ -87,8 +87,8 @@
   "kalpa": "Fri, 13 Nov 2026 12:39:08 GMT",
   "nako": "Fri, 13 Nov 2026 12:39:11 GMT",
   "tabo": "Fri, 13 Nov 2026 12:39:13 GMT",
-  "kaza": "Fri, 13 Nov 2026 12:29:42 GMT",
-  "komic": "Fri, 13 Nov 2026 12:39:17 GMT",
+  "kaza": "Fri, 13 Nov 2026 13:10:07 GMT",
+  "komic": "Fri, 13 Nov 2026 13:10:08 GMT",
   "sarahan": "Fri, 13 Nov 2026 12:39:19 GMT"
  }
 }
