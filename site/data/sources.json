@@ -1,10 +1,10 @@
 [
-{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-13T13:57:00Z", "status": "ok", "detail": null},
-{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-13T13:57:00Z", "status": "ok", "detail": null},
-{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-13T13:57:00Z", "status": "ok", "detail": null},
-{"name": "AccuWeather", "how": "import", "last_read": "2026-11-13T09:30:00Z", "status": "ok", "detail": "Dhar Spiti Sarchu, about 4,300 m. Near Sarchu on the Manali–Leh road, not on the route; runs much colder than Kaza"},
-{"name": "IMD", "how": "import", "last_read": "2026-11-13T09:30:00Z", "status": "ok", "detail": "Spiti valley. Official; 7 days only"},
-{"name": "The Weather Network", "how": "import", "last_read": "2026-11-13T09:30:00Z", "status": "ok", "detail": "Spiti. Closest to Kaza town"},
-{"name": "timeanddate", "how": "import", "last_read": "2026-11-13T09:30:00Z", "status": "ok", "detail": "Lāhul and Spiti district point. Highs look far too warm for late November"},
-{"name": "yr.no", "how": "import", "last_read": "2026-11-13T09:30:00Z", "status": "ok", "detail": "Spiti, 4,330 m. About 700 m above Kaza; read as Komic-height weather"}
+{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-13T14:03:39Z", "status": "ok", "detail": null},
+{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-13T14:03:39Z", "status": "ok", "detail": null},
+{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-13T14:03:39Z", "status": "ok", "detail": null},
+{"name": "AccuWeather", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Dhar Spiti Sarchu, about 4,300 m. Near Sarchu on the Manali–Leh road, not on the route; runs much colder than Kaza"},
+{"name": "IMD", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Spiti valley. Official; 7 days only"},
+{"name": "The Weather Network", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Spiti. Closest to Kaza town"},
+{"name": "timeanddate", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Lāhul and Spiti district point. Highs look far too warm for late November"},
+{"name": "yr.no", "how": "import", "last_read": "2026-11-13T13:49:31Z", "status": "ok", "detail": "Spiti, 4,330 m. About 700 m above Kaza; read as Komic-height weather"}
 ]
