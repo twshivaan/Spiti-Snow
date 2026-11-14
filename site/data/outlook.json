@@ -79,8 +79,8 @@
    "tmin": 5,
    "sky": "Overcast",
    "n_feeds": 8,
-   "based_on": "8 sources, 1° to 27°",
-   "range_lo": 1,
+   "based_on": "8 sources, 0° to 27°",
+   "range_lo": 0,
    "range_hi": 27,
    "snow_places": [],
    "ice": "Low",
@@ -104,9 +104,9 @@
     "alt_m": 2960
    },
    "has_data": true,
-   "tmax": 12,
+   "tmax": 11,
    "tmin": -1,
-   "sky": "Partly cloudy",
+   "sky": "Overcast",
    "n_feeds": 7,
    "based_on": "7 sources, −5° to 18°",
    "range_lo": -5,
@@ -131,12 +131,12 @@
     "alt_m": 2960
    },
    "has_data": true,
-   "tmax": 13,
+   "tmax": 12,
    "tmin": -2,
    "sky": "Clear",
    "n_feeds": 6,
-   "based_on": "6 sources, −5° to 14°",
-   "range_lo": -5,
+   "based_on": "6 sources, −7° to 14°",
+   "range_lo": -7,
    "range_hi": 14,
    "snow_places": [],
    "ice": "Moderate",
@@ -188,8 +188,8 @@
     "alt_m": 3650
    },
    "has_data": true,
-   "tmax": 8,
-   "tmin": -6,
+   "tmax": 7,
+   "tmin": -7,
    "sky": "Clear",
    "n_feeds": 5,
    "based_on": "5 sources, −20° to 11°",
@@ -216,7 +216,7 @@
     "alt_m": 3650
    },
    "has_data": true,
-   "tmax": 5,
+   "tmax": 6,
    "tmin": -7,
    "sky": "Clear",
    "n_feeds": 5,
@@ -280,8 +280,8 @@
    "tmin": 14,
    "sky": "Overcast",
    "n_feeds": 3,
-   "based_on": "3 sources, 13° to 28°",
-   "range_lo": 13,
+   "based_on": "3 sources, 12° to 28°",
+   "range_lo": 12,
    "range_hi": 28,
    "snow_places": [],
    "ice": "Low",
@@ -314,7 +314,7 @@
  "summary": {
   "parts": [
    "Dry on every trip date so far.",
-   "The last snow is forecast for 15 Nov, 9 days before you reach Nako and Spiti.",
+   "The last snow was 15 Nov, 9 days before you reach Nako and Spiti.",
    "Nights freeze from Kalpa onward, so expect black ice in the shade each morning."
   ],
   "snow_dates": [],
@@ -325,7 +325,7 @@
   "coldest": {
    "tmin": -7,
    "place": "Kaza",
-   "date": "2026-11-26"
+   "date": "2026-11-25"
   }
  }
 }
