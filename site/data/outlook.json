@@ -77,9 +77,9 @@
    "has_data": true,
    "tmax": 17,
    "tmin": 5,
-   "sky": "Clear",
-   "n_feeds": 7,
-   "based_on": "7 sources, 1° to 27°",
+   "sky": "Overcast",
+   "n_feeds": 8,
+   "based_on": "8 sources, 1° to 27°",
    "range_lo": 1,
    "range_hi": 27,
    "snow_places": [],
@@ -104,9 +104,9 @@
     "alt_m": 2960
    },
    "has_data": true,
-   "tmax": 11,
+   "tmax": 12,
    "tmin": -1,
-   "sky": "Clear",
+   "sky": "Partly cloudy",
    "n_feeds": 7,
    "based_on": "7 sources, −5° to 18°",
    "range_lo": -5,
@@ -131,12 +131,12 @@
     "alt_m": 2960
    },
    "has_data": true,
-   "tmax": 12,
+   "tmax": 13,
    "tmin": -2,
    "sky": "Clear",
    "n_feeds": 6,
-   "based_on": "6 sources, −6° to 14°",
-   "range_lo": -6,
+   "based_on": "6 sources, −5° to 14°",
+   "range_lo": -5,
    "range_hi": 14,
    "snow_places": [],
    "ice": "Moderate",
@@ -188,9 +188,9 @@
     "alt_m": 3650
    },
    "has_data": true,
-   "tmax": 6,
-   "tmin": -7,
-   "sky": "Partly cloudy",
+   "tmax": 8,
+   "tmin": -6,
+   "sky": "Clear",
    "n_feeds": 5,
    "based_on": "5 sources, −20° to 11°",
    "range_lo": -20,
@@ -217,8 +217,8 @@
    },
    "has_data": true,
    "tmax": 5,
-   "tmin": -6,
-   "sky": "Partly cloudy",
+   "tmin": -7,
+   "sky": "Clear",
    "n_feeds": 5,
    "based_on": "5 sources, −22° to 12°",
    "range_lo": -22,
@@ -248,7 +248,7 @@
    "has_data": true,
    "tmax": 16,
    "tmin": 5,
-   "sky": "Partly cloudy",
+   "sky": "Clear",
    "n_feeds": 5,
    "based_on": "5 sources, 0° to 20°",
    "range_lo": 0,
@@ -276,17 +276,17 @@
     "alt_m": null
    },
    "has_data": true,
-   "tmax": 27,
-   "tmin": 16,
-   "sky": "Partly cloudy",
-   "n_feeds": 2,
-   "based_on": "2 sources, 14° to 29°",
-   "range_lo": 14,
-   "range_hi": 29,
+   "tmax": 26,
+   "tmin": 14,
+   "sky": "Overcast",
+   "n_feeds": 3,
+   "based_on": "3 sources, 13° to 28°",
+   "range_lo": 13,
+   "range_hi": 28,
    "snow_places": [],
    "ice": "Low",
    "ice_reason": "nights above freezing (Sarahan)",
-   "days_since_snow": 13
+   "days_since_snow": null
   }
  ],
  "hourly_sources": [
@@ -325,7 +325,7 @@
   "coldest": {
    "tmin": -7,
    "place": "Kaza",
-   "date": "2026-11-25"
+   "date": "2026-11-26"
   }
  }
 }
