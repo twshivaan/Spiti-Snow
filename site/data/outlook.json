@@ -104,7 +104,7 @@
     "alt_m": 2960
    },
    "has_data": true,
-   "tmax": 13,
+   "tmax": 11,
    "tmin": -1,
    "sky": "Clear",
    "n_feeds": 7,
@@ -132,10 +132,10 @@
    },
    "has_data": true,
    "tmax": 12,
-   "tmin": -1,
+   "tmin": -2,
    "sky": "Clear",
-   "n_feeds": 5,
-   "based_on": "5 sources, −6° to 14°",
+   "n_feeds": 6,
+   "based_on": "6 sources, −6° to 14°",
    "range_lo": -6,
    "range_hi": 14,
    "snow_places": [],
@@ -160,7 +160,7 @@
     "alt_m": 3280
    },
    "has_data": true,
-   "tmax": 9,
+   "tmax": 8,
    "tmin": -6,
    "sky": "Clear",
    "n_feeds": 5,
@@ -246,7 +246,7 @@
     "alt_m": 2165
    },
    "has_data": true,
-   "tmax": 18,
+   "tmax": 16,
    "tmin": 5,
    "sky": "Partly cloudy",
    "n_feeds": 5,
@@ -286,7 +286,7 @@
    "snow_places": [],
    "ice": "Low",
    "ice_reason": "nights above freezing (Sarahan)",
-   "days_since_snow": null
+   "days_since_snow": 13
   }
  ],
  "hourly_sources": [

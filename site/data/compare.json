@@ -45,8 +45,8 @@
      "Very warm with spells of sunshine"
     ],
     "metno": [
-     17.3,
-     4.1,
+     16.2,
+     4.3,
      "Clear"
     ],
     "om_ecmwf": [
@@ -81,7 +81,7 @@
    "date": "2026-11-22",
    "place": "Kalpa",
    "median": [
-    13,
+    11,
     -1
    ],
    "values": {
@@ -91,8 +91,8 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     12.5,
-     -2.9,
+     8.9,
+     -4.7,
      "Clear"
     ],
     "om_ecmwf": [
@@ -101,9 +101,9 @@
      "Clear"
     ],
     "om_gfs": [
-     11.4,
-     2.8,
-     "Partly cloudy"
+     8.4,
+     0.7,
+     "Clear"
     ],
     "timeanddate": [
      13,
@@ -128,7 +128,7 @@
    "place": "Kalpa",
    "median": [
     12,
-    -1
+    -2
    ],
    "values": {
     "accuweather": [
@@ -136,14 +136,19 @@
      -4,
      "Long periods of sunshine"
     ],
+    "metno": [
+     10.6,
+     -5.8,
+     "Clear"
+    ],
     "om_ecmwf": [
      12.0,
      -5.6,
      "Clear"
     ],
     "om_gfs": [
-     12.0,
-     1.6,
+     11.7,
+     1.4,
      "Clear"
     ],
     "timeanddate": [
@@ -163,7 +168,7 @@
    "date": "2026-11-24",
    "place": "Tabo",
    "median": [
-    9,
+    8,
     -6
    ],
    "values": {
@@ -178,8 +183,8 @@
      "Clear"
     ],
     "om_gfs": [
-     8.5,
-     0.5,
+     8.4,
+     0.3,
      "Clear"
     ],
     "timeanddate": [
@@ -214,9 +219,9 @@
      "Partly cloudy"
     ],
     "om_gfs": [
-     5.6,
-     -2.8,
-     "Clear"
+     5.9,
+     -1.8,
+     "Overcast"
     ],
     "timeanddate": [
      11,
@@ -250,9 +255,9 @@
      "Partly cloudy"
     ],
     "om_gfs": [
-     5.4,
-     -2.7,
-     "Clear"
+     5.1,
+     -1.9,
+     "Overcast"
     ],
     "timeanddate": [
      12,
@@ -271,7 +276,7 @@
    "date": "2026-11-27",
    "place": "Sarahan",
    "median": [
-    18,
+    16,
     5
    ],
    "values": {
@@ -286,9 +291,9 @@
      "Partly cloudy"
     ],
     "om_gfs": [
-     18.5,
-     7.4,
-     "Overcast"
+     16.2,
+     5.7,
+     "Clear"
     ],
     "timeanddate": [
      14,
