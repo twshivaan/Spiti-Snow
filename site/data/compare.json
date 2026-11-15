@@ -49,23 +49,23 @@
      "Very warm with spells of sunshine"
     ],
     "metno": [
-     15.7,
-     4.6,
+     15.8,
+     4.7,
      "Clear"
     ],
     "om_ecmwf": [
-     16.1,
-     -0.0,
+     15.8,
+     -0.1,
      "Overcast"
     ],
     "om_gfs": [
      16.2,
-     4.4,
-     "Clear"
+     4.3,
+     "Overcast"
     ],
     "om_icon": [
-     15.9,
-     4.0,
+     15.2,
+     3.9,
      "Overcast"
     ],
     "timeanddate": [
@@ -91,7 +91,7 @@
    "place": "Kalpa",
    "median": [
     11,
-    -1
+    0
    ],
    "values": {
     "accuweather": [
@@ -100,19 +100,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     9.4,
-     -2.1,
-     "Partly cloudy"
+     10.2,
+     -1.9,
+     "Fair"
     ],
     "om_ecmwf": [
-     10.7,
-     -2.0,
+     11.6,
+     -1.5,
      "Overcast"
     ],
     "om_gfs": [
      9.7,
      1.8,
-     "Partly cloudy"
+     "Overcast"
+    ],
+    "om_icon": [
+     10.3,
+     2.1,
+     "Overcast"
     ],
     "timeanddate": [
      13,
@@ -146,18 +151,18 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     9.9,
-     -8.2,
+     10.4,
+     -4.6,
      "Clear"
     ],
     "om_ecmwf": [
-     11.1,
-     -7.4,
+     11.8,
+     -4.3,
      "Clear"
     ],
     "om_gfs": [
-     11.5,
-     1.7,
+     11.8,
+     2.0,
      "Clear"
     ],
     "timeanddate": [
@@ -178,7 +183,7 @@
    "place": "Tabo",
    "median": [
     8,
-    -4
+    -5
    ],
    "values": {
     "accuweather": [
@@ -187,18 +192,18 @@
      "Sunny spells"
     ],
     "metno": [
-     7.8,
-     -2.4,
+     8.1,
+     -2.3,
      "Clear"
     ],
     "om_ecmwf": [
-     8.7,
-     -6.0,
+     8.4,
+     -6.9,
      "Clear"
     ],
     "om_gfs": [
-     8.3,
-     0.7,
+     8.5,
+     1.0,
      "Clear"
     ],
     "timeanddate": [
@@ -219,7 +224,7 @@
    "place": "Kaza",
    "median": [
     7,
-    -7
+    -6
    ],
    "values": {
     "accuweather": [
@@ -228,13 +233,13 @@
      "Sunny spells"
     ],
     "om_ecmwf": [
-     6.8,
-     -7.6,
-     "Clear"
+     8.0,
+     -5.8,
+     "Partly cloudy"
     ],
     "om_gfs": [
-     7.2,
-     -0.8,
+     6.9,
+     -1.2,
      "Clear"
     ],
     "timeanddate": [
@@ -264,13 +269,13 @@
      "Sunny periods"
     ],
     "om_ecmwf": [
-     6.4,
-     -7.1,
+     6.5,
+     -6.8,
      "Clear"
     ],
     "om_gfs": [
-     6.8,
-     -0.7,
+     6.2,
+     -1.4,
      "Clear"
     ],
     "timeanddate": [
@@ -290,7 +295,7 @@
    "date": "2026-11-27",
    "place": "Sarahan",
    "median": [
-    16,
+    17,
     5
    ],
    "values": {
@@ -300,13 +305,13 @@
      "Long sunny spells"
     ],
     "om_ecmwf": [
-     19.7,
-     4.6,
+     19.4,
+     3.8,
      "Clear"
     ],
     "om_gfs": [
-     15.6,
-     5.7,
+     16.9,
+     6.8,
      "Clear"
     ],
     "timeanddate": [
@@ -331,14 +336,14 @@
    ],
    "values": {
     "om_ecmwf": [
-     23.4,
-     11.6,
-     "Overcast"
+     22.9,
+     9.6,
+     "Clear"
     ],
     "om_gfs": [
      28.7,
-     17.5,
-     "Overcast"
+     17.1,
+     "Clear"
     ],
     "timeanddate": [
      26,
