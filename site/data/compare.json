@@ -39,7 +39,7 @@
    "date": "2026-11-21",
    "place": "Shimla",
    "median": [
-    17,
+    16,
     5
    ],
    "values": {
@@ -49,8 +49,8 @@
      "Very warm with spells of sunshine"
     ],
     "metno": [
-     15.8,
-     5.1,
+     15.7,
+     4.6,
      "Clear"
     ],
     "om_ecmwf": [
@@ -59,13 +59,13 @@
      "Overcast"
     ],
     "om_gfs": [
-     16.9,
-     4.7,
+     16.2,
+     4.4,
      "Clear"
     ],
     "om_icon": [
-     15.3,
-     4.2,
+     15.9,
+     4.0,
      "Overcast"
     ],
     "timeanddate": [
@@ -101,8 +101,8 @@
     ],
     "metno": [
      9.4,
-     -4.6,
-     "Clear"
+     -2.1,
+     "Partly cloudy"
     ],
     "om_ecmwf": [
      10.7,
@@ -110,8 +110,8 @@
      "Overcast"
     ],
     "om_gfs": [
-     10.5,
-     2.2,
+     9.7,
+     1.8,
      "Partly cloudy"
     ],
     "timeanddate": [
@@ -146,8 +146,8 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     11.2,
-     -5.2,
+     9.9,
+     -8.2,
      "Clear"
     ],
     "om_ecmwf": [
@@ -156,8 +156,8 @@
      "Clear"
     ],
     "om_gfs": [
-     10.4,
-     1.0,
+     11.5,
+     1.7,
      "Clear"
     ],
     "timeanddate": [
@@ -178,7 +178,7 @@
    "place": "Tabo",
    "median": [
     8,
-    -6
+    -4
    ],
    "values": {
     "accuweather": [
@@ -186,14 +186,19 @@
      -17,
      "Sunny spells"
     ],
+    "metno": [
+     7.8,
+     -2.4,
+     "Clear"
+    ],
     "om_ecmwf": [
      8.7,
      -6.0,
      "Clear"
     ],
     "om_gfs": [
-     7.1,
-     -0.6,
+     8.3,
+     0.7,
      "Clear"
     ],
     "timeanddate": [
@@ -228,9 +233,9 @@
      "Clear"
     ],
     "om_gfs": [
-     6.6,
-     -1.6,
-     "Partly cloudy"
+     7.2,
+     -0.8,
+     "Clear"
     ],
     "timeanddate": [
      11,
@@ -264,8 +269,8 @@
      "Clear"
     ],
     "om_gfs": [
-     5.9,
-     -2.0,
+     6.8,
+     -0.7,
      "Clear"
     ],
     "timeanddate": [
@@ -300,7 +305,7 @@
      "Clear"
     ],
     "om_gfs": [
-     16.4,
+     15.6,
      5.7,
      "Clear"
     ],
@@ -331,9 +336,9 @@
      "Overcast"
     ],
     "om_gfs": [
-     28.0,
-     16.8,
-     "Clear"
+     28.7,
+     17.5,
+     "Overcast"
     ],
     "timeanddate": [
      26,
