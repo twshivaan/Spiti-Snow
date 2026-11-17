@@ -79,8 +79,8 @@
    "tmin": 5,
    "sky": "Overcast",
    "n_feeds": 9,
-   "based_on": "9 sources, 0° to 23°",
-   "range_lo": 0,
+   "based_on": "9 sources, 1° to 23°",
+   "range_lo": 1,
    "range_hi": 23,
    "snow_places": [],
    "ice": "Low",
@@ -106,7 +106,7 @@
    "has_data": true,
    "tmax": 11,
    "tmin": 0,
-   "sky": "Mainly clear",
+   "sky": "Partly cloudy",
    "n_feeds": 8,
    "based_on": "8 sources, −4° to 17°",
    "range_lo": -4,
@@ -135,8 +135,8 @@
    "tmin": -1,
    "sky": "Clear",
    "n_feeds": 8,
-   "based_on": "8 sources, −4° to 15°",
-   "range_lo": -4,
+   "based_on": "8 sources, −5° to 15°",
+   "range_lo": -5,
    "range_hi": 15,
    "snow_places": [],
    "ice": "Moderate",
@@ -189,7 +189,7 @@
    },
    "has_data": true,
    "tmax": 6,
-   "tmin": -5,
+   "tmin": -7,
    "sky": "Clear",
    "n_feeds": 6,
    "based_on": "6 sources, −20° to 14°",
@@ -216,7 +216,7 @@
     "alt_m": 3650
    },
    "has_data": true,
-   "tmax": 6,
+   "tmax": 5,
    "tmin": -6,
    "sky": "Clear",
    "n_feeds": 6,
@@ -278,11 +278,11 @@
    "has_data": true,
    "tmax": 25,
    "tmin": 13,
-   "sky": "Clear",
+   "sky": "Overcast",
    "n_feeds": 5,
-   "based_on": "5 sources, 10° to 29°",
-   "range_lo": 10,
-   "range_hi": 29,
+   "based_on": "5 sources, 11° to 27°",
+   "range_lo": 11,
+   "range_hi": 27,
    "snow_places": [],
    "ice": "Low",
    "ice_reason": "nights above freezing (Sarahan)",
@@ -323,9 +323,9 @@
  "facts": {
   "last_snow": "2026-11-15",
   "coldest": {
-   "tmin": -6,
+   "tmin": -7,
    "place": "Kaza",
-   "date": "2026-11-26"
+   "date": "2026-11-25"
   }
  }
 }

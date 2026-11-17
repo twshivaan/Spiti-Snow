@@ -1,7 +1,7 @@
 [
-{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-17T03:57:05Z", "status": "ok", "detail": null},
-{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-17T03:57:05Z", "status": "ok", "detail": null},
-{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-17T03:57:05Z", "status": "ok", "detail": null},
+{"name": "Open-Meteo, 3 models", "how": "automatic", "last_read": "2026-11-17T16:07:29Z", "status": "ok", "detail": null},
+{"name": "MET Norway (yr.no)", "how": "automatic", "last_read": "2026-11-17T16:07:29Z", "status": "ok", "detail": null},
+{"name": "IMD Spiti", "how": "automatic", "last_read": "2026-11-17T16:07:29Z", "status": "ok", "detail": null},
 {"name": "AccuWeather", "how": "import", "last_read": "2026-11-15T21:26:33Z", "status": "ok", "detail": "Its old Spiti page was Dhar Spiti Sarchu, far off the route; search each town instead. Last import covered 8 of 9 places."},
 {"name": "IMD", "how": "import", "last_read": "2026-11-15T21:26:33Z", "status": "ok", "detail": "Official, 7 days only, and only some towns have a page. Last import covered 7 of 9 places."},
 {"name": "The Weather Network", "how": "import", "last_read": "2026-11-15T21:26:33Z", "status": "ok", "detail": "Up to 14 days. Last import covered 8 of 9 places."},
