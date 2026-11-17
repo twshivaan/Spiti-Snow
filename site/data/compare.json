@@ -58,23 +58,23 @@
      "Mainly Clear sky"
     ],
     "metno": [
-     15.7,
-     4.9,
-     "Clear"
+     15.5,
+     4.5,
+     "Overcast"
     ],
     "om_ecmwf": [
-     15.8,
-     0.5,
+     15.3,
+     0.4,
      "Overcast"
     ],
     "om_gfs": [
-     16.0,
+     15.8,
      4.2,
-     "Mainly clear"
+     "Overcast"
     ],
     "om_icon": [
-     15.2,
-     4.2,
+     15.6,
+     4.8,
      "Overcast"
     ],
     "timeanddate": [
@@ -109,18 +109,18 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     9.9,
-     -1.8,
+     10.1,
+     -3.6,
      "Clear"
     ],
     "om_ecmwf": [
-     11.1,
-     -2.9,
-     "Partly cloudy"
+     10.8,
+     -4.2,
+     "Mainly clear"
     ],
     "om_gfs": [
-     11.4,
-     3.2,
+     11.5,
+     2.7,
      "Overcast"
     ],
     "om_icon": [
@@ -160,18 +160,18 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     10.8,
-     -4.8,
+     11.9,
+     -4.5,
      "Clear"
     ],
     "om_ecmwf": [
-     12.1,
-     -4.4,
+     13.8,
+     -4.3,
      "Clear"
     ],
     "om_gfs": [
-     11.8,
-     2.8,
+     12.4,
+     2.6,
      "Clear"
     ],
     "om_icon": [
@@ -211,18 +211,18 @@
      "Sunny spells"
     ],
     "metno": [
-     8.1,
-     -2.5,
+     9.4,
+     -1.3,
      "Clear"
     ],
     "om_ecmwf": [
-     8.9,
-     -6.0,
+     10.2,
+     -4.6,
      "Clear"
     ],
     "om_gfs": [
-     9.8,
-     2.6,
+     9.0,
+     2.1,
      "Clear"
     ],
     "timeanddate": [
@@ -247,8 +247,8 @@
    "date": "2026-11-25",
    "place": "Kaza",
    "median": [
-    7,
-    -6
+    6,
+    -5
    ],
    "values": {
     "accuweather": [
@@ -257,18 +257,18 @@
      "Sunny spells"
     ],
     "metno": [
-     4.2,
-     -7.5,
+     5.3,
+     -6.5,
      "Clear"
     ],
     "om_ecmwf": [
-     8.1,
-     -5.4,
+     8.7,
+     -4.4,
      "Clear"
     ],
     "om_gfs": [
-     7.2,
-     -0.2,
+     6.4,
+     -0.7,
      "Clear"
     ],
     "timeanddate": [
@@ -288,8 +288,8 @@
    "date": "2026-11-26",
    "place": "Kaza",
    "median": [
-    7,
-    -5
+    6,
+    -6
    ],
    "values": {
     "accuweather": [
@@ -297,13 +297,18 @@
      -20,
      "Sunny spells"
     ],
+    "metno": [
+     4.4,
+     -7.3,
+     "Clear"
+    ],
     "om_ecmwf": [
-     7.9,
-     -5.1,
+     8.1,
+     -5.2,
      "Clear"
     ],
     "om_gfs": [
-     6.7,
+     6.0,
      -1.0,
      "Clear"
     ],
@@ -334,13 +339,13 @@
      "Remaining warm, long sunny spells"
     ],
     "om_ecmwf": [
-     19.0,
-     4.1,
+     20.1,
+     4.8,
      "Clear"
     ],
     "om_gfs": [
-     17.1,
-     6.8,
+     18.4,
+     7.0,
      "Clear"
     ],
     "timeanddate": [
@@ -370,14 +375,14 @@
      "Long periods of sunshine"
     ],
     "om_ecmwf": [
-     23.8,
-     10.8,
+     23.9,
+     10.0,
      "Clear"
     ],
     "om_gfs": [
-     28.9,
-     17.6,
-     "Overcast"
+     28.7,
+     17.7,
+     "Mainly clear"
     ],
     "timeanddate": [
      26,
