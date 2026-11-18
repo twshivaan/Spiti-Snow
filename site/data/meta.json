@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-18T00:59:28Z",
+ "built_at": "2026-11-18T11:50:06Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,28 +7,28 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-18T00:59:28Z",
-   "error": null
+   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "om_gfs": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-18T00:59:28Z",
-   "error": null
+   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "om_icon": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-18T00:59:28Z",
-   "error": null
+   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "om_hourly": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-18T00:59:28Z",
-   "error": null
+   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; home models: <urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-18T00:59:28Z",
+   "fetched_at": "2026-11-18T11:50:06Z",
    "error": null
   },
   "imd": {
@@ -40,7 +40,7 @@
  "manual_read_at": "2026-11-15T21:26:33Z",
  "notes_written_at": "2026-11-13T11:30:00Z",
  "first_date": "2026-11-06",
- "last_date": "2026-12-02",
+ "last_date": "2026-12-03",
  "invalid_files": [],
  "elevations": {
   "home": {
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Wed, 18 Nov 2026 00:59:29 GMT",
-  "shimla": "Wed, 18 Nov 2026 00:59:30 GMT",
-  "narkanda": "Wed, 18 Nov 2026 00:59:31 GMT",
-  "kalpa": "Wed, 18 Nov 2026 00:59:32 GMT",
-  "nako": "Wed, 18 Nov 2026 00:59:34 GMT",
-  "tabo": "Wed, 18 Nov 2026 01:00:08 GMT",
-  "kaza": "Wed, 18 Nov 2026 01:00:09 GMT",
-  "komic": "Wed, 18 Nov 2026 01:00:10 GMT",
-  "sarahan": "Wed, 18 Nov 2026 01:00:12 GMT"
+  "home": "Wed, 18 Nov 2026 11:53:13 GMT",
+  "shimla": "Wed, 18 Nov 2026 11:53:47 GMT",
+  "narkanda": "Wed, 18 Nov 2026 11:53:48 GMT",
+  "kalpa": "Wed, 18 Nov 2026 11:53:50 GMT",
+  "nako": "Wed, 18 Nov 2026 11:53:52 GMT",
+  "tabo": "Wed, 18 Nov 2026 11:53:53 GMT",
+  "kaza": "Wed, 18 Nov 2026 11:53:54 GMT",
+  "komic": "Wed, 18 Nov 2026 11:53:55 GMT",
+  "sarahan": "Wed, 18 Nov 2026 11:53:56 GMT"
  }
 }
