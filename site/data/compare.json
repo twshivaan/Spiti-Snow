@@ -58,24 +58,24 @@
      "Mainly Clear sky"
     ],
     "metno": [
-     15.8,
-     3.9,
+     16.0,
+     4.1,
      "Partly cloudy"
     ],
     "om_ecmwf": [
-     15.9,
-     1.0,
+     16.4,
+     1.3,
      "Overcast"
     ],
     "om_gfs": [
-     15.3,
-     5.4,
+     14.8,
+     5.0,
      "Overcast"
     ],
     "om_icon": [
-     16.2,
+     16.1,
      5.5,
-     "Overcast"
+     "Fog"
     ],
     "timeanddate": [
      12,
@@ -114,19 +114,19 @@
      "Clear"
     ],
     "om_ecmwf": [
-     10.1,
-     -6.9,
-     "Light drizzle"
+     10.5,
+     -5.4,
+     "Mainly clear"
     ],
     "om_gfs": [
-     9.4,
-     2.6,
+     8.9,
+     2.0,
      "Light drizzle"
     ],
     "om_icon": [
-     10.1,
-     0.4,
-     "Overcast"
+     9.8,
+     0.8,
+     "Partly cloudy"
     ],
     "timeanddate": [
      17,
@@ -165,18 +165,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     10.6,
-     -7.3,
+     9.8,
+     -6.1,
      "Clear"
     ],
     "om_gfs": [
-     10.5,
-     2.1,
-     "Overcast"
+     10.1,
+     1.5,
+     "Clear"
     ],
     "om_icon": [
-     10.5,
-     -0.6,
+     11.6,
+     0.3,
      "Clear"
     ],
     "timeanddate": [
@@ -216,19 +216,19 @@
      "Clear"
     ],
     "om_ecmwf": [
-     8.5,
-     -7.2,
+     7.2,
+     -8.0,
      "Clear"
     ],
     "om_gfs": [
      6.7,
-     0.5,
+     -0.1,
      "Clear"
     ],
     "om_icon": [
-     7.9,
-     -0.5,
-     "Mainly clear"
+     8.9,
+     0.2,
+     "Clear"
     ],
     "timeanddate": [
      15,
@@ -253,7 +253,7 @@
    "place": "Kaza",
    "median": [
     6,
-    -6
+    -7
    ],
    "values": {
     "accuweather": [
@@ -267,13 +267,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     7.9,
-     -6.0,
+     7.3,
+     -6.5,
      "Clear"
     ],
     "om_gfs": [
-     5.6,
-     -2.4,
+     5.5,
+     -2.9,
+     "Clear"
+    ],
+    "om_icon": [
+     8.0,
+     -7.5,
      "Clear"
     ],
     "timeanddate": [
@@ -293,7 +298,7 @@
    "date": "2026-11-26",
    "place": "Kaza",
    "median": [
-    5,
+    6,
     -6
    ],
    "values": {
@@ -308,13 +313,13 @@
      "Clear"
     ],
     "om_ecmwf": [
-     8.0,
-     -5.6,
+     7.7,
+     -5.8,
      "Clear"
     ],
     "om_gfs": [
-     5.4,
-     -2.0,
+     6.1,
+     -2.3,
      "Clear"
     ],
     "timeanddate": [
@@ -349,13 +354,13 @@
      "Clear"
     ],
     "om_ecmwf": [
-     18.3,
-     4.5,
+     19.1,
+     4.6,
      "Clear"
     ],
     "om_gfs": [
-     16.5,
-     6.1,
+     15.5,
+     5.5,
      "Clear"
     ],
     "timeanddate": [
@@ -385,12 +390,12 @@
      "Long periods of sunshine"
     ],
     "om_ecmwf": [
-     23.4,
-     10.6,
+     23.9,
+     10.9,
      "Clear"
     ],
     "om_gfs": [
-     28.2,
+     28.3,
      17.0,
      "Clear"
     ],
