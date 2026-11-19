@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-19T02:37:24Z",
+ "built_at": "2026-11-19T11:47:12Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -8,39 +8,39 @@
  "feeds": {
   "om_ecmwf": {
    "ok": true,
-   "fetched_at": "2026-11-19T02:37:24Z",
+   "fetched_at": "2026-11-19T11:47:12Z",
    "error": null
   },
   "om_gfs": {
    "ok": true,
-   "fetched_at": "2026-11-19T02:37:24Z",
+   "fetched_at": "2026-11-19T11:47:12Z",
    "error": null
   },
   "om_icon": {
    "ok": true,
-   "fetched_at": "2026-11-19T02:37:24Z",
+   "fetched_at": "2026-11-19T11:47:12Z",
    "error": null
   },
   "om_hourly": {
    "ok": true,
-   "fetched_at": "2026-11-19T02:37:24Z",
+   "fetched_at": "2026-11-19T11:47:12Z",
    "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-19T02:37:24Z",
+   "fetched_at": "2026-11-19T11:47:12Z",
    "error": null
   },
   "imd": {
-   "ok": false,
-   "fetched_at": "2026-11-17T16:07:29Z",
-   "error": "page layout not recognised, skipped"
+   "ok": true,
+   "fetched_at": "2026-11-19T11:47:12Z",
+   "error": null
   }
  },
  "manual_read_at": "2026-11-15T21:26:33Z",
  "notes_written_at": "2026-11-13T11:30:00Z",
  "first_date": "2026-11-06",
- "last_date": "2026-12-03",
+ "last_date": "2026-12-04",
  "invalid_files": [],
  "elevations": {
   "home": {
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Thu, 19 Nov 2026 02:37:25 GMT",
-  "shimla": "Thu, 19 Nov 2026 02:37:26 GMT",
-  "narkanda": "Thu, 19 Nov 2026 02:37:27 GMT",
-  "kalpa": "Thu, 19 Nov 2026 02:37:28 GMT",
-  "nako": "Thu, 19 Nov 2026 02:37:29 GMT",
-  "tabo": "Thu, 19 Nov 2026 02:37:30 GMT",
-  "kaza": "Thu, 19 Nov 2026 02:37:31 GMT",
-  "komic": "Thu, 19 Nov 2026 02:37:32 GMT",
-  "sarahan": "Thu, 19 Nov 2026 02:37:33 GMT"
+  "home": "Thu, 19 Nov 2026 11:47:13 GMT",
+  "shimla": "Thu, 19 Nov 2026 11:47:14 GMT",
+  "narkanda": "Thu, 19 Nov 2026 11:47:16 GMT",
+  "kalpa": "Thu, 19 Nov 2026 11:47:17 GMT",
+  "nako": "Thu, 19 Nov 2026 11:47:51 GMT",
+  "tabo": "Thu, 19 Nov 2026 11:47:52 GMT",
+  "kaza": "Thu, 19 Nov 2026 11:47:53 GMT",
+  "komic": "Thu, 19 Nov 2026 11:47:55 GMT",
+  "sarahan": "Thu, 19 Nov 2026 11:47:56 GMT"
  }
 }

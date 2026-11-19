@@ -17,6 +17,10 @@
    "name": "MET Norway"
   },
   {
+   "id": "imd",
+   "name": "IMD Spiti (automatic)"
+  },
+  {
    "id": "accuweather",
    "name": "AccuWeather"
   },
@@ -58,23 +62,23 @@
      "Mainly Clear sky"
     ],
     "metno": [
-     16.2,
-     3.1,
+     15.9,
+     3.4,
      "Partly cloudy"
     ],
     "om_ecmwf": [
-     16.2,
-     1.1,
+     16.0,
+     0.9,
      "Overcast"
     ],
     "om_gfs": [
-     14.7,
-     4.8,
+     15.5,
+     5.3,
      "Overcast"
     ],
     "om_icon": [
-     15.7,
-     5.3,
+     15.4,
+     5.2,
      "Overcast"
     ],
     "timeanddate": [
@@ -100,7 +104,7 @@
    "place": "Kalpa",
    "median": [
     11,
-    0
+    -1
    ],
    "values": {
     "accuweather": [
@@ -109,24 +113,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     9.8,
-     -6.3,
+     9.4,
+     -6.8,
      "Clear"
     ],
     "om_ecmwf": [
-     10.5,
-     -5.2,
-     "Mainly clear"
+     10.3,
+     -6.1,
+     "Partly cloudy"
     ],
     "om_gfs": [
-     9.7,
-     1.8,
+     10.6,
+     1.9,
      "Overcast"
     ],
     "om_icon": [
-     11.2,
-     2.0,
-     "Clear"
+     10.5,
+     0.9,
+     "Mainly clear"
     ],
     "timeanddate": [
      17,
@@ -160,23 +164,23 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     8.4,
-     -5.7,
+     8.1,
+     -6.3,
      "Clear"
     ],
     "om_ecmwf": [
-     9.9,
-     -5.9,
+     9.4,
+     -6.3,
      "Clear"
     ],
     "om_gfs": [
-     8.6,
-     0.7,
+     9.0,
+     0.8,
      "Clear"
     ],
     "om_icon": [
-     12.3,
-     1.6,
+     11.3,
+     0.7,
      "Clear"
     ],
     "timeanddate": [
@@ -202,7 +206,7 @@
    "place": "Tabo",
    "median": [
     8,
-    -4
+    -3
    ],
    "values": {
     "accuweather": [
@@ -211,24 +215,24 @@
      "Sunny spells"
     ],
     "metno": [
-     6.2,
-     -5.2,
+     6.3,
+     -4.9,
      "Clear"
     ],
     "om_ecmwf": [
-     7.9,
-     -7.6,
+     7.5,
+     -7.9,
      "Clear"
     ],
     "om_gfs": [
-     5.4,
-     -1.2,
+     5.8,
+     -1.0,
      "Clear"
     ],
     "om_icon": [
-     8.9,
-     0.2,
-     "Clear"
+     8.6,
+     -1.1,
+     "Mainly clear"
     ],
     "timeanddate": [
      15,
@@ -244,6 +248,11 @@
      10,
      -3,
      "Clear sky"
+    ],
+    "imd": [
+     16.0,
+     -1.0,
+     "Mainly clear sky"
     ]
    }
   },
@@ -252,7 +261,7 @@
    "date": "2026-11-25",
    "place": "Kaza",
    "median": [
-    6,
+    7,
     -7
    ],
    "values": {
@@ -267,18 +276,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     7.3,
-     -6.5,
+     7.0,
+     -6.4,
      "Clear"
     ],
     "om_gfs": [
-     5.5,
-     -3.0,
-     "Clear"
+     5.2,
+     -3.2,
+     "Mainly clear"
     ],
     "om_icon": [
      8.0,
-     -7.5,
+     -6.7,
      "Clear"
     ],
     "timeanddate": [
@@ -290,6 +299,11 @@
      4,
      -7,
      "Sunny, few clouds in afternoon"
+    ],
+    "imd": [
+     17.0,
+     0.0,
+     "Mainly clear sky"
     ]
    }
   },
@@ -299,7 +313,7 @@
    "place": "Kaza",
    "median": [
     5,
-    -6
+    -7
    ],
    "values": {
     "accuweather": [
@@ -309,17 +323,17 @@
     ],
     "metno": [
      3.9,
-     -7.9,
+     -8.1,
      "Clear"
     ],
     "om_ecmwf": [
      7.7,
-     -5.8,
+     -6.3,
      "Clear"
     ],
     "om_gfs": [
-     5.5,
-     -2.3,
+     5.3,
+     -2.8,
      "Clear"
     ],
     "timeanddate": [
@@ -349,19 +363,19 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     19.2,
-     4.8,
+     19.5,
+     4.5,
      "Clear"
     ],
     "om_ecmwf": [
-     19.1,
-     4.6,
+     19.4,
+     4.3,
      "Clear"
     ],
     "om_gfs": [
-     16.2,
-     5.4,
-     "Clear"
+     16.8,
+     5.7,
+     "Partly cloudy"
     ],
     "timeanddate": [
      14,
@@ -390,17 +404,17 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     22.1,
-     11.2,
+     21.7,
+     11.3,
      "Clear"
     ],
     "om_ecmwf": [
-     23.9,
-     10.9,
-     "Clear"
+     23.3,
+     10.6,
+     "Overcast"
     ],
     "om_gfs": [
-     28.2,
+     28.1,
      17.1,
      "Clear"
     ],
