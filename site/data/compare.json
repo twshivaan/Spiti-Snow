@@ -62,23 +62,23 @@
      "Mainly Clear sky"
     ],
     "metno": [
-     15.9,
-     3.4,
+     15.3,
+     3.7,
      "Partly cloudy"
     ],
     "om_ecmwf": [
-     16.0,
+     15.4,
      0.9,
      "Overcast"
     ],
     "om_gfs": [
-     15.5,
+     15.6,
      5.3,
      "Overcast"
     ],
     "om_icon": [
-     15.4,
-     5.2,
+     14.9,
+     5.3,
      "Overcast"
     ],
     "timeanddate": [
@@ -113,24 +113,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     9.4,
+     10.1,
      -6.8,
-     "Clear"
+     "Fair"
     ],
     "om_ecmwf": [
-     10.3,
-     -6.1,
+     10.5,
+     -4.9,
      "Partly cloudy"
     ],
     "om_gfs": [
-     10.6,
-     1.9,
+     10.2,
+     1.6,
      "Overcast"
     ],
     "om_icon": [
-     10.5,
-     0.9,
-     "Mainly clear"
+     10.8,
+     0.8,
+     "Clear"
     ],
     "timeanddate": [
      17,
@@ -169,18 +169,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     9.4,
-     -6.3,
+     10.0,
+     -6.0,
      "Clear"
     ],
     "om_gfs": [
-     9.0,
-     0.8,
+     8.6,
+     0.2,
      "Clear"
     ],
     "om_icon": [
-     11.3,
-     0.7,
+     11.0,
+     0.3,
      "Clear"
     ],
     "timeanddate": [
@@ -220,19 +220,19 @@
      "Clear"
     ],
     "om_ecmwf": [
-     7.5,
-     -7.9,
+     7.6,
+     -7.8,
      "Clear"
     ],
     "om_gfs": [
-     5.8,
-     -1.0,
-     "Clear"
+     5.5,
+     -1.4,
+     "Partly cloudy"
     ],
     "om_icon": [
-     8.6,
-     -1.1,
-     "Mainly clear"
+     8.4,
+     -1.8,
+     "Clear"
     ],
     "timeanddate": [
      15,
@@ -277,17 +277,17 @@
     ],
     "om_ecmwf": [
      7.0,
-     -6.4,
+     -6.8,
      "Clear"
     ],
     "om_gfs": [
-     5.2,
+     5.1,
      -3.2,
-     "Mainly clear"
+     "Clear"
     ],
     "om_icon": [
-     8.0,
-     -6.7,
+     7.7,
+     -7.6,
      "Clear"
     ],
     "timeanddate": [
@@ -332,8 +332,13 @@
      "Clear"
     ],
     "om_gfs": [
-     5.3,
+     5.0,
      -2.8,
+     "Clear"
+    ],
+    "om_icon": [
+     7.6,
+     -6.8,
      "Clear"
     ],
     "timeanddate": [
@@ -373,9 +378,9 @@
      "Clear"
     ],
     "om_gfs": [
-     16.8,
-     5.7,
-     "Partly cloudy"
+     15.9,
+     5.2,
+     "Clear"
     ],
     "timeanddate": [
      14,
@@ -414,8 +419,8 @@
      "Overcast"
     ],
     "om_gfs": [
-     28.1,
-     17.1,
+     28.3,
+     17.2,
      "Clear"
     ],
     "timeanddate": [
