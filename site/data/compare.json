@@ -47,7 +47,7 @@
    "date": "2026-11-21",
    "place": "Shimla",
    "median": [
-    16,
+    15,
     5
    ],
    "values": {
@@ -62,23 +62,23 @@
      "Mainly Clear sky"
     ],
     "metno": [
-     15.3,
-     3.7,
+     14.9,
+     3.3,
      "Partly cloudy"
     ],
     "om_ecmwf": [
-     15.4,
-     0.9,
+     15.0,
+     1.0,
      "Overcast"
     ],
     "om_gfs": [
-     15.6,
+     15.0,
      5.3,
      "Overcast"
     ],
     "om_icon": [
      14.9,
-     5.3,
+     5.4,
      "Overcast"
     ],
     "timeanddate": [
@@ -103,7 +103,7 @@
    "date": "2026-11-22",
    "place": "Kalpa",
    "median": [
-    11,
+    10,
     -1
    ],
    "values": {
@@ -113,23 +113,23 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     10.1,
-     -6.8,
+     9.9,
+     -4.8,
      "Fair"
     ],
     "om_ecmwf": [
-     10.5,
-     -4.9,
-     "Partly cloudy"
+     10.3,
+     -4.1,
+     "Mainly clear"
     ],
     "om_gfs": [
      10.2,
-     1.6,
+     1.7,
      "Overcast"
     ],
     "om_icon": [
-     10.8,
-     0.8,
+     10.6,
+     0.9,
      "Clear"
     ],
     "timeanddate": [
@@ -154,7 +154,7 @@
    "date": "2026-11-23",
    "place": "Kalpa",
    "median": [
-    11,
+    10,
     -1
    ],
    "values": {
@@ -164,14 +164,14 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     8.1,
-     -6.3,
+     8.4,
+     -7.2,
      "Clear"
     ],
     "om_ecmwf": [
-     10.0,
-     -6.0,
-     "Clear"
+     9.9,
+     -6.5,
+     "Partly cloudy"
     ],
     "om_gfs": [
      8.6,
@@ -179,8 +179,8 @@
      "Clear"
     ],
     "om_icon": [
-     11.0,
-     0.3,
+     10.7,
+     0.4,
      "Clear"
     ],
     "timeanddate": [
@@ -215,24 +215,24 @@
      "Sunny spells"
     ],
     "metno": [
-     6.3,
-     -4.9,
+     6.1,
+     -5.3,
      "Clear"
     ],
     "om_ecmwf": [
-     7.6,
-     -7.8,
-     "Clear"
+     7.1,
+     -8.2,
+     "Mainly clear"
     ],
     "om_gfs": [
-     5.5,
+     5.3,
      -1.4,
-     "Partly cloudy"
+     "Clear"
     ],
     "om_icon": [
-     8.4,
-     -1.8,
-     "Clear"
+     8.3,
+     -0.4,
+     "Partly cloudy"
     ],
     "timeanddate": [
      15,
@@ -261,7 +261,7 @@
    "date": "2026-11-25",
    "place": "Kaza",
    "median": [
-    7,
+    6,
     -7
    ],
    "values": {
@@ -271,13 +271,13 @@
      "Sunny spells"
     ],
     "metno": [
-     3.4,
-     -8.5,
+     3.0,
+     -9.0,
      "Clear"
     ],
     "om_ecmwf": [
-     7.0,
-     -6.8,
+     6.2,
+     -7.1,
      "Clear"
     ],
     "om_gfs": [
@@ -322,18 +322,18 @@
      "Sunny spells"
     ],
     "metno": [
-     3.9,
-     -8.1,
+     2.6,
+     -9.3,
      "Clear"
     ],
     "om_ecmwf": [
-     7.7,
-     -6.3,
+     6.6,
+     -7.5,
      "Clear"
     ],
     "om_gfs": [
      5.0,
-     -2.8,
+     -2.9,
      "Clear"
     ],
     "om_icon": [
@@ -358,7 +358,7 @@
    "date": "2026-11-27",
    "place": "Sarahan",
    "median": [
-    19,
+    18,
     5
    ],
    "values": {
@@ -368,18 +368,18 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     19.5,
-     4.5,
+     18.2,
+     4.6,
      "Clear"
     ],
     "om_ecmwf": [
-     19.4,
-     4.3,
+     18.1,
+     4.2,
      "Clear"
     ],
     "om_gfs": [
-     15.9,
-     5.2,
+     16.4,
+     5.4,
      "Clear"
     ],
     "timeanddate": [
@@ -409,18 +409,18 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     21.7,
-     11.3,
+     21.6,
+     11.1,
      "Clear"
     ],
     "om_ecmwf": [
-     23.3,
-     10.6,
-     "Overcast"
+     23.2,
+     10.7,
+     "Clear"
     ],
     "om_gfs": [
      28.3,
-     17.2,
+     16.9,
      "Clear"
     ],
     "timeanddate": [
