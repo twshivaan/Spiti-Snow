@@ -131,7 +131,7 @@
     "alt_m": 2960
    },
    "has_data": true,
-   "tmax": 10,
+   "tmax": 11,
    "tmin": -1,
    "sky": "Partly cloudy",
    "n_feeds": 8,
@@ -217,7 +217,7 @@
    },
    "has_data": true,
    "tmax": 5,
-   "tmin": -7,
+   "tmin": -8,
    "sky": "Clear",
    "n_feeds": 7,
    "based_on": "7 sources, −20° to 14°",
@@ -280,8 +280,8 @@
    "tmin": 13,
    "sky": "Clear",
    "n_feeds": 6,
-   "based_on": "6 sources, 11° to 28°",
-   "range_lo": 11,
+   "based_on": "6 sources, 10° to 28°",
+   "range_lo": 10,
    "range_hi": 28,
    "snow_places": [],
    "ice": "Low",
@@ -323,9 +323,9 @@
  "facts": {
   "last_snow": "2026-11-15",
   "coldest": {
-   "tmin": -7,
+   "tmin": -8,
    "place": "Kaza",
-   "date": "2026-11-25"
+   "date": "2026-11-26"
   }
  }
 }

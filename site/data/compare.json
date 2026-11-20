@@ -62,23 +62,23 @@
      "Mainly Clear sky"
     ],
     "metno": [
-     14.9,
-     3.3,
+     14.6,
+     3.8,
      "Partly cloudy"
     ],
     "om_ecmwf": [
-     15.0,
-     1.0,
+     14.9,
+     1.3,
      "Overcast"
     ],
     "om_gfs": [
-     15.0,
+     14.7,
      5.3,
      "Overcast"
     ],
     "om_icon": [
-     14.9,
-     5.4,
+     14.4,
+     5.2,
      "Overcast"
     ],
     "timeanddate": [
@@ -114,23 +114,23 @@
     ],
     "metno": [
      9.9,
-     -4.8,
+     -5.3,
      "Fair"
     ],
     "om_ecmwf": [
-     10.3,
-     -4.1,
+     10.5,
+     -4.7,
      "Mainly clear"
     ],
     "om_gfs": [
-     10.2,
-     1.7,
-     "Overcast"
+     9.9,
+     1.4,
+     "Clear"
     ],
     "om_icon": [
-     10.6,
-     0.9,
-     "Clear"
+     10.3,
+     0.7,
+     "Partly cloudy"
     ],
     "timeanddate": [
      17,
@@ -154,7 +154,7 @@
    "date": "2026-11-23",
    "place": "Kalpa",
    "median": [
-    10,
+    11,
     -1
    ],
    "values": {
@@ -165,22 +165,22 @@
     ],
     "metno": [
      8.4,
-     -7.2,
+     -6.8,
      "Clear"
     ],
     "om_ecmwf": [
-     9.9,
-     -6.5,
+     10.0,
+     -6.4,
      "Partly cloudy"
     ],
     "om_gfs": [
-     8.6,
-     0.2,
+     9.9,
+     0.4,
      "Clear"
     ],
     "om_icon": [
-     10.7,
-     0.4,
+     11.1,
+     1.1,
      "Clear"
     ],
     "timeanddate": [
@@ -215,24 +215,24 @@
      "Sunny spells"
     ],
     "metno": [
-     6.1,
-     -5.3,
+     6.0,
+     -5.2,
      "Clear"
     ],
     "om_ecmwf": [
-     7.1,
-     -8.2,
+     7.0,
+     -7.9,
      "Mainly clear"
     ],
     "om_gfs": [
-     5.3,
-     -1.4,
+     6.2,
+     -1.3,
      "Clear"
     ],
     "om_icon": [
-     8.3,
-     -0.4,
-     "Partly cloudy"
+     8.5,
+     -2.8,
+     "Mainly clear"
     ],
     "timeanddate": [
      15,
@@ -271,23 +271,23 @@
      "Sunny spells"
     ],
     "metno": [
-     3.0,
-     -9.0,
+     2.7,
+     -9.3,
      "Clear"
     ],
     "om_ecmwf": [
      6.2,
-     -7.1,
+     -7.3,
      "Clear"
     ],
     "om_gfs": [
-     5.1,
-     -3.2,
+     5.7,
+     -2.7,
      "Clear"
     ],
     "om_icon": [
-     7.7,
-     -7.6,
+     7.6,
+     -6.5,
      "Clear"
     ],
     "timeanddate": [
@@ -313,7 +313,7 @@
    "place": "Kaza",
    "median": [
     5,
-    -7
+    -8
    ],
    "values": {
     "accuweather": [
@@ -322,23 +322,23 @@
      "Sunny spells"
     ],
     "metno": [
-     2.6,
-     -9.3,
+     2.7,
+     -9.2,
      "Clear"
     ],
     "om_ecmwf": [
-     6.6,
-     -7.5,
+     6.2,
+     -7.9,
      "Clear"
     ],
     "om_gfs": [
-     5.0,
-     -2.9,
+     5.1,
+     -2.3,
      "Clear"
     ],
     "om_icon": [
-     7.6,
-     -6.8,
+     7.4,
+     -9.4,
      "Clear"
     ],
     "timeanddate": [
@@ -368,18 +368,18 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     18.2,
-     4.6,
+     18.0,
+     4.0,
      "Clear"
     ],
     "om_ecmwf": [
-     18.1,
-     4.2,
+     18.2,
+     4.0,
      "Clear"
     ],
     "om_gfs": [
      16.4,
-     5.4,
+     5.7,
      "Clear"
     ],
     "timeanddate": [
@@ -409,18 +409,18 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     21.6,
-     11.1,
+     21.4,
+     10.5,
      "Clear"
     ],
     "om_ecmwf": [
-     23.2,
-     10.7,
+     22.9,
+     9.9,
      "Clear"
     ],
     "om_gfs": [
-     28.3,
-     16.9,
+     28.0,
+     17.0,
      "Clear"
     ],
     "timeanddate": [
