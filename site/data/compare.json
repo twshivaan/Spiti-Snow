@@ -64,21 +64,21 @@
     "metno": [
      14.6,
      3.8,
-     "Partly cloudy"
+     "Overcast"
     ],
     "om_ecmwf": [
-     14.1,
-     1.5,
+     13.8,
+     1.4,
      "Overcast"
     ],
     "om_gfs": [
-     14.8,
-     5.0,
+     14.9,
+     5.2,
      "Overcast"
     ],
     "om_icon": [
      14.6,
-     5.2,
+     4.7,
      "Overcast"
     ],
     "timeanddate": [
@@ -104,7 +104,7 @@
    "place": "Kalpa",
    "median": [
     11,
-    -2
+    0
    ],
    "values": {
     "accuweather": [
@@ -113,24 +113,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     10.1,
-     -5.6,
+     9.9,
+     -5.8,
      "Fair"
     ],
     "om_ecmwf": [
-     10.6,
-     -4.9,
+     10.4,
+     -4.5,
      "Mainly clear"
     ],
     "om_gfs": [
      10.0,
-     1.3,
+     1.2,
      "Clear"
     ],
     "om_icon": [
-     10.8,
-     -2.1,
-     "Clear"
+     10.7,
+     1.3,
+     "Mainly clear"
     ],
     "timeanddate": [
      17,
@@ -164,23 +164,23 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     9.6,
-     -6.8,
+     9.4,
+     -6.5,
      "Clear"
     ],
     "om_ecmwf": [
-     10.0,
-     -6.7,
+     9.8,
+     -6.4,
      "Mainly clear"
     ],
     "om_gfs": [
-     9.8,
+     9.7,
      0.3,
      "Clear"
     ],
     "om_icon": [
-     10.9,
-     0.6,
+     9.9,
+     0.2,
      "Clear"
     ],
     "timeanddate": [
@@ -215,24 +215,24 @@
      "Sunny spells"
     ],
     "metno": [
-     6.0,
-     -5.2,
+     6.3,
+     -4.7,
      "Clear"
     ],
     "om_ecmwf": [
-     7.5,
-     -8.2,
+     7.2,
+     -8.1,
      "Mainly clear"
     ],
     "om_gfs": [
-     6.5,
+     6.4,
      -1.0,
      "Mainly clear"
     ],
     "om_icon": [
-     8.5,
-     -1.8,
-     "Mainly clear"
+     8.3,
+     -1.7,
+     "Overcast"
     ],
     "timeanddate": [
      15,
@@ -272,22 +272,22 @@
     ],
     "metno": [
      2.7,
-     -9.3,
+     -9.4,
      "Clear"
     ],
     "om_ecmwf": [
-     6.2,
+     6.6,
      -7.1,
      "Clear"
     ],
     "om_gfs": [
-     5.9,
-     -2.7,
+     6.0,
+     -2.5,
      "Clear"
     ],
     "om_icon": [
      7.5,
-     -8.0,
+     -9.1,
      "Clear"
     ],
     "timeanddate": [
@@ -322,18 +322,18 @@
      "Sunny spells"
     ],
     "metno": [
-     2.7,
-     -9.2,
+     2.4,
+     -9.5,
      "Clear"
     ],
     "om_ecmwf": [
-     6.3,
-     -7.6,
+     6.6,
+     -7.2,
      "Clear"
     ],
     "om_gfs": [
-     5.3,
-     -2.2,
+     5.6,
+     -2.0,
      "Clear"
     ],
     "om_icon": [
@@ -373,8 +373,8 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     18.0,
-     4.0,
+     18.2,
+     4.5,
      "Clear"
     ],
     "om_ecmwf": [
@@ -419,9 +419,9 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     21.4,
-     10.5,
-     "Clear"
+     21.8,
+     11.1,
+     "Partly cloudy"
     ],
     "om_ecmwf": [
      23.4,
@@ -429,8 +429,8 @@
      "Overcast"
     ],
     "om_gfs": [
-     27.0,
-     16.8,
+     27.6,
+     17.0,
      "Clear"
     ],
     "timeanddate": [
