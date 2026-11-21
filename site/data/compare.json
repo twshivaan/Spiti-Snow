@@ -64,21 +64,21 @@
     "metno": [
      14.6,
      3.8,
-     "Overcast"
+     "Partly cloudy"
     ],
     "om_ecmwf": [
      13.8,
-     1.4,
+     0.9,
      "Overcast"
     ],
     "om_gfs": [
-     14.9,
-     5.2,
+     14.8,
+     5.3,
      "Overcast"
     ],
     "om_icon": [
-     14.6,
-     4.7,
+     13.7,
+     4.8,
      "Overcast"
     ],
     "timeanddate": [
@@ -103,8 +103,8 @@
    "date": "2026-11-22",
    "place": "Kalpa",
    "median": [
-    11,
-    0
+    10,
+    -1
    ],
    "values": {
     "accuweather": [
@@ -113,24 +113,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     9.9,
+     10.2,
      -5.8,
      "Fair"
     ],
     "om_ecmwf": [
-     10.4,
-     -4.5,
-     "Mainly clear"
+     10.6,
+     -4.6,
+     "Partly cloudy"
     ],
     "om_gfs": [
      10.0,
-     1.2,
+     1.0,
      "Clear"
     ],
     "om_icon": [
-     10.7,
-     1.3,
-     "Mainly clear"
+     10.3,
+     0.4,
+     "Overcast"
     ],
     "timeanddate": [
      17,
@@ -165,21 +165,21 @@
     ],
     "metno": [
      9.4,
-     -6.5,
+     -6.8,
      "Clear"
     ],
     "om_ecmwf": [
-     9.8,
-     -6.4,
+     10.0,
+     -6.7,
      "Mainly clear"
     ],
     "om_gfs": [
-     9.7,
-     0.3,
+     9.6,
+     0.2,
      "Clear"
     ],
     "om_icon": [
-     9.9,
+     10.2,
      0.2,
      "Clear"
     ],
@@ -216,23 +216,23 @@
     ],
     "metno": [
      6.3,
-     -4.7,
+     -5.1,
      "Clear"
     ],
     "om_ecmwf": [
      7.2,
-     -8.1,
+     -8.0,
      "Mainly clear"
     ],
     "om_gfs": [
-     6.4,
-     -1.0,
-     "Mainly clear"
+     6.3,
+     -1.4,
+     "Clear"
     ],
     "om_icon": [
-     8.3,
-     -1.7,
-     "Overcast"
+     8.7,
+     -3.5,
+     "Partly cloudy"
     ],
     "timeanddate": [
      15,
@@ -276,18 +276,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     6.6,
+     6.4,
      -7.1,
      "Clear"
     ],
     "om_gfs": [
-     6.0,
-     -2.5,
+     5.9,
+     -2.7,
      "Clear"
     ],
     "om_icon": [
      7.5,
-     -9.1,
+     -8.5,
      "Clear"
     ],
     "timeanddate": [
@@ -327,18 +327,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     6.6,
-     -7.2,
+     6.7,
+     -7.1,
      "Clear"
     ],
     "om_gfs": [
-     5.6,
-     -2.0,
+     5.7,
+     -2.2,
      "Clear"
     ],
     "om_icon": [
-     6.8,
-     -8.2,
+     7.6,
+     -9.3,
      "Clear"
     ],
     "timeanddate": [
@@ -378,18 +378,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     18.3,
-     4.2,
+     18.0,
+     4.4,
      "Clear"
     ],
     "om_gfs": [
-     16.8,
-     6.0,
+     16.7,
+     6.1,
      "Clear"
     ],
     "om_icon": [
-     19.3,
-     9.8,
+     19.2,
+     9.6,
      "Clear"
     ],
     "timeanddate": [
@@ -424,13 +424,13 @@
      "Partly cloudy"
     ],
     "om_ecmwf": [
-     23.4,
-     10.9,
-     "Overcast"
+     23.2,
+     10.8,
+     "Clear"
     ],
     "om_gfs": [
-     27.6,
-     17.0,
+     27.0,
+     16.7,
      "Clear"
     ],
     "timeanddate": [
