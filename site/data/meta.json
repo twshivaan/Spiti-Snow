@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-21T19:22:29Z",
+ "built_at": "2026-11-22T01:23:17Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,33 +7,33 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": false,
-   "fetched_at": "2026-11-21T11:13:21Z",
-   "error": "home: HTTP Error 429: Too Many Requests; shimla: HTTP Error 429: Too Many Requests; narkanda: HTTP Error 429: Too Many Requests; kalpa: HTTP Error 429: Too Many Requests; nako: HTTP Error 429: Too Many Requests; tabo: HTTP Error 429: Too Many Requests; kaza: HTTP Error 429: Too Many Requests; komic:"
+   "ok": true,
+   "fetched_at": "2026-11-22T01:23:17Z",
+   "error": null
   },
   "om_gfs": {
-   "ok": false,
-   "fetched_at": "2026-11-21T11:13:21Z",
-   "error": "home: HTTP Error 429: Too Many Requests; shimla: HTTP Error 429: Too Many Requests; narkanda: HTTP Error 429: Too Many Requests; kalpa: HTTP Error 429: Too Many Requests; nako: HTTP Error 429: Too Many Requests; tabo: HTTP Error 429: Too Many Requests; kaza: HTTP Error 429: Too Many Requests; komic:"
+   "ok": true,
+   "fetched_at": "2026-11-22T01:23:17Z",
+   "error": null
   },
   "om_icon": {
-   "ok": false,
-   "fetched_at": "2026-11-21T11:13:21Z",
-   "error": "home: HTTP Error 429: Too Many Requests; shimla: HTTP Error 429: Too Many Requests; narkanda: HTTP Error 429: Too Many Requests; kalpa: HTTP Error 429: Too Many Requests; nako: HTTP Error 429: Too Many Requests; tabo: HTTP Error 429: Too Many Requests; kaza: HTTP Error 429: Too Many Requests; komic:"
+   "ok": true,
+   "fetched_at": "2026-11-22T01:23:17Z",
+   "error": null
   },
   "om_hourly": {
-   "ok": false,
-   "fetched_at": "2026-11-21T11:13:21Z",
-   "error": "home: HTTP Error 429: Too Many Requests; home models: HTTP Error 429: Too Many Requests; shimla: HTTP Error 429: Too Many Requests; shimla models: HTTP Error 429: Too Many Requests; narkanda: HTTP Error 429: Too Many Requests; narkanda models: HTTP Error 429: Too Many Requests; kalpa: HTTP Error 429"
+   "ok": true,
+   "fetched_at": "2026-11-22T01:23:17Z",
+   "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-21T19:22:29Z",
+   "fetched_at": "2026-11-22T01:23:17Z",
    "error": null
   },
   "imd": {
    "ok": true,
-   "fetched_at": "2026-11-21T19:22:29Z",
+   "fetched_at": "2026-11-22T01:23:17Z",
    "error": null
   }
  },
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Sat, 21 Nov 2026 19:22:29 GMT",
-  "shimla": "Sat, 21 Nov 2026 19:22:30 GMT",
-  "narkanda": "Sat, 21 Nov 2026 19:22:31 GMT",
-  "kalpa": "Sat, 21 Nov 2026 19:22:31 GMT",
-  "nako": "Sat, 21 Nov 2026 19:22:32 GMT",
-  "tabo": "Sat, 21 Nov 2026 19:22:33 GMT",
-  "kaza": "Sat, 21 Nov 2026 19:22:33 GMT",
-  "komic": "Sat, 21 Nov 2026 19:22:34 GMT",
-  "sarahan": "Sat, 21 Nov 2026 19:22:35 GMT"
+  "home": "Sun, 22 Nov 2026 01:23:18 GMT",
+  "shimla": "Sun, 22 Nov 2026 01:23:19 GMT",
+  "narkanda": "Sun, 22 Nov 2026 01:23:20 GMT",
+  "kalpa": "Sun, 22 Nov 2026 01:23:21 GMT",
+  "nako": "Sun, 22 Nov 2026 01:23:22 GMT",
+  "tabo": "Sun, 22 Nov 2026 01:23:23 GMT",
+  "kaza": "Sun, 22 Nov 2026 01:23:24 GMT",
+  "komic": "Sun, 22 Nov 2026 01:23:25 GMT",
+  "sarahan": "Sun, 22 Nov 2026 01:23:26 GMT"
  }
 }
