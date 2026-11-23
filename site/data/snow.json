@@ -101,7 +101,7 @@
 {"place": "home", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 7, "snow_cm": 0.0, "reported": false, "ice": "Low", "ice_reason": "nights above freezing", "days_since_snow": null},
 {"place": "kalpa", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 7, "snow_cm": 0.0, "reported": false, "ice": "Low", "ice_reason": "nights above freezing", "days_since_snow": 10},
 {"place": "kaza", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 8, "snow_cm": 0.0, "reported": false, "ice": "Moderate", "ice_reason": "nights below freezing", "days_since_snow": 10},
-{"place": "komic", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 8, "snow_cm": 0.07, "reported": false, "ice": "Moderate", "ice_reason": "nights below freezing", "days_since_snow": 10},
+{"place": "komic", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 8, "snow_cm": 0.0, "reported": false, "ice": "Moderate", "ice_reason": "nights below freezing", "days_since_snow": 10},
 {"place": "nako", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 8, "snow_cm": 0.0, "reported": false, "ice": "Moderate", "ice_reason": "nights below freezing", "days_since_snow": 10},
 {"place": "narkanda", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 7, "snow_cm": 0.0, "reported": false, "ice": "Low", "ice_reason": "nights above freezing", "days_since_snow": null},
 {"place": "sarahan", "date": "2026-11-25", "snow_signal": false, "snow_feeds": 0, "n_feeds": 7, "snow_cm": 0.0, "reported": false, "ice": "Low", "ice_reason": "nights above freezing", "days_since_snow": null},
