@@ -169,17 +169,17 @@
      "Clear"
     ],
     "om_ecmwf": [
-     9.7,
+     9.4,
      -6.7,
      "Mainly clear"
     ],
     "om_gfs": [
-     9.7,
-     0.3,
+     9.8,
+     0.1,
      "Clear"
     ],
     "om_icon": [
-     10.9,
+     10.8,
      0.5,
      "Clear"
     ],
@@ -216,23 +216,23 @@
     ],
     "metno": [
      8.2,
-     -4.9,
+     -5.2,
      "Fair"
     ],
     "om_ecmwf": [
      7.3,
-     -7.9,
+     -8.0,
      "Mainly clear"
     ],
     "om_gfs": [
-     6.3,
-     -2.2,
-     "Clear"
+     6.2,
+     -1.3,
+     "Mainly clear"
     ],
     "om_icon": [
      9.1,
-     -2.6,
-     "Partly cloudy"
+     -2.5,
+     "Mainly clear"
     ],
     "timeanddate": [
      15,
@@ -271,23 +271,23 @@
      "Sunny spells"
     ],
     "metno": [
-     5.3,
-     -9.3,
+     5.4,
+     -9.4,
      "Clear"
     ],
     "om_ecmwf": [
-     6.5,
-     -6.7,
+     6.6,
+     -7.0,
      "Clear"
     ],
     "om_gfs": [
-     6.0,
+     5.8,
      -3.2,
      "Clear"
     ],
     "om_icon": [
-     7.9,
-     -9.7,
+     8.0,
+     -7.1,
      "Clear"
     ],
     "timeanddate": [
@@ -323,21 +323,21 @@
     ],
     "metno": [
      2.9,
-     -8.8,
+     -8.7,
      "Clear"
     ],
     "om_ecmwf": [
-     6.8,
-     -6.7,
+     6.9,
+     -6.6,
      "Clear"
     ],
     "om_gfs": [
      5.6,
-     -3.3,
+     -3.2,
      "Clear"
     ],
     "om_icon": [
-     7.8,
+     7.9,
      -8.8,
      "Clear"
     ],
@@ -373,23 +373,23 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     17.6,
-     4.1,
+     17.8,
+     4.6,
      "Clear"
     ],
     "om_ecmwf": [
-     17.7,
-     4.1,
+     17.6,
+     4.4,
      "Clear"
     ],
     "om_gfs": [
-     15.7,
+     16.2,
      6.0,
      "Clear"
     ],
     "om_icon": [
-     19.0,
-     9.9,
+     19.3,
+     10.0,
      "Clear"
     ],
     "timeanddate": [
@@ -424,18 +424,18 @@
      "Clear"
     ],
     "om_ecmwf": [
-     23.4,
-     10.8,
+     23.3,
+     10.6,
      "Clear"
     ],
     "om_gfs": [
-     26.9,
+     27.1,
      16.1,
      "Clear"
     ],
     "om_icon": [
-     23.4,
-     11.8,
+     23.2,
+     12.6,
      "Mainly clear"
     ],
     "timeanddate": [
