@@ -169,7 +169,7 @@
      "Clear"
     ],
     "om_ecmwf": [
-     9.4,
+     9.6,
      -6.7,
      "Mainly clear"
     ],
@@ -221,17 +221,17 @@
     ],
     "om_ecmwf": [
      7.3,
-     -8.0,
+     -8.2,
      "Mainly clear"
     ],
     "om_gfs": [
      6.2,
-     -1.3,
-     "Mainly clear"
+     -1.2,
+     "Clear"
     ],
     "om_icon": [
-     9.1,
-     -2.5,
+     8.7,
+     -1.8,
      "Mainly clear"
     ],
     "timeanddate": [
@@ -271,23 +271,23 @@
      "Sunny spells"
     ],
     "metno": [
-     5.4,
-     -9.4,
+     5.3,
+     -9.5,
      "Clear"
     ],
     "om_ecmwf": [
-     6.6,
-     -7.0,
+     6.3,
+     -6.9,
      "Clear"
     ],
     "om_gfs": [
-     5.8,
+     5.9,
      -3.2,
      "Clear"
     ],
     "om_icon": [
-     8.0,
-     -7.1,
+     7.9,
+     -9.3,
      "Clear"
     ],
     "timeanddate": [
@@ -322,23 +322,23 @@
      "Sunny spells"
     ],
     "metno": [
-     2.9,
-     -8.7,
+     5.7,
+     -9.1,
      "Clear"
     ],
     "om_ecmwf": [
-     6.9,
-     -6.6,
+     6.7,
+     -6.9,
      "Clear"
     ],
     "om_gfs": [
-     5.6,
-     -3.2,
+     5.4,
+     -3.3,
      "Clear"
     ],
     "om_icon": [
-     7.9,
-     -8.8,
+     7.6,
+     -7.9,
      "Clear"
     ],
     "timeanddate": [
@@ -373,23 +373,23 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     17.8,
-     4.6,
+     17.6,
+     4.2,
      "Clear"
     ],
     "om_ecmwf": [
-     17.6,
-     4.4,
+     17.5,
+     4.1,
      "Clear"
     ],
     "om_gfs": [
-     16.2,
-     6.0,
+     15.9,
+     5.9,
      "Clear"
     ],
     "om_icon": [
-     19.3,
-     10.0,
+     18.7,
+     9.7,
      "Clear"
     ],
     "timeanddate": [
@@ -419,23 +419,23 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     21.6,
+     21.9,
      11.2,
      "Clear"
     ],
     "om_ecmwf": [
      23.3,
-     10.6,
+     10.7,
      "Clear"
     ],
     "om_gfs": [
-     27.1,
-     16.1,
+     26.9,
+     16.2,
      "Clear"
     ],
     "om_icon": [
-     23.2,
-     12.6,
+     23.4,
+     11.3,
      "Mainly clear"
     ],
     "timeanddate": [
