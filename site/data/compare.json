@@ -271,23 +271,23 @@
      "Sunny spells"
     ],
     "metno": [
-     5.3,
+     5.4,
      -9.4,
      "Clear"
     ],
     "om_ecmwf": [
-     6.3,
-     -7.0,
+     6.5,
+     -6.9,
      "Clear"
     ],
     "om_gfs": [
      6.3,
-     -1.8,
+     -1.7,
      "Clear"
     ],
     "om_icon": [
-     7.7,
-     -7.1,
+     7.8,
+     -9.6,
      "Clear"
     ],
     "timeanddate": [
@@ -322,23 +322,23 @@
      "Sunny spells"
     ],
     "metno": [
-     5.6,
+     5.7,
      -9.0,
      "Clear"
     ],
     "om_ecmwf": [
-     6.7,
-     -6.6,
+     6.8,
+     -6.5,
      "Clear"
     ],
     "om_gfs": [
-     6.0,
-     -1.7,
+     6.1,
+     -1.6,
      "Clear"
     ],
     "om_icon": [
-     7.6,
-     -8.2,
+     7.7,
+     -7.3,
      "Clear"
     ],
     "timeanddate": [
@@ -373,7 +373,7 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     17.6,
+     18.1,
      4.2,
      "Clear"
     ],
@@ -383,13 +383,13 @@
      "Clear"
     ],
     "om_gfs": [
-     15.9,
-     6.1,
+     16.0,
+     5.9,
      "Clear"
     ],
     "om_icon": [
-     18.9,
-     10.1,
+     18.8,
+     10.2,
      "Clear"
     ],
     "timeanddate": [
@@ -419,24 +419,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     21.7,
-     11.3,
+     22.2,
+     11.5,
      "Clear"
     ],
     "om_ecmwf": [
-     23.4,
-     11.0,
+     23.7,
+     11.1,
      "Clear"
     ],
     "om_gfs": [
-     26.9,
-     16.2,
+     26.5,
+     16.0,
      "Clear"
     ],
     "om_icon": [
-     23.5,
-     11.3,
-     "Clear"
+     23.1,
+     11.9,
+     "Overcast"
     ],
     "timeanddate": [
      26,

@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-24T13:50:45Z",
+ "built_at": "2026-11-24T23:55:31Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -8,32 +8,32 @@
  "feeds": {
   "om_ecmwf": {
    "ok": true,
-   "fetched_at": "2026-11-24T13:50:45Z",
+   "fetched_at": "2026-11-24T23:55:31Z",
    "error": null
   },
   "om_gfs": {
    "ok": true,
-   "fetched_at": "2026-11-24T13:50:45Z",
+   "fetched_at": "2026-11-24T23:55:31Z",
    "error": null
   },
   "om_icon": {
    "ok": true,
-   "fetched_at": "2026-11-24T13:50:45Z",
+   "fetched_at": "2026-11-24T23:55:31Z",
    "error": null
   },
   "om_hourly": {
    "ok": true,
-   "fetched_at": "2026-11-24T13:50:45Z",
+   "fetched_at": "2026-11-24T23:55:31Z",
    "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-24T13:50:45Z",
+   "fetched_at": "2026-11-24T23:55:31Z",
    "error": null
   },
   "imd": {
    "ok": true,
-   "fetched_at": "2026-11-24T13:50:45Z",
+   "fetched_at": "2026-11-24T23:55:31Z",
    "error": null
   }
  },
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Tue, 24 Nov 2026 13:50:45 GMT",
-  "shimla": "Tue, 24 Nov 2026 13:50:46 GMT",
-  "narkanda": "Tue, 24 Nov 2026 13:50:47 GMT",
-  "kalpa": "Tue, 24 Nov 2026 13:50:48 GMT",
-  "nako": "Tue, 24 Nov 2026 13:50:49 GMT",
-  "tabo": "Tue, 24 Nov 2026 13:50:50 GMT",
-  "kaza": "Tue, 24 Nov 2026 13:50:51 GMT",
-  "komic": "Tue, 24 Nov 2026 13:50:51 GMT",
-  "sarahan": "Tue, 24 Nov 2026 13:50:52 GMT"
+  "home": "Tue, 24 Nov 2026 23:55:32 GMT",
+  "shimla": "Tue, 24 Nov 2026 23:55:33 GMT",
+  "narkanda": "Tue, 24 Nov 2026 23:55:34 GMT",
+  "kalpa": "Tue, 24 Nov 2026 23:55:35 GMT",
+  "nako": "Tue, 24 Nov 2026 23:55:36 GMT",
+  "tabo": "Tue, 24 Nov 2026 23:55:38 GMT",
+  "kaza": "Tue, 24 Nov 2026 23:55:39 GMT",
+  "komic": "Tue, 24 Nov 2026 23:55:40 GMT",
+  "sarahan": "Tue, 24 Nov 2026 23:55:41 GMT"
  }
 }
