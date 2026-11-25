@@ -281,7 +281,7 @@
      "Clear"
     ],
     "om_gfs": [
-     6.3,
+     6.0,
      -1.7,
      "Clear"
     ],
@@ -328,17 +328,17 @@
     ],
     "om_ecmwf": [
      6.7,
-     -6.8,
+     -6.7,
      "Clear"
     ],
     "om_gfs": [
-     6.1,
-     -1.6,
+     5.7,
+     -2.3,
      "Clear"
     ],
     "om_icon": [
-     7.5,
-     -8.3,
+     7.3,
+     -9.0,
      "Clear"
     ],
     "timeanddate": [
@@ -373,23 +373,23 @@
      "Remaining warm, long sunny spells"
     ],
     "metno": [
-     18.0,
-     3.9,
+     17.9,
+     4.1,
      "Clear"
     ],
     "om_ecmwf": [
-     17.7,
-     3.8,
+     17.4,
+     3.9,
      "Clear"
     ],
     "om_gfs": [
      16.1,
-     6.0,
+     6.1,
      "Clear"
     ],
     "om_icon": [
-     18.7,
-     9.7,
+     18.5,
+     9.2,
      "Clear"
     ],
     "timeanddate": [
@@ -409,7 +409,7 @@
    "date": "2026-11-28",
    "place": "Home",
    "median": [
-    23,
+    24,
     13
    ],
    "values": {
@@ -419,24 +419,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     22.2,
-     11.3,
+     23.7,
+     11.5,
      "Clear"
     ],
     "om_ecmwf": [
-     23.4,
-     11.0,
+     23.5,
+     11.2,
      "Clear"
     ],
     "om_gfs": [
-     26.6,
-     15.9,
-     "Overcast"
+     26.4,
+     15.8,
+     "Clear"
     ],
     "om_icon": [
-     23.1,
-     11.3,
-     "Overcast"
+     23.7,
+     11.1,
+     "Clear"
     ],
     "timeanddate": [
      26,

@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-25T08:43:06Z",
+ "built_at": "2026-11-25T19:21:51Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,28 +7,28 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-25T08:43:06Z",
-   "error": null
+   "error": "shimla: HTTP Error 503: Service Unavailable"
   },
   "om_gfs": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-25T08:43:06Z",
-   "error": null
+   "error": "shimla: HTTP Error 503: Service Unavailable"
   },
   "om_icon": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-25T08:43:06Z",
-   "error": null
+   "error": "shimla: HTTP Error 503: Service Unavailable"
   },
   "om_hourly": {
-   "ok": true,
+   "ok": false,
    "fetched_at": "2026-11-25T08:43:06Z",
-   "error": null
+   "error": "home models: HTTP Error 503: Service Unavailable; shimla models: HTTP Error 503: Service Unavailable"
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-25T08:43:06Z",
+   "fetched_at": "2026-11-25T19:21:51Z",
    "error": null
   },
   "imd": {
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Wed, 25 Nov 2026 08:43:07 GMT",
-  "shimla": "Wed, 25 Nov 2026 08:43:08 GMT",
-  "narkanda": "Wed, 25 Nov 2026 08:43:09 GMT",
-  "kalpa": "Wed, 25 Nov 2026 08:43:10 GMT",
-  "nako": "Wed, 25 Nov 2026 08:43:11 GMT",
-  "tabo": "Wed, 25 Nov 2026 08:43:12 GMT",
-  "kaza": "Wed, 25 Nov 2026 08:43:13 GMT",
-  "komic": "Wed, 25 Nov 2026 08:43:14 GMT",
-  "sarahan": "Wed, 25 Nov 2026 08:43:15 GMT"
+  "home": "Wed, 25 Nov 2026 19:22:02 GMT",
+  "shimla": "Wed, 25 Nov 2026 19:22:15 GMT",
+  "narkanda": "Wed, 25 Nov 2026 19:22:40 GMT",
+  "kalpa": "Wed, 25 Nov 2026 19:22:56 GMT",
+  "nako": "Wed, 25 Nov 2026 19:23:01 GMT",
+  "tabo": "Wed, 25 Nov 2026 19:23:05 GMT",
+  "kaza": "Wed, 25 Nov 2026 19:23:06 GMT",
+  "komic": "Wed, 25 Nov 2026 19:23:07 GMT",
+  "sarahan": "Wed, 25 Nov 2026 19:23:10 GMT"
  }
 }
