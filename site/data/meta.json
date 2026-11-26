@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-25T19:21:51Z",
+ "built_at": "2026-11-26T03:36:53Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,28 +7,28 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": false,
-   "fetched_at": "2026-11-25T08:43:06Z",
-   "error": "shimla: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "fetched_at": "2026-11-26T03:36:53Z",
+   "error": null
   },
   "om_gfs": {
-   "ok": false,
-   "fetched_at": "2026-11-25T08:43:06Z",
-   "error": "shimla: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "fetched_at": "2026-11-26T03:36:53Z",
+   "error": null
   },
   "om_icon": {
-   "ok": false,
-   "fetched_at": "2026-11-25T08:43:06Z",
-   "error": "shimla: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "fetched_at": "2026-11-26T03:36:53Z",
+   "error": null
   },
   "om_hourly": {
-   "ok": false,
-   "fetched_at": "2026-11-25T08:43:06Z",
-   "error": "home models: HTTP Error 503: Service Unavailable; shimla models: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "fetched_at": "2026-11-26T03:36:53Z",
+   "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-25T19:21:51Z",
+   "fetched_at": "2026-11-26T03:36:53Z",
    "error": null
   },
   "imd": {
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Wed, 25 Nov 2026 19:22:02 GMT",
-  "shimla": "Wed, 25 Nov 2026 19:22:15 GMT",
-  "narkanda": "Wed, 25 Nov 2026 19:22:40 GMT",
-  "kalpa": "Wed, 25 Nov 2026 19:22:56 GMT",
-  "nako": "Wed, 25 Nov 2026 19:23:01 GMT",
-  "tabo": "Wed, 25 Nov 2026 19:23:05 GMT",
-  "kaza": "Wed, 25 Nov 2026 19:23:06 GMT",
-  "komic": "Wed, 25 Nov 2026 19:23:07 GMT",
-  "sarahan": "Wed, 25 Nov 2026 19:23:10 GMT"
+  "home": "Thu, 26 Nov 2026 03:36:54 GMT",
+  "shimla": "Thu, 26 Nov 2026 03:36:55 GMT",
+  "narkanda": "Thu, 26 Nov 2026 03:36:55 GMT",
+  "kalpa": "Thu, 26 Nov 2026 03:36:56 GMT",
+  "nako": "Thu, 26 Nov 2026 03:36:57 GMT",
+  "tabo": "Thu, 26 Nov 2026 03:36:58 GMT",
+  "kaza": "Thu, 26 Nov 2026 03:36:59 GMT",
+  "komic": "Thu, 26 Nov 2026 03:37:00 GMT",
+  "sarahan": "Thu, 26 Nov 2026 03:37:01 GMT"
  }
 }
