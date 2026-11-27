@@ -378,7 +378,7 @@
      "Clear"
     ],
     "om_ecmwf": [
-     17.0,
+     16.7,
      3.7,
      "Clear"
     ],
@@ -389,7 +389,7 @@
     ],
     "om_icon": [
      19.7,
-     10.1,
+     10.3,
      "Clear"
     ],
     "timeanddate": [
@@ -419,24 +419,24 @@
      "Long periods of sunshine"
     ],
     "metno": [
-     23.3,
+     24.1,
      11.5,
-     "Fair"
+     "Partly cloudy"
     ],
     "om_ecmwf": [
-     23.3,
-     11.2,
-     "Mainly clear"
+     23.9,
+     12.2,
+     "Partly cloudy"
     ],
     "om_gfs": [
-     26.1,
-     15.7,
+     25.7,
+     15.5,
      "Overcast"
     ],
     "om_icon": [
-     23.8,
-     10.5,
-     "Fog"
+     23.6,
+     11.6,
+     "Overcast"
     ],
     "timeanddate": [
      26,
