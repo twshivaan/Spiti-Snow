@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-27T01:45:58Z",
+ "built_at": "2026-11-27T12:33:33Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -7,40 +7,40 @@
  },
  "feeds": {
   "om_ecmwf": {
-   "ok": false,
-   "fetched_at": "2026-11-26T16:59:09Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; shimla: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-27T12:33:33Z",
+   "error": null
   },
   "om_gfs": {
-   "ok": false,
-   "fetched_at": "2026-11-26T16:59:09Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; shimla: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-27T12:33:33Z",
+   "error": null
   },
   "om_icon": {
-   "ok": false,
-   "fetched_at": "2026-11-26T16:59:09Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; shimla: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-27T12:33:33Z",
+   "error": null
   },
   "om_hourly": {
-   "ok": false,
-   "fetched_at": "2026-11-26T16:59:09Z",
-   "error": "home: <urlopen error _ssl.c:994: The handshake operation timed out>; home models: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   "ok": true,
+   "fetched_at": "2026-11-27T12:33:33Z",
+   "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-27T01:45:58Z",
+   "fetched_at": "2026-11-27T12:33:33Z",
    "error": null
   },
   "imd": {
-   "ok": false,
-   "fetched_at": "2026-11-24T23:55:31Z",
-   "error": "page layout not recognised, skipped"
+   "ok": true,
+   "fetched_at": "2026-11-27T12:33:33Z",
+   "error": null
   }
  },
  "manual_read_at": "2026-11-15T21:26:33Z",
  "notes_written_at": "2026-11-13T11:30:00Z",
  "first_date": "2026-11-06",
- "last_date": "2026-12-11",
+ "last_date": "2026-12-12",
  "invalid_files": [],
  "elevations": {
   "home": {
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Fri, 27 Nov 2026 01:49:05 GMT",
-  "shimla": "Fri, 27 Nov 2026 01:50:40 GMT",
-  "narkanda": "Fri, 27 Nov 2026 01:50:41 GMT",
-  "kalpa": "Fri, 27 Nov 2026 01:50:42 GMT",
-  "nako": "Fri, 27 Nov 2026 01:50:43 GMT",
-  "tabo": "Fri, 27 Nov 2026 01:50:45 GMT",
-  "kaza": "Fri, 27 Nov 2026 01:50:46 GMT",
-  "komic": "Fri, 27 Nov 2026 01:50:47 GMT",
-  "sarahan": "Fri, 27 Nov 2026 01:50:48 GMT"
+  "home": "Fri, 27 Nov 2026 12:33:34 GMT",
+  "shimla": "Fri, 27 Nov 2026 12:33:35 GMT",
+  "narkanda": "Fri, 27 Nov 2026 12:33:36 GMT",
+  "kalpa": "Fri, 27 Nov 2026 12:33:37 GMT",
+  "nako": "Fri, 27 Nov 2026 12:33:38 GMT",
+  "tabo": "Fri, 27 Nov 2026 12:33:39 GMT",
+  "kaza": "Fri, 27 Nov 2026 12:33:40 GMT",
+  "komic": "Fri, 27 Nov 2026 12:33:41 GMT",
+  "sarahan": "Fri, 27 Nov 2026 12:33:42 GMT"
  }
 }
