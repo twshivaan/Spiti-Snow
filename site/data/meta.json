@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-27T23:29:43Z",
+ "built_at": "2026-11-28T07:56:02Z",
  "repo": {
   "owner": "twshivaan",
   "repo": "Spiti-Snow",
@@ -8,39 +8,39 @@
  "feeds": {
   "om_ecmwf": {
    "ok": true,
-   "fetched_at": "2026-11-27T23:29:43Z",
+   "fetched_at": "2026-11-28T07:56:02Z",
    "error": null
   },
   "om_gfs": {
    "ok": true,
-   "fetched_at": "2026-11-27T23:29:43Z",
+   "fetched_at": "2026-11-28T07:56:02Z",
    "error": null
   },
   "om_icon": {
    "ok": true,
-   "fetched_at": "2026-11-27T23:29:43Z",
+   "fetched_at": "2026-11-28T07:56:02Z",
    "error": null
   },
   "om_hourly": {
    "ok": true,
-   "fetched_at": "2026-11-27T23:29:43Z",
+   "fetched_at": "2026-11-28T07:56:02Z",
    "error": null
   },
   "metno": {
    "ok": true,
-   "fetched_at": "2026-11-27T23:29:43Z",
+   "fetched_at": "2026-11-28T07:56:02Z",
    "error": null
   },
   "imd": {
    "ok": true,
-   "fetched_at": "2026-11-27T23:29:43Z",
+   "fetched_at": "2026-11-28T07:56:02Z",
    "error": null
   }
  },
  "manual_read_at": "2026-11-15T21:26:33Z",
  "notes_written_at": "2026-11-13T11:30:00Z",
  "first_date": "2026-11-06",
- "last_date": "2026-12-12",
+ "last_date": "2026-12-13",
  "invalid_files": [],
  "elevations": {
   "home": {
@@ -81,14 +81,14 @@
   }
  },
  "metno_last_modified": {
-  "home": "Fri, 27 Nov 2026 23:29:44 GMT",
-  "shimla": "Fri, 27 Nov 2026 23:29:45 GMT",
-  "narkanda": "Fri, 27 Nov 2026 23:29:46 GMT",
-  "kalpa": "Fri, 27 Nov 2026 23:29:48 GMT",
-  "nako": "Fri, 27 Nov 2026 23:29:49 GMT",
-  "tabo": "Fri, 27 Nov 2026 23:29:50 GMT",
-  "kaza": "Fri, 27 Nov 2026 23:29:51 GMT",
-  "komic": "Fri, 27 Nov 2026 23:29:52 GMT",
-  "sarahan": "Fri, 27 Nov 2026 23:29:53 GMT"
+  "home": "Sat, 28 Nov 2026 07:56:03 GMT",
+  "shimla": "Sat, 28 Nov 2026 07:56:04 GMT",
+  "narkanda": "Sat, 28 Nov 2026 07:56:05 GMT",
+  "kalpa": "Sat, 28 Nov 2026 07:56:06 GMT",
+  "nako": "Sat, 28 Nov 2026 07:56:07 GMT",
+  "tabo": "Sat, 28 Nov 2026 07:56:08 GMT",
+  "kaza": "Sat, 28 Nov 2026 07:56:09 GMT",
+  "komic": "Sat, 28 Nov 2026 07:56:10 GMT",
+  "sarahan": "Sat, 28 Nov 2026 07:56:11 GMT"
  }
 }

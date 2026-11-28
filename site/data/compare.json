@@ -424,19 +424,19 @@
      "Partly cloudy"
     ],
     "om_ecmwf": [
-     23.9,
+     23.7,
      12.2,
      "Partly cloudy"
     ],
     "om_gfs": [
-     25.7,
+     25.8,
      15.5,
      "Overcast"
     ],
     "om_icon": [
-     23.6,
+     23.5,
      11.6,
-     "Overcast"
+     "Fog"
     ],
     "timeanddate": [
      26,
